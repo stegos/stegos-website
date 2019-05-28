@@ -5,6 +5,9 @@
 [whitepaper]
 other = "白皮书"
 
+[whitepaper_pdf]
+other = "stegos-whitepaper-zn.pdf"
+
 [news]
 other = "新闻"
 

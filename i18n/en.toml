@@ -5,6 +5,9 @@
 [whitepaper]
 other = "whitepaper"
 
+[whitepaper_pdf]
+other = "stegos-whitepaper.pdf"
+
 [news]
 other = "news"
 

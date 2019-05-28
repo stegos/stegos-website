@@ -225,7 +225,7 @@
             </div>
         </div>
 
-        <a href="{{ .Site.BaseURL }}docs/stegos-whitepaper.pdf" target="_blank" class="base_button">
+        <a href='{{ .Site.BaseURL }}/docs/{{ T "whitepaper_pdf" | safeHTML }}' target="_blank" class="base_button">
             <div class="b_b_text">{{ T "whitepaper" | safeHTML }}</div>
         </a>
     </div>
@@ -365,7 +365,7 @@
         <div class="m_s_content_block">
 
             <div class="c__item">
-                <a href="{{ .Site.BaseURL }}docs/stegos-whitepaper.pdf" target="_blank" class="icon_whitepaper"></a>
+                <a href='{{ .Site.BaseURL }}/docs/{{ T "whitepaper_pdf" | safeHTML }}' target="_blank" class="icon_whitepaper"></a>
             </div>
 
             <div class="c__item_l">
