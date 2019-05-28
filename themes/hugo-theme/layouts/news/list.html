@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    {{ block "favicon" . }}
+    {{ partial "site-favicon.html" . }}
+    {{ end }}
+
+    <title>{{ T "news_title" }}</title>
+    <meta name="description" content="{{ T "news_description" }}" />
+
+    <meta property="og:title" content="{{ T "news_title" }}" />
+    <meta property="og:description" content="{{ T "news_description" }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/stegos-logo.png" />
+
+    {{ partialCached "site-styles.html" . }}
+</head>
+<body class="style_scroll_bar">
+
+<main>
+
+    <div class="main_menu page_other">
+
+        {{ partial "mobile-menu.html" . }}
+
+        <!--<div class="menu_footer">-->
+        <!--<div class="menu_footer_bg"></div>-->
+        <!--</div>-->
+
+    </div>
+
+    <div class="main_header page_other">
+
+        {{ partial "nav-block.html" . }}
+
+        <div class="bg_gr"></div>
+    </div>
+
+
+
+    <div id="sector_news" class="main_sector news_block page_news">
+        <h1 class="m_s_title">{{ T "news" | safeHTML}}</h1>
+        <div class="m_s_line_decor">
+            <span class="m_s_ld"></span>
+            <span class="m_s_ldm"></span>
+            <span class="m_s_ld"></span>
+        </div>
+
+        <div id="news_block" class="m_s_content_block">
+
+
+            <div class="content__item_col">
+
+                {{ range .Pages.ByDate.Reverse }}
+                <a href="{{ .URL }}" class="content__item">
+                    <div class="c__item_title">{{ .Title }}</div>
+                    <div class="c__item_info">{{ .Description }}</div>
+                    <div class="c__item_data">
+                        <div class="data_bl_inl">{{ .Date.Format "January 2, 2006" }}</div>
+                        <div class="data_bl_fl">
+                            <div class="data_bl_fl_item">{{ .Date.Format "2" }}</div>
+                            <div class="data_bl_fl_item">{{ .Date.Format "Jan" }}<br>{{ .Date.Format "2006" }}</div>
+                        </div>
+                    </div>
+                    <div class="c__item_btn"><span class="c__item_arrow_more">→</span></div>
+
+                </a>
+                {{ end }}
+
+            </div>
+
+
+        </div>
+
+        <!--<div class="toggles_block">-->
+        <!--<a href="#" class="pages_toggle arrow_prev locked">-->
+        <!--<div class="c__item_btn"><span class="c__item_arrow_more">←</span></div>-->
+        <!--<div class="arrow_name">Previous</div>-->
+        <!--</a>-->
+        <!--<a href="#" class="pages_toggle arrow_next locked">-->
+        <!--<div class="arrow_name">Next</div>-->
+        <!--<div class="c__item_btn"><span class="c__item_arrow_more">→</span></div>-->
+        <!--</a>-->
+        <!--</div>-->
+
+
+
+    </div>
+
+    {{ partial "mobile_form.html" . }}
+
+    {{ partial "footer.html" . }}
+
+</main>
+
+{{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+
+</body>
+</html>
