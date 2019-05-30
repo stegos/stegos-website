@@ -6,10 +6,21 @@
     <description>Recent content in report on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/report/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Testnet 7 Release</title>
+      <link>https://stegos.com/news/2019/05/testnet-7-release/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/05/testnet-7-release/</guid>
+      <description>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.
+This is the seventh testnet release of the Stegos blockchain. Changes since Testnet 6:https://github.com/stegos/stegos/releases/tag/v0.6
+ New StakeUTXO, Core Blockchain, StakeUTXOs with BLS signatures Public payment UTXO, Core Blockchain, UTXO with uncloaked recipient pubkey and amount Adding time locks to all UTXO types, Core Blockchain, allow UTXOs to be time-locked Introducing micro and macro blocks, Core Blockchain, adding more security to microblocks Slashing, Consensus, punishing the cheating slot owner for publishing two different blocks on the same height Re-Staking, Consensus, changing validators’ PBC keys related to staked tokens at the predetermined intervals Stabilize ValueShuffle facilitating in the event of epoch change, ValueShuffle, fine-tuning of the Facilitator code Change PBC keys: network, Network, support for changing node’s pbc (validator) keys on the go Check for stale connections, Network, check if some neighbor connections are stale and re-connect Stress Testing: Deploy TxGenerator, Testing, transaction generator deployment support for devnets Use AONT (All or Nothing) for all serialized representation of secrets, Security, additional security for in-memory representations of secrets Implement WAU (Wipe After Use) for all secrets, Security, additional security for in-memory representations of secrets  Breaking changes:</description>
+    </item>
     
     <item>
       <title>Tech Report May, 6th - May, 17th</title>

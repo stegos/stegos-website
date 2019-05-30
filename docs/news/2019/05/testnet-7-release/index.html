@@ -14,12 +14,12 @@
 
     
 
-    <title>Tech Report May, 6th - May, 17th | Stegos</title>
-    <meta name="description" content="" />
+    <title>Testnet 7 Release | Stegos</title>
+    <meta name="description" content="test" />
 
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:url" content="https://stegos.com/news/2019/05/tech-report-may-6th-may-17th/" />
+    <meta property="og:title" content="test" />
+    <meta property="og:description" content="test" />
+    <meta property="og:url" content="https://stegos.com/news/2019/05/testnet-7-release/" />
     <meta property="og:image" content="https://stegos.comimages/stegos-logo.png" />
 
     <link rel="stylesheet" href="/css/all.min.css">
@@ -113,12 +113,6 @@
 
                 <div class="inner_lang_block">
                     
-                    
-                    <a href="https://stegos.com/zn/news/2019/05/tech-report-may-6th-may-17th/" class="m_h_lang_btn base_button">
-                        <div class="b_b_text">zn</div>
-                    </a>
-                    
-                    
                 </div>
 
             </div>
@@ -143,12 +137,6 @@
         </a>
 
         <div class="inner_lang_block">
-            
-            
-            <a href="https://stegos.com/zn/news/2019/05/tech-report-may-6th-may-17th/" class="m_h_lang_btn base_button">
-                <div class="b_b_text">zn</div>
-            </a>
-            
             
         </div>
 
@@ -177,12 +165,6 @@
             </a>
 
             <div class="inner_lang_block">
-                
-                
-                <a href="https://stegos.com/zn/news/2019/05/tech-report-may-6th-may-17th/" class="m_h_lang_btn base_button">
-                    <div class="b_b_text">zn</div>
-                </a>
-                
                 
             </div>
 
@@ -214,18 +196,16 @@
                     <span class="m_s_ld"></span>
                 </div>
             </a>
-            <div class="data_field">May 22, 2019</div>
+            <div class="data_field">May 30, 2019</div>
         </div>
 
         <div class="one_news_block">
 
-            <h1 class="news_title">Tech Report May, 6th - May, 17th</h1>
+            <h1 class="news_title">Testnet 7 Release</h1>
 
-            <p>During the last two weeks our development team has been working hard to finalize major features of the upcoming testnet release.</p>
+            <p>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.</p>
 
-<p>Here is what we accomplished in the period <strong>May, 6th — May, 17th</strong>:</p>
-
-<p>Done in Sprint 16</p>
+<p>This is the seventh testnet release of the Stegos blockchain. Changes since Testnet 6:<a href="https://github.com/stegos/stegos/releases/tag/v0.6">https://github.com/stegos/stegos/releases/tag/v0.6</a></p>
 
 <ul>
 <li>New StakeUTXO, Core Blockchain, StakeUTXOs with BLS signatures</li>
@@ -242,27 +222,28 @@
 <li>Implement WAU (Wipe After Use) for all secrets, Security, additional security for in-memory representations of secrets</li>
 </ul>
 
-<p>Plans for Sprint 17</p>
+<p>Breaking changes:</p>
 
-<ul>
-<li>Speed-up node bootstrap and re-synchronization, Node, fine-tuning bootstrap constants</li>
-<li>Service Awards, Core Blockchain, required to create an incentive for validators to be always online</li>
-<li>Compress Micro Blocks to Macro Blocks, Consensus, remove last epoch’s micro blocks by moving their data to a single macro block</li>
-<li>Optimize bulletproofs, Crypto, make bulletproofs verification faster than current 23 ms using parallelization (no processor-dependent optimizations yet)</li>
-<li>HashCash: more bug-fixing, Network, bug fixing of HashCash protocol</li>
-<li>Fork Resolution: more bug-fixing, Consensus, bug fixing of fork resolution mechanism for micro blocks</li>
-<li>UTXO Timestamp Locking, Core Blockchain, implement locking of UTXOs</li>
-<li>PublicPaymentUTXO: additional tx validation rules, Core Blockchain, implement additional transaction verification rules for transactions involving public payment UTXOs</li>
-<li>PublicPaymentUTXO: support in wallet, Wallet, implement support for public payment UTXOs usage in wallet</li>
-<li>Introduce variable fees in transactions, Core Blockchain, Wallet, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</li>
-<li>DDoS Protection: blacklisting and rate-limiting, Network, implement rate-limiting and blacklisting as initial network-level DDoS protection mechanism</li>
-<li>Change PBC keys: wallet, node, Node, support for changing node’s pbc (validator) keys on the go</li>
-<li>Persist Payment History in Wallet, Wallet, required to support showing the payment history in wallet</li>
-<li>Don&rsquo;t require wallet secret key for validator nodes, Security, reduce chances for an attacker to get hold of private wallet keys on hosted validator nodes by simply not requiring them to be present</li>
-<li>LRU cache for unpacked UTXO, Node, node UTXO database optimization</li>
-<li>Stress Testing: Packet Delay and Loss, Testing, part of test harness</li>
-<li>Stress Testing: Large Number of Nodes, Testing, part of test harness</li>
-</ul>
+<p>TestNet-7 release is not compatible with TestNet-6. Please reset your local database if you upgrading from the previous release:</p>
+
+<p>rm -rf database/
+Check the project plan for additional information.</p>
+
+<p>Please join us on Telegram to get test tokens and let us know your thoughts: <a href="https://t.me/stegos4privacy">https://t.me/stegos4privacy</a></p>
+
+<p>Testnet node installation</p>
+
+<p>Linux 64-bit:
+curl -L <a href="https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64">https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64</a> -o stegos
+chmod a+x stegos
+./stegos</p>
+
+<p>macOS 64-bit:
+curl -L <a href="https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64">https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64</a> -o stegos
+chmod a+x stegos
+./stegos</p>
+
+<p>Right after the start the node will print a lot of INFO messages with debugging information regarding bootstrapping your node. Press Enter to get stegos&gt; prompt. To get help enter help command at the prompt.</p>
 
 
         </div>
@@ -276,16 +257,11 @@
 
         <div class="toggles_block">
             
-            <a href="https://stegos.com/news/2019/05/testnet-6-release/" class="pages_toggle">
+            <a href="https://stegos.com/news/2019/05/tech-report-may-6th-may-17th/" class="pages_toggle">
                 <div class="c__item_btn"><span class="c__item_arrow_more">←</span></div>
                 <div class="arrow_name">Previous</div>
             </a>
             
-            
-            <a href="https://stegos.com/news/2019/05/testnet-7-release/" class="pages_toggle arrow_next">
-                <div class="arrow_name">Next</div>
-                <div class="c__item_btn"><span class="c__item_arrow_more">→</span></div>
-            </a>
             
         </div>
 
