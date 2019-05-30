@@ -7,5 +7,5 @@ link: "#p_joel"
 id: "p_joel"
 photo: "photo_joel"
 sort: "1"
-draft: true
+draft: false
 ---
