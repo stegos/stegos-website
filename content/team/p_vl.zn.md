@@ -6,6 +6,8 @@ infoFull: "Vladimir has over twenty-five years of experience in managing technol
 link: "#p_vl"
 id: "p_vl"
 photo: "photo_vl"
+socialLink: "https://linkedin.com/in/vlebedev"
+socialIcon: <i class="fab fa-linkedin-in"></i>
 sort: "2"
 draft: false
 ---
