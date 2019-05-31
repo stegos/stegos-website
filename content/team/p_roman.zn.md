@@ -6,6 +6,8 @@ infoFull: "Roman is a database and distributed systems expert who enjoys working
 link: "#p_roman"
 id: "p_roman"
 photo: "photo_roman"
+socialLink: "https://linkedin.com/in/roman.tsisyk"
+socialIcon: <i class="fab fa-linkedin-in"></i>
 sort: "4"
 draft: false
 --- 

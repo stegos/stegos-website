@@ -59,8 +59,8 @@
                         <div class="c__item_photo {{ .Params.photo }}"></div>
                         <div class="c__item_name">{{ .Params.name }}</div>
                         <div class="c__item_status">{{ .Params.status }}</div>
-                        <a href="https://twitter.com/joelreymont" class="icon_in">
-                            <i class="fab fa-twitter"></i>
+                        <a href="{{ .Params.socialLink }}" class="icon_in">
+                            {{ .Params.socialIcon | safeHTML }}
                         </a>
                     </div>
 

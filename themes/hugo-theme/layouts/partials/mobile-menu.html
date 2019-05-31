@@ -7,7 +7,7 @@
     </div>
 
     <div class="content__item link_list">
-        {{ if or (eq .URL "/") (eq .URL "/zn/") }}
+        {{ if .IsHome }}
         <a href="#" class="menu_link">
             <span class="sector_news" style="display: none;"></span>
             {{ T "news" | safeHTML }}
@@ -70,7 +70,7 @@
         <div class="menu_header">
             <div class="m_h_lang_btn lang_block">
                 <a class="m_h_lang_btn base_button">
-                    <div class="b_b_text">{{ $.Site.Language.Lang }}</div>
+                    <div class="b_b_text">{{ $.Site.Language.LanguageName }}</div>
                 </a>
 
                 <div class="inner_lang_block">
