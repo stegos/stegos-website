@@ -2,7 +2,7 @@
 
     <div class="m_h_lang_btn lang_block mob_display">
         <a class="m_h_lang_btn base_button">
-            <div class="b_b_text">{{ $.Site.Language.Lang }}</div>
+            <div class="b_b_text">{{ $.Site.Language.LanguageName }}</div>
         </a>
 
         <div class="inner_lang_block">
@@ -17,12 +17,12 @@
 
     </div>
 
-    {{ if eq .URL "/"}}
+    {{ if .IsHome }}
     <div class="m_h_icon">
         <span class="main_icon"></span>
     </div>
     {{ else }}
-    <a href="{{ .Site.BaseURL | absLangURL }}" class="m_h_icon">
+    <a href="{{ "/" | absLangURL }}" class="m_h_icon">
         <span class="main_icon"></span>
     </a>
     {{ end }}
@@ -40,7 +40,7 @@
 
         <div class="m_h_lang_btn lang_block">
             <a class="m_h_lang_btn base_button">
-                <div class="b_b_text">{{ $.Site.Language.Lang }}</div>
+                <div class="b_b_text">{{ $.Site.Language.LanguageName }}</div>
             </a>
 
             <div class="inner_lang_block">
