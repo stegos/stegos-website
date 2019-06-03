@@ -68,6 +68,9 @@ window._load_script = function(url, callback) {
   }
   var _removed = false;
   var form_to_submit = document.getElementById('_form_12_');
+  if (form_to_submit === null) {
+    return false;
+  }
   var allInputs = form_to_submit.querySelectorAll('input, select, textarea'), tooltips = [], submitted = false;
 
   var getUrlParam = function(name) {
