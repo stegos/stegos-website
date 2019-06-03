@@ -26,5 +26,5 @@ publishDir = "docs"
     languageName = "en"
     weight = 1
   [languages.zn]
-    languageName = "zn"
+    languageName = "中文"
     weight = 2
