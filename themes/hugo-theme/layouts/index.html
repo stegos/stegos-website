@@ -427,7 +427,7 @@
 
                     <div class="c__item_info">
                         {{ .Params.info }}
-                        <a href="/team/{{ .Params.link }}" class="c__item_arrow_more">→</a>
+                        <a href="{{ "team/" | absLangURL }}{{ .Params.link }}" class="c__item_arrow_more">→</a>
                     </div>
 
                     <a href="{{ .Params.socialLink }}" class="icon_in">
