@@ -14,7 +14,7 @@ draft: false
 
 Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.
 
-This is the sixth testnet release of the Stegos blockchain. Changes since [Testnet 5](https://github.com/stegos/stegos/releases/tag/v0.5):
+This is the seventh testnet release of the Stegos blockchain. Changes since [Testnet 6](https://github.com/stegos/stegos/releases/tag/v0.6):
 
 - Added HashCash challenge to PubSub protocol to limit denial-of-service attacks
 - Implemented simplified Re-Staking for tracking validators' online status
@@ -25,13 +25,13 @@ This is the sixth testnet release of the Stegos blockchain. Changes since [Testn
 
 **Breaking changes:**
 
-TestNet-6 release is not compatible with TestNet-5. Please reset your local database if you upgrading from the previous release:
+TestNet-7 release is not compatible with TestNet-6. Please reset your local database if you upgrading from the previous release:
 
 ```
 rm -rf database/
 ```
 
-Check [the project plan](https://github.com/stegos/stegos/wiki/project-plan#sprint15) for additional information.
+Check [the project plan](https://github.com/stegos/stegos/wiki/project-plan#sprint16) for additional information.
 
 Please join us on [Telegram](https://t.me/stegos4privacy) to get test tokens and let us know your thoughts.
 
@@ -40,7 +40,7 @@ Please join us on [Telegram](https://t.me/stegos4privacy) to get test tokens and
 #### Linux 64-bit:
 
 ```bash
-curl -L https://github.com/stegos/stegos/releases/download/v0.6/stegos-linux-x64 -o stegos
+curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
 ```
@@ -48,7 +48,7 @@ chmod a+x stegos
 #### macOS 64-bit:
 
 ```bash
-curl -L https://github.com/stegos/stegos/releases/download/v0.6/stegos-macos-x64 -o stegos
+curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
 ```
