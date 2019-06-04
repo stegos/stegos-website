@@ -210,12 +210,18 @@
 <p>This is the seventh testnet release of the Stegos blockchain. Changes since <a href="https://github.com/stegos/stegos/releases/tag/v0.6">Testnet 6</a>:</p>
 
 <ul>
-<li>Added HashCash challenge to PubSub protocol to limit denial-of-service attacks</li>
-<li>Implemented simplified Re-Staking for tracking validators&rsquo; online status</li>
-<li>Implemented wallet recovery using 24-word recovery phrase</li>
-<li>Implemented wallet password protection and encryption of keys stored on disk</li>
-<li>Split 1 STG to 1 000 000 microSTG.</li>
-<li>Limited the number of UTXO in transactions and blocks</li>
+<li>New StakeUTXO, Core Blockchain, StakeUTXOs with BLS signatures</li>
+<li>Public payment UTXO, Core Blockchain, UTXO with uncloaked recipient pubkey and amount</li>
+<li>Adding time locks to all UTXO types, Core Blockchain, allow UTXOs to be time-locked</li>
+<li>Introducing micro and macro blocks, Core Blockchain, adding more security to microblocks</li>
+<li>Slashing, Consensus, punishing the cheating slot owner for publishing two different blocks on the same height</li>
+<li>Re-Staking, Consensus, changing validators’ PBC keys related to staked tokens at the predetermined intervals</li>
+<li>Stabilize ValueShuffle facilitating in the event of epoch change, ValueShuffle, fine-tuning of the Facilitator code</li>
+<li>Change PBC keys: network, Network, support for changing node’s pbc (validator) keys on the go</li>
+<li>Check for stale connections, Network, check if some neighbor connections are stale and re-connect</li>
+<li>Stress Testing: Deploy TxGenerator, Testing, transaction generator deployment support for devnets</li>
+<li>Use AONT (All or Nothing) for all serialized representation of secrets, Security, additional security for in-memory representations of secrets</li>
+<li>Implement WAU (Wipe After Use) for all secrets, Security, additional security for in-memory representations of secrets</li>
 </ul>
 
 <p><strong>Breaking changes:</strong></p>
