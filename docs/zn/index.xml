@@ -176,5 +176,59 @@ CoSi的默认实现使用Schnorr签名，出于性能原因，我们将其替换
  研究更深入的分支和削减主题； 完成DiceMix； 完成Value Shuffle：超级交易形成及其广播； 用于功能测试、tx处理功能测试、块处理和选举的通用框架； Strawman磁盘持续性，完全未修剪的块； 节点引导程序； 网络层：基于Kademlia DHT的Peer Store； 网络层：Node Discovery协议； 网络层：节点之间的正确的（非模拟）单播消息传递； 网络层：跟踪Peer State；   请关注Stegos官方平台动态</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://stegos.com/zn/team/p_david/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/team/p_david/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/zn/team/p_eugene/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/team/p_eugene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/zn/team/p_joel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/team/p_joel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/zn/team/p_roman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/team/p_roman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/zn/team/p_vl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/team/p_vl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/zn/team/p_vol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/team/p_vol/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -156,5 +156,59 @@ Stegos Privacy Blockchain is the best way to secure your data, transactions and 
  Nodes can select a group of validators among them Nodes can elect a leader of the consensus Nodes can verify incoming transactions The leader of consensus can create and propose blocks Validators can verify proposed blocks and co-sign them with their BLS signature The leader can form the final BLS multi-signature and broadcast sealed block to the network Nodes can verify and process incoming sealed blocks by pruning spent UTXOs out of the UTXO set  There is no disk persistance in the MVP release, as well as new nodes cannot connect and bootstrap from the living nodes.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://stegos.com/team/p_david/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/team/p_david/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/team/p_eugene/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/team/p_eugene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/team/p_joel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/team/p_joel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/team/p_roman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/team/p_roman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/team/p_vl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/team/p_vl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stegos.com/team/p_vol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/team/p_vol/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

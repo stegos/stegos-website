@@ -120,6 +120,18 @@ $(document).ready(function () {
 
 //_______________________________________________________________________________________
 
+    $('.lang_block').on('click', toggleLangBlock);
+
+    function toggleLangBlock() {
+        $('.inner_lang_block').toggleClass('visible');
+    }
+    
+    $('body').on('click', function (e) {
+       if (!e.target.closest('.lang_block')) $('.inner_lang_block').removeClass('visible');
+    });
+
+//_______________________________________________________________________________________
+
     var transitionPages = false;
     var mainMenu = $('.main_menu');
     mainMenu.css({'display':'none'});

@@ -6,6 +6,8 @@ infoFull: "Eugene is the Site Reliability Engineer at Stegos, taking care of our
 link: "#p_eugene"
 id: "p_eugene"
 photo: "photo_eugene"
+socialLink: "https://www.linkedin.com/in/eugenechupriyanov/"
+socialIcon: <i class="fab fa-linkedin-in"></i>
 sort: "5"
-draft: true
+draft: false
 --- 

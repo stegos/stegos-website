@@ -143,6 +143,11 @@ main {
   visibility: visible;
   transition-delay: 0s;
 }
+.inner_lang_block.visible {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
 .menu_header .lang_block {
   margin: auto 40px auto 0;
 }

@@ -6,6 +6,8 @@ infoFull: "Volodymyr is a young but eager specialist in distributed systems, rev
 link: "#p_vol"
 id: "p_vol"
 photo: "photo_vol"
+socialLink: "https://linkedin.com/in/vldm"
+socialIcon: <i class="fab fa-linkedin-in"></i>
 sort: "6"
-draft: true
+draft: false
 --- 
