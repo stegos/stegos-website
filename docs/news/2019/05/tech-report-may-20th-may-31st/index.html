@@ -14,12 +14,12 @@
 
     
 
-    <title>Testnet 6 Release | Stegos</title>
-    <meta name="description" content="test" />
+    <title>Tech Report May, 20th - May, 31st | Stegos</title>
+    <meta name="description" content="" />
 
-    <meta property="og:title" content="test" />
-    <meta property="og:description" content="test" />
-    <meta property="og:url" content="https://stegos.com/news/2019/05/testnet-6-release/" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://stegos.com/news/2019/05/tech-report-may-20th-may-31st/" />
     <meta property="og:image" content="https://stegos.com/images/stegos-logo.png" />
 
     <link rel="stylesheet" href="/css/all.min.css">
@@ -113,12 +113,6 @@
 
                 <div class="inner_lang_block">
                     
-                    
-                    <a href="https://stegos.com/zn/news/2019/05/testnet-6-release/" class="m_h_lang_btn base_button">
-                        <div class="b_b_text">中文</div>
-                    </a>
-                    
-                    
                 </div>
 
             </div>
@@ -143,12 +137,6 @@
         </a>
 
         <div class="inner_lang_block">
-            
-            
-            <a href="https://stegos.com/zn/news/2019/05/testnet-6-release/" class="m_h_lang_btn base_button">
-                <div class="b_b_text">中文</div>
-            </a>
-            
             
         </div>
 
@@ -177,12 +165,6 @@
             </a>
 
             <div class="inner_lang_block">
-                
-                
-                <a href="https://stegos.com/zn/news/2019/05/testnet-6-release/" class="m_h_lang_btn base_button">
-                    <div class="b_b_text">中文</div>
-                </a>
-                
                 
             </div>
 
@@ -214,53 +196,66 @@
                     <span class="m_s_ld"></span>
                 </div>
             </a>
-            <div class="data_field">May 7, 2019</div>
+            <div class="data_field">Jun 5, 2019</div>
         </div>
 
         <div class="one_news_block">
 
-            <h1 class="news_title">Testnet 6 Release</h1>
+            <h1 class="news_title">Tech Report May, 20th - May, 31st</h1>
 
-            <p>Stegos Testnet 6 Release Notes</p>
+            
 
-<p>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.</p>
+<p>During the last two weeks our development team has been working hard to finalize major features of the upcoming testnet release.</p>
 
-<p>This is the sixth Testnet release of the Stegos blockchain. Changes since <a href="https://github.com/stegos/stegos/releases/tag/v0.5">Testnet 5</a>:</p>
+<p>Here is what we accomplished in the period <strong>May, 20th — May, 31st</strong>:</p>
+
+<h2 id="done-in-sprint-17">Done in Sprint 17</h2>
 
 <ul>
-<li>Added HashCash challenge to PubSub protocol to limit denial-of-service attacks</li>
-<li>Implemented simplified Re-Staking for tracking validators&rsquo; online status</li>
-<li>Implemented wallet recovery using 24-word recovery phrase</li>
-<li>Implemented wallet password protection and encryption of keys stored on disk</li>
-<li>Split 1 STG to 1 000 000 microSTG.</li>
-<li>Limited the number of UTXO in transactions and blocks</li>
+<li><p>Speed-up node bootstrap and re-synchronization, <code>Node</code>, fine-tuning bootstrap constants</p></li>
+
+<li><p>Service Awards, <code>Core Blockchain</code>, required to create an incentive for validators to be always online</p></li>
+
+<li><p>Compress Micro Blocks to Macro Blocks, <code>Consensus</code>, remove last epoch’s micro blocks by moving their data to a single macro block</p></li>
+
+<li><p>Optimize bulletproofs, <code>Crypto</code>, a single bulletproof verification is now 10 ms (without AVX optimization)</p></li>
+
+<li><p>HashCash: more bug-fixing, <code>Network</code>, bug fixing of HashCash protocol</p></li>
+
+<li><p>Fork Resolution: more bug-fixing, <code>Consensus</code>, bug fixing of fork resolution mechanism for micro blocks</p></li>
+
+<li><p>UTXO Timestamp Locking, <code>Core Blockchain</code>, implement locking of UTXOs</p></li>
+
+<li><p>PublicPaymentUTXO: additional tx validation rules, <code>Core Blockchain</code>, implement additional transaction verification rules for transactions involving public payment UTXOs</p></li>
+
+<li><p>PublicPaymentUTXO: support in wallet, <code>Wallet</code>, implement support for public payment UTXOs usage in wallet</p></li>
 </ul>
 
-<p>Breaking changes:</p>
+<h2 id="plans-for-sprint-18">Plans for Sprint 18</h2>
 
-<p>TestNet-6 release is not fully compatible with TestNet-5 release. Please reset your local database if you are upgrading from the previous release:</p>
+<ul>
+<li><p>Base functionality of GUI Wallet desktop application, <code>Wallet</code>, implementing bootstrapping visualisation, accounts and payments</p></li>
 
-<p>rm -rf database/</p>
+<li><p>Improve security of Docker image, <code>Security</code>, strengthen the security of the node&rsquo;s docker image</p></li>
 
-<p>Check the project plan for additional information: <a href="https://github.com/stegos/stegos/wiki/project-plan#sprint15">https://github.com/stegos/stegos/wiki/project-plan#sprint15</a> .</p>
+<li><p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p></li>
 
-<p>Please join us on Telegram to get test tokens and let us know your thoughts: <a href="https://t.me/stegos4privacy">https://t.me/stegos4privacy</a> .</p>
+<li><p>Persist Payment History and Payment Certificates in Wallet, <code>Wallet</code>, required to support showing the payment history in wallet</p></li>
 
-<p>Testnet node installation</p>
+<li><p>Use Base58 for external representation of wallet public keys (addresses), <code>Core Blockchain</code>, provide more user-friendly encoding of addresses</p></li>
 
-<p>Linux 64-bit:</p>
+<li><p>Implement WebSocket API Authorization, <code>Security</code>, introduce API tokens for authorizing WebSockets API usage, even on localhost</p></li>
 
-<p>curl -L <a href="https://github.com/stegos/stegos/releases/download/v0.6/stegos-linux-x64">https://github.com/stegos/stegos/releases/download/v0.6/stegos-linux-x64</a> -o stegos
-chmod a+x stegos
-./stegos</p>
+<li><p>Support changing the wallet password, <code>Security</code>, provide the ability for the user to change wallet password</p></li>
 
-<p>macOS 64-bit:</p>
+<li><p>Stress Testing: Packet Delay and Loss, <code>Testing</code>, part of test harness</p></li>
 
-<p>curl -L <a href="https://github.com/stegos/stegos/releases/download/v0.6/stegos-macos-x64">https://github.com/stegos/stegos/releases/download/v0.6/stegos-macos-x64</a> -o stegos
-chmod a+x stegos
-./stegos</p>
+<li><p>Stress Testing: Large Number of Nodes, <code>Testing</code>, part of test harness</p></li>
 
-<p>Right after the start the node will print a lot of INFO messages with debugging information regarding bootstrapping your node. Press Enter to get stegos&gt; prompt. To get help enter help command at the prompt.</p>
+<li><p>Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, <code>Testing</code>, stress testing the vital subsystems using transactional loads from transaction generator</p></li>
+
+<li><p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p></li>
+</ul>
 
 
         </div>
@@ -274,13 +269,13 @@ chmod a+x stegos
 
         <div class="toggles_block">
             
-            <a href="https://stegos.com/news/2019/05/tech-report-may-20th-may-31st/" class="pages_toggle">
+            <a href="https://stegos.com/news/2019/05/tech-report-apr-22nd-may-3rd/" class="pages_toggle">
                 <div class="c__item_btn"><span class="c__item_arrow_more">←</span></div>
                 <div class="arrow_name">Previous</div>
             </a>
             
             
-            <a href="https://stegos.com/news/2019/05/tech-report-may-6th-may-17th/" class="pages_toggle arrow_next">
+            <a href="https://stegos.com/news/2019/05/testnet-6-release/" class="pages_toggle arrow_next">
                 <div class="arrow_name">Next</div>
                 <div class="c__item_btn"><span class="c__item_arrow_more">→</span></div>
             </a>
