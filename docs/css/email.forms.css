@@ -6,9 +6,10 @@
 .c__item_cont input[type="text"]._has_error,.c__item_cont textarea._has_error { border-bottom:#f37c7b 1px solid; }
 .c__item_cont input[type="checkbox"]._has_error { outline:#f37c7b 1px solid; }
 .c__item_cont ._error { display:block; position:absolute; font-size:13px; z-index:10000001; }
-.c__item_cont ._error._above { padding-bottom:4px; bottom:39px; right:0; }
+.c__item_cont ._error._above { padding-bottom:4px; bottom:39px; left: 0; }
 	._form_16.c__item_cont ._error._above { bottom:110px;}
-.c__item_cont ._error._below { padding-top:4px; top:100%; left:0; }
+._form_12.c__item_cont ._error._below { padding-top:4px; top:100%; left: 0; }
+._form_16.c__item_cont ._error._below { padding-top:4px; top: 40%; left: 0; }
 	._form_14.c__item_cont ._error._below { top:50px;}
 .c__item_cont ._error._above ._error-arrow { bottom:0; right:15px; border-left:5px solid transparent; border-right:5px solid transparent; border-top:5px solid #f37c7b; }
 .c__item_cont ._error._below ._error-arrow { top:0; right:15px; border-left:5px solid transparent; border-right:5px solid transparent; border-bottom:5px solid #f37c7b; }
@@ -23,6 +24,10 @@
     display: flex;
     flex-basis: 100%;
     justify-content: space-between;
+}
+
+._form-content {
+    position: relative;
 }
 
 ._form-thank-you {
