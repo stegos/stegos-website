@@ -94,65 +94,71 @@ window._load_script = function(url, callback) {
         allInputs_12 = form_12_to_submit.querySelectorAll('input, select, textarea');
     }
 
-    for (var i = 0; i < allInputs_16.length; i++) {
-        var regexStr = "field\\[(\\d+)\\]";
-        var results = new RegExp(regexStr).exec(allInputs_16[i].name);
-        if (results != undefined) {
-            allInputs_16[i].dataset.name = window.cfields[results[1]];
-        } else {
-            allInputs_16[i].dataset.name = allInputs_16[i].name;
-        }
-        var fieldVal = getUrlParam(allInputs_16[i].dataset.name);
-
-        if (fieldVal) {
-            if (allInputs_16[i].type == "radio" || allInputs_16[i].type == "checkbox") {
-                if (allInputs_16[i].value == fieldVal) {
-                    allInputs_16[i].checked = true;
-                }
+    if (allInputs_16 !== null) {
+        for (var i = 0; i < allInputs_16.length; i++) {
+            var regexStr = "field\\[(\\d+)\\]";
+            var results = new RegExp(regexStr).exec(allInputs_16[i].name);
+            if (results != undefined) {
+                allInputs_16[i].dataset.name = window.cfields[results[1]];
             } else {
-                allInputs_16[i].value = fieldVal;
+                allInputs_16[i].dataset.name = allInputs_16[i].name;
+            }
+            var fieldVal = getUrlParam(allInputs_16[i].dataset.name);
+
+            if (fieldVal) {
+                if (allInputs_16[i].type == "radio" || allInputs_16[i].type == "checkbox") {
+                    if (allInputs_16[i].value == fieldVal) {
+                        allInputs_16[i].checked = true;
+                    }
+                } else {
+                    allInputs_16[i].value = fieldVal;
+                }
             }
         }
     }
 
-    for (var i = 0; i < allInputs_14.length; i++) {
-        var regexStr = "field\\[(\\d+)\\]";
-        var results = new RegExp(regexStr).exec(allInputs_14[i].name);
-        if (results != undefined) {
-            allInputs_14[i].dataset.name = window.cfields[results[1]];
-        } else {
-            allInputs_14[i].dataset.name = allInputs_14[i].name;
-        }
-        var fieldVal = getUrlParam(allInputs_14[i].dataset.name);
-
-        if (fieldVal) {
-            if (allInputs_14[i].type == "radio" || allInputs_14[i].type == "checkbox") {
-                if (allInputs_14[i].value == fieldVal) {
-                    allInputs_14[i].checked = true;
-                }
+    if (allInputs_14 !== null) {
+        for (var i = 0; i < allInputs_14.length; i++) {
+            var regexStr = "field\\[(\\d+)\\]";
+            var results = new RegExp(regexStr).exec(allInputs_14[i].name);
+            if (results != undefined) {
+                allInputs_14[i].dataset.name = window.cfields[results[1]];
             } else {
-                allInputs_14[i].value = fieldVal;
+                allInputs_14[i].dataset.name = allInputs_14[i].name;
+            }
+            var fieldVal = getUrlParam(allInputs_14[i].dataset.name);
+
+            if (fieldVal) {
+                if (allInputs_14[i].type == "radio" || allInputs_14[i].type == "checkbox") {
+                    if (allInputs_14[i].value == fieldVal) {
+                        allInputs_14[i].checked = true;
+                    }
+                } else {
+                    allInputs_14[i].value = fieldVal;
+                }
             }
         }
     }
 
-    for (var i = 0; i < allInputs_12.length; i++) {
-        var regexStr = "field\\[(\\d+)\\]";
-        var results = new RegExp(regexStr).exec(allInputs_12[i].name);
-        if (results != undefined) {
-            allInputs_12[i].dataset.name = window.cfields[results[1]];
-        } else {
-            allInputs_12[i].dataset.name = allInputs_12[i].name;
-        }
-        var fieldVal = getUrlParam(allInputs_12[i].dataset.name);
-
-        if (fieldVal) {
-            if (allInputs_12[i].type == "radio" || allInputs_12[i].type == "checkbox") {
-                if (allInputs_12[i].value == fieldVal) {
-                    allInputs_12[i].checked = true;
-                }
+    if (allInputs_12 !== null) {
+        for (var i = 0; i < allInputs_12.length; i++) {
+            var regexStr = "field\\[(\\d+)\\]";
+            var results = new RegExp(regexStr).exec(allInputs_12[i].name);
+            if (results != undefined) {
+                allInputs_12[i].dataset.name = window.cfields[results[1]];
             } else {
-                allInputs_12[i].value = fieldVal;
+                allInputs_12[i].dataset.name = allInputs_12[i].name;
+            }
+            var fieldVal = getUrlParam(allInputs_12[i].dataset.name);
+
+            if (fieldVal) {
+                if (allInputs_12[i].type == "radio" || allInputs_12[i].type == "checkbox") {
+                    if (allInputs_12[i].value == fieldVal) {
+                        allInputs_12[i].checked = true;
+                    }
+                } else {
+                    allInputs_12[i].value = fieldVal;
+                }
             }
         }
     }
@@ -295,164 +301,170 @@ window._load_script = function(url, callback) {
         return el.name == 'email' || el.getAttribute('required') !== null;
     };
 
-    var validate_form_16 = function(e) {
-        var err = form_16_to_submit.querySelector('._form_error'), no_error = true;
-        if (!submitted) {
-            submitted = true;
+    if (form_16_to_submit) {
+        var validate_form_16 = function (e) {
+            var err = form_16_to_submit.querySelector('._form_error'), no_error = true;
+            if (!submitted) {
+                submitted = true;
+                for (var i = 0, len = allInputs_16.length; i < len; i++) {
+                    var input = allInputs_16[i];
+                    if (needs_validate(input)) {
+                        if (input.type == 'text') {
+                            addEvent(input, 'blur', function () {
+                                this.value = this.value.trim();
+                                validate_field(this, true);
+                            });
+                            addEvent(input, 'input', function () {
+                                validate_field(this, true);
+                            });
+                        } else if (input.type == 'radio' || input.type == 'checkbox') {
+                            (function (el) {
+                                var radios = form_16_to_submit.elements[el.name];
+                                for (var i = 0; i < radios.length; i++) {
+                                    addEvent(radios[i], 'click', function () {
+                                        validate_field(el, true);
+                                    });
+                                }
+                            })(input);
+                        } else if (input.tagName == 'SELECT') {
+                            addEvent(input, 'change', function () {
+                                validate_field(this, true);
+                            });
+                        } else if (input.type == 'textarea') {
+                            addEvent(input, 'input', function () {
+                                validate_field(this, true);
+                            });
+                        }
+                    }
+                }
+            }
+            remove_tooltips();
             for (var i = 0, len = allInputs_16.length; i < len; i++) {
-                var input = allInputs_16[i];
-                if (needs_validate(input)) {
-                    if (input.type == 'text') {
-                        addEvent(input, 'blur', function() {
-                            this.value = this.value.trim();
-                            validate_field(this, true);
-                        });
-                        addEvent(input, 'input', function() {
-                            validate_field(this, true);
-                        });
-                    } else if (input.type == 'radio' || input.type == 'checkbox') {
-                        (function(el) {
-                            var radios = form_16_to_submit.elements[el.name];
-                            for (var i = 0; i < radios.length; i++) {
-                                addEvent(radios[i], 'click', function() {
-                                    validate_field(el, true);
-                                });
-                            }
-                        })(input);
-                    } else if (input.tagName == 'SELECT') {
-                        addEvent(input, 'change', function() {
-                            validate_field(this, true);
-                        });
-                    } else if (input.type == 'textarea'){
-                        addEvent(input, 'input', function() {
-                            validate_field(this, true);
-                        });
+                var elem = allInputs_16[i];
+                if (needs_validate(elem)) {
+                    if (elem.tagName.toLowerCase() !== "select") {
+                        elem.value = elem.value.trim();
+                    }
+                    validate_field(elem) ? true : no_error = false;
+                }
+            }
+            if (!no_error && e) {
+                e.preventDefault();
+            }
+            resize_tooltips();
+            return no_error;
+        };
+    }
+
+    if (form_14_to_submit) {
+        var validate_form_14 = function (e) {
+            var err = form_14_to_submit.querySelector('._form_error'), no_error = true;
+            if (!submitted) {
+                submitted = true;
+                for (var i = 0, len = allInputs_14.length; i < len; i++) {
+                    var input = allInputs_14[i];
+                    if (needs_validate(input)) {
+                        if (input.type == 'text') {
+                            addEvent(input, 'blur', function () {
+                                this.value = this.value.trim();
+                                validate_field(this, true);
+                            });
+                            addEvent(input, 'input', function () {
+                                validate_field(this, true);
+                            });
+                        } else if (input.type == 'radio' || input.type == 'checkbox') {
+                            (function (el) {
+                                var radios = form_14_to_submit.elements[el.name];
+                                for (var i = 0; i < radios.length; i++) {
+                                    addEvent(radios[i], 'click', function () {
+                                        validate_field(el, true);
+                                    });
+                                }
+                            })(input);
+                        } else if (input.tagName == 'SELECT') {
+                            addEvent(input, 'change', function () {
+                                validate_field(this, true);
+                            });
+                        } else if (input.type == 'textarea') {
+                            addEvent(input, 'input', function () {
+                                validate_field(this, true);
+                            });
+                        }
                     }
                 }
             }
-        }
-        remove_tooltips();
-        for (var i = 0, len = allInputs_16.length; i < len; i++) {
-            var elem = allInputs_16[i];
-            if (needs_validate(elem)) {
-                if (elem.tagName.toLowerCase() !== "select") {
-                    elem.value = elem.value.trim();
-                }
-                validate_field(elem) ? true : no_error = false;
-            }
-        }
-        if (!no_error && e) {
-            e.preventDefault();
-        }
-        resize_tooltips();
-        return no_error;
-    };
-
-    var validate_form_14 = function(e) {
-        var err = form_14_to_submit.querySelector('._form_error'), no_error = true;
-        if (!submitted) {
-            submitted = true;
+            remove_tooltips();
             for (var i = 0, len = allInputs_14.length; i < len; i++) {
-                var input = allInputs_14[i];
-                if (needs_validate(input)) {
-                    if (input.type == 'text') {
-                        addEvent(input, 'blur', function() {
-                            this.value = this.value.trim();
-                            validate_field(this, true);
-                        });
-                        addEvent(input, 'input', function() {
-                            validate_field(this, true);
-                        });
-                    } else if (input.type == 'radio' || input.type == 'checkbox') {
-                        (function(el) {
-                            var radios = form_14_to_submit.elements[el.name];
-                            for (var i = 0; i < radios.length; i++) {
-                                addEvent(radios[i], 'click', function() {
-                                    validate_field(el, true);
-                                });
-                            }
-                        })(input);
-                    } else if (input.tagName == 'SELECT') {
-                        addEvent(input, 'change', function() {
-                            validate_field(this, true);
-                        });
-                    } else if (input.type == 'textarea'){
-                        addEvent(input, 'input', function() {
-                            validate_field(this, true);
-                        });
+                var elem = allInputs_14[i];
+                if (needs_validate(elem)) {
+                    if (elem.tagName.toLowerCase() !== "select") {
+                        elem.value = elem.value.trim();
                     }
+                    validate_field(elem) ? true : no_error = false;
                 }
             }
-        }
-        remove_tooltips();
-        for (var i = 0, len = allInputs_14.length; i < len; i++) {
-            var elem = allInputs_14[i];
-            if (needs_validate(elem)) {
-                if (elem.tagName.toLowerCase() !== "select") {
-                    elem.value = elem.value.trim();
-                }
-                validate_field(elem) ? true : no_error = false;
+            if (!no_error && e) {
+                e.preventDefault();
             }
-        }
-        if (!no_error && e) {
-            e.preventDefault();
-        }
-        resize_tooltips();
-        return no_error;
-    };
+            resize_tooltips();
+            return no_error;
+        };
+    }
 
-    var validate_form_12 = function(e) {
-        var err = form_12_to_submit.querySelector('._form_error'), no_error = true;
-        if (!submitted) {
-            submitted = true;
-            for (var i = 0, len = allInputs_12.length; i < len; i++) {
-                var input = allInputs_12[i];
-                if (needs_validate(input)) {
-                    if (input.type == 'text') {
-                        addEvent(input, 'blur', function() {
-                            this.value = this.value.trim();
-                            validate_field(this, true);
-                        });
-                        addEvent(input, 'input', function() {
-                            validate_field(this, true);
-                        });
-                    } else if (input.type == 'radio' || input.type == 'checkbox') {
-                        (function(el) {
-                            var radios = form_12_to_submit.elements[el.name];
-                            for (var i = 0; i < radios.length; i++) {
-                                addEvent(radios[i], 'click', function() {
-                                    validate_field(el, true);
-                                });
-                            }
-                        })(input);
-                    } else if (input.tagName == 'SELECT') {
-                        addEvent(input, 'change', function() {
-                            validate_field(this, true);
-                        });
-                    } else if (input.type == 'textarea'){
-                        addEvent(input, 'input', function() {
-                            validate_field(this, true);
-                        });
+    if (form_12_to_submit) {
+        var validate_form_12 = function (e) {
+            var err = form_12_to_submit.querySelector('._form_error'), no_error = true;
+            if (!submitted) {
+                submitted = true;
+                for (var i = 0, len = allInputs_12.length; i < len; i++) {
+                    var input = allInputs_12[i];
+                    if (needs_validate(input)) {
+                        if (input.type == 'text') {
+                            addEvent(input, 'blur', function () {
+                                this.value = this.value.trim();
+                                validate_field(this, true);
+                            });
+                            addEvent(input, 'input', function () {
+                                validate_field(this, true);
+                            });
+                        } else if (input.type == 'radio' || input.type == 'checkbox') {
+                            (function (el) {
+                                var radios = form_12_to_submit.elements[el.name];
+                                for (var i = 0; i < radios.length; i++) {
+                                    addEvent(radios[i], 'click', function () {
+                                        validate_field(el, true);
+                                    });
+                                }
+                            })(input);
+                        } else if (input.tagName == 'SELECT') {
+                            addEvent(input, 'change', function () {
+                                validate_field(this, true);
+                            });
+                        } else if (input.type == 'textarea') {
+                            addEvent(input, 'input', function () {
+                                validate_field(this, true);
+                            });
+                        }
                     }
                 }
             }
-        }
-        remove_tooltips();
-        for (var i = 0, len = allInputs_12.length; i < len; i++) {
-            var elem = allInputs_12[i];
-            if (needs_validate(elem)) {
-                if (elem.tagName.toLowerCase() !== "select") {
-                    elem.value = elem.value.trim();
+            remove_tooltips();
+            for (var i = 0, len = allInputs_12.length; i < len; i++) {
+                var elem = allInputs_12[i];
+                if (needs_validate(elem)) {
+                    if (elem.tagName.toLowerCase() !== "select") {
+                        elem.value = elem.value.trim();
+                    }
+                    validate_field(elem) ? true : no_error = false;
                 }
-                validate_field(elem) ? true : no_error = false;
             }
-        }
-        if (!no_error && e) {
-            e.preventDefault();
-        }
-        resize_tooltips();
-        return no_error;
-    };
+            if (!no_error && e) {
+                e.preventDefault();
+            }
+            resize_tooltips();
+            return no_error;
+        };
+    }
 
     addEvent(window, 'resize', resize_tooltips);
     addEvent(window, 'scroll', resize_tooltips);
@@ -463,48 +475,54 @@ window._load_script = function(url, callback) {
         if (window._old_serialize) window.serialize = window._old_serialize;
     });
 
-    var form_submit_16 = function(e) {
-        console.log('asdasd');
-        e.preventDefault();
-        if (validate_form_16()) {
-            // use this trick to get the submit button & disable it using plain javascript
-            document.querySelector('#_form_16_submit').disabled = true;
-            var serialized = _form_serialize(document.getElementById('_form_16_'));
-            var err = form_16_to_submit.querySelector('._form_error');
-            err ? err.parentNode.removeChild(err) : false;
-            _load_script('https://stegos.activehosted.com/proc.php?' + serialized + '&jsonp=true');
-        }
-        return false;
-    };
-    addEvent(form_16_to_submit, 'submit', form_submit_16);
+    if (form_16_to_submit) {
+        var form_submit_16 = function (e) {
+            console.log('asdasd');
+            e.preventDefault();
+            if (validate_form_16()) {
+                // use this trick to get the submit button & disable it using plain javascript
+                document.querySelector('#_form_16_submit').disabled = true;
+                var serialized = _form_serialize(document.getElementById('_form_16_'));
+                var err = form_16_to_submit.querySelector('._form_error');
+                err ? err.parentNode.removeChild(err) : false;
+                _load_script('https://stegos.activehosted.com/proc.php?' + serialized + '&jsonp=true');
+            }
+            return false;
+        };
+        addEvent(form_16_to_submit, 'submit', form_submit_16);
+    }
 
-    var form_submit_14 = function(e) {
-        e.preventDefault();
-        if (validate_form_14()) {
-            // use this trick to get the submit button & disable it using plain javascript
-            document.querySelector('#_form_14_submit').disabled = true;
-            var serialized = _form_serialize(document.getElementById('_form_14_'));
-            var err = form_14_to_submit.querySelector('._form_error');
-            err ? err.parentNode.removeChild(err) : false;
-            _load_script('https://stegos.activehosted.com/proc.php?' + serialized + '&jsonp=true');
-        }
-        return false;
-    };
-    addEvent(form_14_to_submit, 'submit', form_submit_14);
+    if (form_14_to_submit) {
+        var form_submit_14 = function (e) {
+            e.preventDefault();
+            if (validate_form_14()) {
+                // use this trick to get the submit button & disable it using plain javascript
+                document.querySelector('#_form_14_submit').disabled = true;
+                var serialized = _form_serialize(document.getElementById('_form_14_'));
+                var err = form_14_to_submit.querySelector('._form_error');
+                err ? err.parentNode.removeChild(err) : false;
+                _load_script('https://stegos.activehosted.com/proc.php?' + serialized + '&jsonp=true');
+            }
+            return false;
+        };
+        addEvent(form_14_to_submit, 'submit', form_submit_14);
+    }
 
-    var form_submit_12 = function(e) {
-        e.preventDefault();
-        if (validate_form_12()) {
-            // use this trick to get the submit button & disable it using plain javascript
-            document.querySelector('#_form_12_submit').disabled = true;
-            var serialized = _form_serialize(document.getElementById('_form_12_'));
-            var err = form_12_to_submit.querySelector('._form_error');
-            err ? err.parentNode.removeChild(err) : false;
-            _load_script('https://stegos.activehosted.com/proc.php?' + serialized + '&jsonp=true');
-        }
-        return false;
-    };
-    addEvent(form_12_to_submit, 'submit', form_submit_12);
+    if (form_12_to_submit) {
+        var form_submit_12 = function (e) {
+            e.preventDefault();
+            if (validate_form_12()) {
+                // use this trick to get the submit button & disable it using plain javascript
+                document.querySelector('#_form_12_submit').disabled = true;
+                var serialized = _form_serialize(document.getElementById('_form_12_'));
+                var err = form_12_to_submit.querySelector('._form_error');
+                err ? err.parentNode.removeChild(err) : false;
+                _load_script('https://stegos.activehosted.com/proc.php?' + serialized + '&jsonp=true');
+            }
+            return false;
+        };
+        addEvent(form_12_to_submit, 'submit', form_submit_12);
+    }
 
 
 })();
