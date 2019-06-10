@@ -6,10 +6,21 @@
     <description>Recent content in technology on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mainnet Preview 1</title>
+      <link>https://stegos.com/news/2019/06/mainnet-1-release/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/06/mainnet-1-release/</guid>
+      <description>Stegos Mainnet Preview 1 Release Notes Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.
+This is a first preview release of upcoming Stegos mainnet. This preview version is considered mostly feature-complete. All core features have been implemented, yet some improvements and bug fixes need to be made for the final release.
+New in Stegos v0.8:  Created an innovative blockchain compression technology to remove intermediate intra-epoch blocks after reaching the final pBFT consensus in validators group.</description>
+    </item>
     
     <item>
       <title>Testnet 7 Release</title>
