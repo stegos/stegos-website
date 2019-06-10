@@ -1,11 +1,11 @@
 ---
 author: "Vladimir Lebedev"
 date: 2019-06-10
-linktitle: Maine Preview 1 20190610
-title: “Maine Preview 1”
-description: "This is the first preview release of the upcoming Stegos Mainnet.”
-metaTitle: "test"
-metaDescription: "test"
+linktitle: Mainnet Preview 1 20190610
+title: "Mainnet Preview 1"
+description: "This is the first preview release of the upcoming Stegos Mainnet."
+metaTitle: "Mainnet Preview 1"
+metaDescription: "This is the first preview release of the upcoming Stegos Mainnet."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
 weight: 7
@@ -24,7 +24,7 @@ This is a first preview release of upcoming Stegos mainnet. This preview version
 - Added Service Awards, a new incentive for validators to stay online. Each block contributes 1/3 of its reward into a special fund, which is periodically awarded to an arbitrary validator, which always stayed online since the last draw.
 - Reached 10x performance boost on Bulletproof validation. A single Bulletproof verification is now just 10 ms.
 - Increased performance of node synchronization and disk recovery from 200 to 6000 epochs per hour. We keep working on optimizing the underlying crypto-primitives in order to speed up the node sync more.
-- Fine-tuned blockchain constants to get a trade off between finality time and node synchronization time. 
+- Fine-tuned blockchain constants to get a trade off between finality time and node synchronization time.
 - More bug fixing of HashCash protocol.
 - More bug fixing of fork resolution mechanism for micro blocks.
 - Introduced UTXO Timestamp Locking.
@@ -56,7 +56,7 @@ chmod a+x stegos
 ./stegos
 ```
 
-Right after the start the node will print a lot of `INFO` messages with debugging information regarding bootstrapping your node. Press `Enter` to get `stegos>` prompt. To get help enter `help` command at the prompt. 
+Right after the start the node will print a lot of `INFO` messages with debugging information regarding bootstrapping your node. Press `Enter` to get `stegos>` prompt. To get help enter `help` command at the prompt.
 
 ### Feedback
 
