@@ -138,7 +138,7 @@ other = "Mobile staking"
 other = "App Store Private marketplaces Dandelion"
 
 [pruning_with_no_bootstrap]
-other = "Pruning with no bootstrap nodes zk-STARKsn"
+other = "Pruning with no bootstrap nodes zk-STARKs"
 
 [partners]
 other = "Partners"
