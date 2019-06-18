@@ -14,12 +14,12 @@
 
     
 
-    <title>Tech Report May, 20th - May, 31st | Stegos</title>
-    <meta name="description" content="" />
+    <title>Tech Report June, 3rd - June, 17th | Stegos</title>
+    <meta name="description" content="Development team reports past sprint results and is announcing plans for the next sprint." />
 
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:url" content="https://stegos.com/news/2019/05/tech-report-may-20th-may-31st/" />
+    <meta property="og:title" content="Done in Sprint 18" />
+    <meta property="og:description" content="Development team reports past sprint results and is announcing plans for the next sprint." />
+    <meta property="og:url" content="https://stegos.com/news/2019/06/tech-report-june-3rd-june-17th/" />
     <meta property="og:image" content="https://stegos.com/images/stegos-logo.png" />
 
     <link rel="stylesheet" href="/css/all.min.css">
@@ -113,12 +113,6 @@
 
                 <div class="inner_lang_block">
                     
-                    
-                    <a href="https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/" class="m_h_lang_btn base_button">
-                        <div class="b_b_text">中文</div>
-                    </a>
-                    
-                    
                 </div>
 
             </div>
@@ -143,12 +137,6 @@
         </a>
 
         <div class="inner_lang_block">
-            
-            
-            <a href="https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/" class="m_h_lang_btn base_button">
-                <div class="b_b_text">中文</div>
-            </a>
-            
             
         </div>
 
@@ -177,12 +165,6 @@
             </a>
 
             <div class="inner_lang_block">
-                
-                
-                <a href="https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/" class="m_h_lang_btn base_button">
-                    <div class="b_b_text">中文</div>
-                </a>
-                
                 
             </div>
 
@@ -214,65 +196,36 @@
                     <span class="m_s_ld"></span>
                 </div>
             </a>
-            <div class="data_field">Jun 5, 2019</div>
+            <div class="data_field">Jun 18, 2019</div>
         </div>
 
         <div class="one_news_block">
 
-            <h1 class="news_title">Tech Report May, 20th - May, 31st</h1>
+            <h1 class="news_title">Tech Report June, 3rd - June, 17th</h1>
 
             
 
-<p>During the last two weeks our development team has been working hard to finalize major features of the upcoming testnet release.</p>
-
-<p>Here is what we accomplished in the period <strong>May, 20th — May, 31st</strong>:</p>
-
-<h2 id="done-in-sprint-17">Done in Sprint 17</h2>
+<h2 id="done-in-sprint-18">Done in Sprint 18</h2>
 
 <ul>
-<li><p>Speed-up node bootstrap and re-synchronization, <code>Node</code>, fine-tuning bootstrap constants</p></li>
-
-<li><p>Service Awards, <code>Core Blockchain</code>, required to create an incentive for validators to be always online</p></li>
-
-<li><p>Compress Micro Blocks to Macro Blocks, <code>Consensus</code>, remove last epoch’s micro blocks by moving their data to a single macro block</p></li>
-
-<li><p>Optimize bulletproofs, <code>Crypto</code>, a single bulletproof verification is now 10 ms (without AVX optimization)</p></li>
-
-<li><p>HashCash: more bug-fixing, <code>Network</code>, bug fixing of HashCash protocol</p></li>
-
-<li><p>Fork Resolution: more bug-fixing, <code>Consensus</code>, bug fixing of fork resolution mechanism for micro blocks</p></li>
-
-<li><p>UTXO Timestamp Locking, <code>Core Blockchain</code>, implement locking of UTXOs</p></li>
-
-<li><p>PublicPaymentUTXO: additional tx validation rules, <code>Core Blockchain</code>, implement additional transaction verification rules for transactions involving public payment UTXOs</p></li>
-
-<li><p>PublicPaymentUTXO: support in wallet, <code>Wallet</code>, implement support for public payment UTXOs usage in wallet</p></li>
+<li>Base functionality of GUI Wallet desktop application, <code>Wallet</code>, implementing bootstrapping visualisation, accounts and payments</li>
+<li>Persist Payment History and Payment Certificates in Wallet, <code>Wallet</code>, required to support showing the payment history in wallet</li>
+<li>Improve security of Docker image, <code>Security</code>, strengthen the security of the node&rsquo;s docker image</li>
+<li>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</li>
+<li>Use Base58 for external representation of wallet public keys (addresses), <code>Core Blockchain</code>, provide more user-friendly encoding of addresses</li>
+<li>Implement WebSocket API Authorization, <code>Security</code>, introduce API tokens for authorizing WebSockets API usage, even on localhost</li>
+<li>Support changing the wallet password, <code>Security</code>, provide the ability for the user to change wallet password</li>
+<li>Stress Testing: Large Number of Nodes, <code>Testing</code>, part of test harness</li>
+<li>Split log output and CLI, <code>Node CLI</code>, separating CLI application from node binary</li>
+<li>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</li>
+<li>Speed up BLS signatures, <code>Core Blockchain</code>, BLS signature verification time has been improved from 200ms down to 5ms per signature</li>
 </ul>
 
-<h2 id="plans-for-sprint-18">Plans for Sprint 18</h2>
+<h2 id="plans-for-sprint-19">Plans for Sprint 19</h2>
 
 <ul>
-<li><p>Base functionality of GUI Wallet desktop application, <code>Wallet</code>, implementing bootstrapping visualisation, accounts and payments</p></li>
-
-<li><p>Improve security of Docker image, <code>Security</code>, strengthen the security of the node&rsquo;s docker image</p></li>
-
-<li><p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p></li>
-
-<li><p>Persist Payment History and Payment Certificates in Wallet, <code>Wallet</code>, required to support showing the payment history in wallet</p></li>
-
-<li><p>Use Base58 for external representation of wallet public keys (addresses), <code>Core Blockchain</code>, provide more user-friendly encoding of addresses</p></li>
-
-<li><p>Implement WebSocket API Authorization, <code>Security</code>, introduce API tokens for authorizing WebSockets API usage, even on localhost</p></li>
-
-<li><p>Support changing the wallet password, <code>Security</code>, provide the ability for the user to change wallet password</p></li>
-
-<li><p>Stress Testing: Packet Delay and Loss, <code>Testing</code>, part of test harness</p></li>
-
-<li><p>Stress Testing: Large Number of Nodes, <code>Testing</code>, part of test harness</p></li>
-
-<li><p>Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, <code>Testing</code>, stress testing the vital subsystems using transactional loads from transaction generator</p></li>
-
-<li><p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p></li>
+<li>Stress Testing: Packet Delay and Loss, <code>Testing</code>, part of test harness</li>
+<li>Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, <code>Testing</code>, stress testing the vital subsystems using transactional loads from transaction generator</li>
 </ul>
 
 
@@ -287,16 +240,11 @@
 
         <div class="toggles_block">
             
-            <a href="https://stegos.com/news/2019/05/tech-report-apr-22nd-may-3rd/" class="pages_toggle">
+            <a href="https://stegos.com/news/2019/06/mainnet-1-release/" class="pages_toggle">
                 <div class="c__item_btn"><span class="c__item_arrow_more">←</span></div>
                 <div class="arrow_name">Previous</div>
             </a>
             
-            
-            <a href="https://stegos.com/news/2019/05/testnet-6-release/" class="pages_toggle arrow_next">
-                <div class="arrow_name">Next</div>
-                <div class="c__item_btn"><span class="c__item_arrow_more">→</span></div>
-            </a>
             
         </div>
 
