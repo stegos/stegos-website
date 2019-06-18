@@ -4,7 +4,7 @@ date: 2019-06-18
 linktitle: Tech Report 20190618
 title: "Tech Report June, 3rd - June, 17th"
 description: "Development team reports past sprint results and is announcing plans for the next sprint."
-metaTitle: "Done in Sprint 18"
+metaTitle: "Tech Report June, 3rd - June, 17th"
 metaDescription: "Development team reports past sprint results and is announcing plans for the next sprint."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
