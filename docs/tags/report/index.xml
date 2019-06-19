@@ -6,10 +6,21 @@
     <description>Recent content in report on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/report/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mainnet Preview 2</title>
+      <link>https://stegos.com/news/2019/06/mainnet-2-release/</link>
+      <pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/06/mainnet-2-release/</guid>
+      <description>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.
+This is a second Preview release of upcoming Stegos mainnet. We declare the feature freeze with this release - no new features are planned until the upcoming mainnet release. Of course, some minor improvements and bug fixes will be made until the final mainnet release.
+New in Stegos v0.9:  Node has been split into two binaries: a full node daemon (stegosd) and a command-line client (stegos).</description>
+    </item>
     
     <item>
       <title>Tech Report June, 3rd - June, 17th</title>
