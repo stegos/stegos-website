@@ -3,6 +3,138 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stegos.com/zn/news/2019/06/mainnet-3-release/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/06/mainnet-3-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/06/mainnet-3-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/06/mainnet-3-release/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/06/tech-report-june-17th-july-1st/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/06/tech-report-june-17th-july-1st/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/06/tech-report-june-17th-july-1st/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/06/tech-report-june-17th-july-1st/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/06/mainnet-2-release/</loc>
+    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/06/mainnet-2-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/06/mainnet-2-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/06/mainnet-2-release/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/06/tech-report-june-3rd-june-17th/</loc>
+    <lastmod>2019-06-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/06/tech-report-june-3rd-june-17th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/06/tech-report-june-3rd-june-17th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/06/tech-report-june-3rd-june-17th/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/06/mainnet-1-release/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/06/mainnet-1-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/06/mainnet-1-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/06/mainnet-1-release/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/05/testnet-7-release/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/05/testnet-7-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/05/testnet-7-release/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/05/testnet-7-release/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2019/05/tech-report-may-6th-may-17th/</loc>
     <lastmod>2019-05-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -14,9 +146,21 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/05/tech-report-may-6th-may-17th/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/news/2019/05/tech-report-may-6th-may-17th/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/05/tech-report-may-6th-may-17th0/</loc>
+    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -31,42 +175,13 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/05/testnet-6-release/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/news/2019/05/testnet-6-release/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/news/2019/05/tech-report-may-20th-may-31st/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/news/2019/05/tech-report-apr-22nd-may-3rd/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/news/2019/05/tech-report-apr-22nd-may-3rd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/news/2019/05/tech-report-apr-22nd-may-3rd/"
                 />
   </url>
   
@@ -79,6 +194,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/news/2019/04/tech-report-apr-8th-apr-19th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/04/tech-report-apr-8th-apr-19th/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -99,9 +219,65 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/04/testnet-5-release/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/news/2019/04/testnet-5-release/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/</loc>
+    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/05/tech-report-may-20th-may-31st/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/05/tech-report-may-20th-may-31st/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/05/tech-report-apr-22nd-may-3rd/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/05/tech-report-apr-22nd-may-3rd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/05/tech-report-apr-22nd-may-3rd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/05/tech-report-apr-22nd-may-3rd/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/05/tech-report-apr-22nd-may-3rd0/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -225,12 +401,17 @@
   
   <url>
     <loc>https://stegos.com/zn/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -241,12 +422,17 @@
   
   <url>
     <loc>https://stegos.com/zn/categories/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -257,12 +443,17 @@
   
   <url>
     <loc>https://stegos.com/zn/news/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -273,12 +464,17 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -289,12 +485,17 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/stegos/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/tags/stegos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/tags/stegos/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -304,19 +505,31 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/tags/%E5%8F%8C%E5%91%A8%E6%8A%A5/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <loc>https://stegos.com/zn/tags/%E5%91%A8%E6%8A%A5/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/zn/categories/%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2019-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/zn/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/%E6%8A%A5%E5%91%8A/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/%E5%8F%8C%E5%91%A8%E6%8A%A5/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -329,6 +542,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/categories/development/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -482,6 +700,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/p_david/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/team/p_david/"
                 />
@@ -495,6 +718,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/team/p_eugene/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/p_eugene/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -514,6 +742,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/p_joel/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/team/p_joel/"
                 />
@@ -527,6 +760,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/team/p_roman/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/p_roman/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -546,6 +784,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/p_vl/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/team/p_vl/"
                 />
@@ -562,6 +805,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/p_vol/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/team/p_vol/"
                 />
@@ -574,6 +822,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/team/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/"
                 />
     <xhtml:link
                 rel="alternate"
