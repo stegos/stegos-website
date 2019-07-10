@@ -4,8 +4,8 @@ date: 2019-06-05
 linktitle: 技术双周报 20190606
 title: "技术双周报 5.20-5.31"
 description: "开发团队报告了过去的sprint结果，并宣布即将发布的第一个testnet版本。"
-metaTitle: ""
-metaDescription: ""
+metaTitle: "技术双周报 5.20-5.31"
+metaDescription: "开发团队报告了过去的sprint结果，并宣布即将发布的第一个testnet版本。"
 categories: [ "开发" ]
 tags: ["stegos", "双周报", "技术"]
 weight: 8
