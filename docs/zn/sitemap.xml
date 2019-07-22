@@ -157,13 +157,6 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/news/2019/05/tech-report-may-6th-may-17th0/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://stegos.com/zn/news/2019/05/testnet-6-release/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -230,6 +223,23 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/news/2019/04/tech-report-mar-25th-apr-5th/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/04/tech-report-mar-25th-apr-5th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/04/tech-report-mar-25th-apr-5th/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2019/05/tech-report-may-20th-may-31st/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -274,13 +284,6 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/news/2019/05/tech-report-apr-22nd-may-3rd0/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://stegos.com/zn/news/2019/04/mobile-blockchain-the-holy-grail/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -294,40 +297,6 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/news/2019/04/mobile-blockchain-the-holy-grail/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/news/2019/04/tech-report-mar-25th-apr-5th/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/news/2019/04/tech-report-mar-25th-apr-5th/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/news/2019/04/tech-report-mar-25th-apr-5th/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/news/2019/02/smart-contract-are-useless/</loc>
-    <lastmod>2019-02-22T12:05:29+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/news/2019/02/smart-contract-are-useless/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/news/2019/02/smart-contract-are-useless/"
                 />
   </url>
   
@@ -535,8 +504,55 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/categories/%E6%A6%82%E8%BF%B0/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/%E7%A7%BB%E5%8A%A8/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/</loc>
+    <lastmod>2019-02-22T12:05:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2019/02/smart-contract-are-useless/</loc>
+    <lastmod>2019-02-22T12:05:29+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/02/smart-contract-are-useless/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/02/smart-contract-are-useless/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2019-02-22T12:05:29+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/categories/development/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-18T14:03:09+06:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -556,8 +572,14 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/tags/chinese/</loc>
+    <lastmod>2019-02-18T14:03:09+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/tags/report/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-18T14:03:09+06:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -573,7 +595,7 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/technology/</loc>
-    <lastmod>2019-05-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-18T14:03:09+06:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -588,8 +610,14 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/tags/%E7%AB%9E%E4%BA%89/</loc>
+    <lastmod>2019-02-11T21:02:22+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/categories/overview/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-08T00:50:05+06:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -604,78 +632,8 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/tags/blockchain/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/blockchain/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/blockchain/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/tags/mobile/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/mobile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/mobile/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/tags/design/</loc>
-    <lastmod>2019-02-22T12:05:29+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/design/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/design/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/tags/smartcontracts/</loc>
-    <lastmod>2019-02-22T12:05:29+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/smartcontracts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/smartcontracts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/tags/chinese/</loc>
-    <lastmod>2019-02-18T14:03:09+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://stegos.com/zn/tags/competition/</loc>
-    <lastmod>2019-02-11T21:02:22+06:00</lastmod>
+    <lastmod>2019-02-08T00:50:05+06:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -686,6 +644,22 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/tags/competition/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/design/</loc>
+    <lastmod>2019-02-08T00:50:05+06:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/design/"
                 />
   </url>
   
