@@ -239,7 +239,7 @@
 
 <p>这是即将推出的Stegos主网的第二个预览版本。我们在此版本中声明了功能冻结 - 在即将发布的主要网络发布之前，没有计划任何新功能。当然，在最终的主网发布之前，将进行一些小的改进和错误修复。</p>
 
-<h2 id="stegos-v0-9中的新功能">Stegos v0.9中的新功能：</h2>
+<h3 id="stegos-v0-9中的新功能">Stegos v0.9中的新功能：</h3>
 
 <ul>
 <li><p>节点已分为两个二进制文件：完整节点守护程序（stegosd）和命令行客户端（stegos）。</p></li>
@@ -258,26 +258,28 @@
 <li><p>加强节点的docker镜像的安全性。</p></li>
 </ul>
 
-<p>有关其他信息，请参阅<a href="https://github.com/stegos/stegos/releases">先前版本</a>和<a href="https://github.com/stegos/stegos/wiki/project-plan#sprint18">项目计划</a>。不支持从Mainnet Preview 1升级 - 请从没有旧数据库和密钥的干净目录开始。</p>
+<p>了解更多信息，请查看<a href="https://github.com/stegos/stegos/releases">之前发布的文章</a>以及<a href="https://github.com/stegos/stegos/wiki/project-plan#sprint18">项目发展计划</a>。</p>
 
-<h2 id="安装指导">安装指导</h2>
+<p>不支持从主网预览1升级 - 请从没有旧数据库和密钥的纯净目录开始。</p>
+
+<h3 id="安装指导">安装指导</h3>
 
 <p>安装从此版本开始，提供了Stegos平台的两个组件：
-Stegosd - Stegos全节点守护进程。
-Stegos - Stegos命令行客户端。</p>
+- <code>Stegos</code> - Stegos全节点守护进程。
+- <code>Stegos</code> - Stegos命令行客户端。</p>
 
-<h2 id="运行节点">运行节点</h2>
+<h3 id="运行节点">运行节点</h3>
 
 <p>下载并运行Stegos Node。</p>
 
-<h3 id="linux-64-bit">Linux 64-bit:</h3>
+<p><strong>Linux 64-bit:</strong></p>
 
 <pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
 </code></pre>
 
-<h3 id="macos-64-bit">macOS 64-bit:</h3>
+<p><strong>macOS 64-bit:</strong></p>
 
 <pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
 chmod a+x stegos
@@ -289,36 +291,36 @@ chmod a+x stegos
 <p>将创建以下文件和目录：</p>
 
 <ul>
-<li>wallet.pkey - Base58格式的电子钱包公钥（地址）</li>
-<li>wallet.ske - 钱包密钥。</li>
-<li>network.pkey - HEX格式的网络公钥。</li>
-<li>network.skey - 网络密钥。</li>
-<li>data / chain / - 区块链数据库。</li>
-<li>data/wallet/ - 钱包数据库。</li>
-<li>api_token.txt - API令牌需要连接到Node API。</li>
+<li><code>wallet.pkey</code> - Base58格式的电子钱包公钥（地址）</li>
+<li><code>wallet.skey</code> - 钱包密钥。</li>
+<li><code>network.pkey</code> - HEX格式的网络公钥。</li>
+<li><code>network.skey</code> - 网络密钥。</li>
+<li><code>data / chain/</code> - 区块链数据库。</li>
+<li><code>data/wallet/</code> - 钱包数据库。</li>
+<li><code>api_token.txt</code> - API令牌需要连接到Node API。</li>
 </ul>
 
 <p>创建新钱包后，节点将开始与网络同步，并打印大量INFO消息以及有关同步状态的调试信息。</p>
 
-<h2 id="连接到节点">连接到节点</h2>
+<h3 id="连接到节点">连接到节点</h3>
 
 <p>下载并运行命令行客户端。</p>
 
-<h3 id="linux-64-bit-1">Linux 64-bit:</h3>
+<p><strong>Linux 64-bit:</strong></p>
 
 <pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
 </code></pre>
 
-<h3 id="macos-64-bit-1">macOS 64-bit:</h3>
+<p><strong>macOS 64-bit:</strong></p>
 
 <pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
 </code></pre>
 
-<h2 id="反馈">反馈</h2>
+<h3 id="反馈">反馈</h3>
 
 <p>请加入我们的<a href="https://stg.to/tgcch">电报社群</a>，从而获取测试代币，并且让我们知道你的想法。订阅官方<a href="https://stg.to/tgnch">电报公告群</a>，从而获得最新的消息。</p>
 

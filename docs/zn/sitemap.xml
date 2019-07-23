@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stegos.com/zn/news/2019/07/tech-report-july-1st-july-15th/</loc>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/07/tech-report-july-1st-july-15th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/07/tech-report-july-1st-july-15th/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2019/06/mainnet-3-release/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -370,7 +387,7 @@
   
   <url>
     <loc>https://stegos.com/zn/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -391,7 +408,7 @@
   
   <url>
     <loc>https://stegos.com/zn/categories/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -412,7 +429,7 @@
   
   <url>
     <loc>https://stegos.com/zn/news/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -433,7 +450,7 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -454,7 +471,7 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/stegos/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -475,19 +492,19 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/%E5%91%A8%E6%8A%A5/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/zn/categories/%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/zn/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
