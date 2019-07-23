@@ -14,12 +14,12 @@
 
     
 
-    <title>主网预览 3 | Stegos</title>
-    <meta name="description" content="这是即将推出的Stegos主网的第三个预览。" />
+    <title>技术进展周报 July, 1st - July, 15th | Stegos</title>
+    <meta name="description" content="开发团队报告了过去的sprint结果，并宣布了下一个sprint的计划" />
 
-    <meta property="og:title" content="主网预览 3" />
-    <meta property="og:description" content="这是即将推出的Stegos主网的第三个预览。" />
-    <meta property="og:url" content="https://stegos.com/zn/news/2019/06/mainnet-3-release/" />
+    <meta property="og:title" content="技术进展报告 7月1日-7月15日" />
+    <meta property="og:description" content="开发团队报告了过去的sprint结果，并宣布了下一个sprint的计划" />
+    <meta property="og:url" content="https://stegos.com/zn/news/2019/07/tech-report-july-1st-july-15th/" />
     <meta property="og:image" content="https://stegos.com/images/stegos-logo.png" />
 
     <link rel="stylesheet" href="/css/all.min.css">
@@ -114,12 +114,8 @@
                 <div class="inner_lang_block">
                     
                     
-                    <a href="https://stegos.com/news/2019/06/mainnet-3-release/" class="m_h_lang_btn base_button">
+                    <a href="https://stegos.com/news/2019/07/tech-report-july-1st-july-15th/" class="m_h_lang_btn base_button">
                         <div class="b_b_text">en</div>
-                    </a>
-                    
-                    <a href="https://stegos.com/ru/news/2019/06/mainnet-3-release/" class="m_h_lang_btn base_button">
-                        <div class="b_b_text">ru</div>
                     </a>
                     
                     
@@ -149,12 +145,8 @@
         <div class="inner_lang_block">
             
             
-            <a href="https://stegos.com/news/2019/06/mainnet-3-release/" class="m_h_lang_btn base_button">
+            <a href="https://stegos.com/news/2019/07/tech-report-july-1st-july-15th/" class="m_h_lang_btn base_button">
                 <div class="b_b_text">en</div>
-            </a>
-            
-            <a href="https://stegos.com/ru/news/2019/06/mainnet-3-release/" class="m_h_lang_btn base_button">
-                <div class="b_b_text">ru</div>
             </a>
             
             
@@ -187,12 +179,8 @@
             <div class="inner_lang_block">
                 
                 
-                <a href="https://stegos.com/news/2019/06/mainnet-3-release/" class="m_h_lang_btn base_button">
+                <a href="https://stegos.com/news/2019/07/tech-report-july-1st-july-15th/" class="m_h_lang_btn base_button">
                     <div class="b_b_text">en</div>
-                </a>
-                
-                <a href="https://stegos.com/ru/news/2019/06/mainnet-3-release/" class="m_h_lang_btn base_button">
-                    <div class="b_b_text">ru</div>
                 </a>
                 
                 
@@ -226,93 +214,45 @@
                     <span class="m_s_ld"></span>
                 </div>
             </a>
-            <div class="data_field">Jul 2, 2019</div>
+            <div class="data_field">Jul 22, 2019</div>
         </div>
 
         <div class="one_news_block">
 
-            <h1 class="news_title">主网预览 3</h1>
+            <h1 class="news_title">技术进展周报 July, 1st - July, 15th</h1>
 
             
 
-<p>Stegos打造前沿科技，从而可以让你的隐私安全，避免被其他人窥视，因此你会感到非常给力以及安全</p>
+<h2 id="开发报告-7月1日-7月15日">开发报告 7月1日-7月15日</h2>
 
-<p>这是即将推出的Stegos主网的第三个预览。为了提高节点同步和自举性能，我们已经切换到新的配对曲线BLS12-381，将BLS签名验证时间减少了40倍。另一个主要成就是将单曲线加密从Curve1174切换到Curve25519以提高防弹性能并提供与iOS13 CryptoKit的兼容性。</p>
+<p>您好，欢迎阅读Stegos第20期Sprint的开发报告，以下是我们在7月1日至7月15日期间所取得的成果。</p>
 
-<h3 id="stegos-v0-10中的新增内容">Stegos v0.10中的新增内容：</h3>
+<p>整个开发团队在这段时间一步一个脚印，全力为主网启动扫清眼前的障碍。距离主网发布只需几周了，我们的大部分工作都是为了测试区块链并为Stegos应用程序进行最后润色。</p>
 
-<ul>
-<li>[加密] 基于BLS12-381曲线切换到新的基于配对的加密实现，BLS签名验证速度提升了40倍。</li>
-<li>[加密] 切换到Dalek Curve25519实现单曲线加密，防弹验证时间提高10倍，未来与iOS CryptoKit兼容。</li>
-<li>[钱包] 在CLI钱包中实施支付证书，如果您必须证明您向某人发送了特定数量的代币，则需要支付证书。</li>
-<li>[钱包] 切换到使用Base58用于磁盘上的钱包密钥，保存在磁盘上的密钥更加用户友好的外部表示。</li>
-</ul>
+<p>应用程序改进</p>
 
-<p>了解更多信息，请查看<a href="https://github.com/stegos/stegos/releases">之前发布的文章</a>以及<a href="https://github.com/stegos/stegos/wiki/project-plan#sprint19">项目发展计划</a>。</p>
+<p>我们为Stegos钱包应用添加了多项功能，包括支持单个钱包中创建多个帐户，交易历史记录和交易状态跟踪，使发送和接收STG变得轻而易举。</p>
 
-<p>不支持从主网预览2升级 - 请从没有旧数据库和密钥的纯净目录开始。</p>
+<p>新功能 - 可验证延迟(VDFs)</p>
 
-<h3 id="安装指导">安装指导</h3>
+<p>可验证延迟(VDFs)功能已经添加到了区块链核心代码中。VDF使块时间更具可预测性，我们早期使用模式不规则的情况下，这在我们链的早期阶段尤为重要。并且保持区块时间稳定将有助于我们管理STG代币的年通胀率。注：使用模式指使用频率和我们区块链的用途。</p>
 
-<p>安装从此版本开始，提供了Stegos平台的两个组件：
-- <code>Stegos</code> - Stegos全节点守护进程。
-- <code>Stegos</code> - Stegos命令行客户端。</p>
+<p>压力测试</p>
 
-<h3 id="运行节点">运行节点</h3>
+<p>在我们发布之前检查Stegos区块链是否健全是很重要的。使用自动化的交易生成器，我们对所有重要的区块链子系统进行了压力测试，以确保它们能够处理繁重的交易负载。</p>
 
-<p>下载并运行Stegos Node。</p>
+<p>接下来的任务</p>
 
-<p><strong>Linux 64-bit:</strong></p>
+<p>Sprint 21有望成为主网发布之前的最后一期Sprint。我们将继续进行压力测试并添加更多VDF，包括在网络授权协议中替换Hashcash。</p>
 
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd
-chmod a+x stegosd
-./stegosd
-</code></pre>
+<p>我们还将对钱包应用程序进行最后润色，以确保每个人都能体验到丝滑流畅的Stegos App。</p>
 
-<p><strong>macOS 64-bit:</strong></p>
-
-<pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
-chmod a+x stegos
-./stegos
-</code></pre>
-
-<p>在第一次启动时，节点将创建一个新钱包。请创建一个强密码并将其保存在安全的地方。此密码在本地用于加密磁盘上的数据。这里没有密码恢复机制。</p>
-
-<p>将创建以下文件和目录：</p>
-
-<ul>
-<li><code>wallet.pkey</code> - Base58格式的电子钱包公钥（地址）</li>
-<li><code>wallet.ske</code> - 钱包密钥。</li>
-<li><code>network.pkey</code> - HEX格式的网络公钥。</li>
-<li><code>network.skey</code> - 网络密钥。</li>
-<li><code>data / chain/</code> - 区块链数据库。</li>
-<li><code>data/wallet/</code> - 钱包数据库。</li>
-<li><code>api_token.txt</code> - API令牌需要连接到Node API。</li>
-</ul>
-
-<p>创建新钱包后，节点将开始与网络同步，并打印大量INFO消息以及有关同步状态的调试信息。</p>
-
-<h3 id="连接到节点">连接到节点</h3>
-
-<p>下载并运行命令行客户端。</p>
-
-<p><strong>Linux 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd
-chmod a+x stegosd
-./stegosd
-</code></pre>
-
-<p><strong>macOS 64-bit:</strong></p>
-
-<pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
-chmod a+x stegos
-./stegos
-</code></pre>
+<p>一如既往，如果您想帮助测试，请在Telegram组中联系我们以获得一些测试网代币。</p>
 
 <h3 id="反馈">反馈</h3>
 
-<p>请加入我们的<a href="https://stg.to/tgcch">电报社群</a>，从而获取测试代币，并且让我们知道你的想法。订阅官方<a href="https://stg.to/tgnch">电报公告群</a>，从而获得最新的消息。</p>
+<p>请加入我们的<a href="https://stg.to/tgcch">电报群</a>以获得一些测试网贷币并与我们交流您的想法。
+订阅官方<a href="https://stg.to/tgnch">电报公告频道</a>获取最新消息。</p>
 
 
         </div>
@@ -326,16 +266,11 @@ chmod a+x stegos
 
         <div class="toggles_block">
             
-            <a href="https://stegos.com/zn/news/2019/06/tech-report-june-17th-july-1st/" class="pages_toggle">
+            <a href="https://stegos.com/zn/news/2019/06/mainnet-3-release/" class="pages_toggle">
                 <div class="c__item_btn"><span class="c__item_arrow_more">←</span></div>
                 <div class="arrow_name">Previous</div>
             </a>
             
-            
-            <a href="https://stegos.com/zn/news/2019/07/tech-report-july-1st-july-15th/" class="pages_toggle arrow_next">
-                <div class="arrow_name">Next</div>
-                <div class="c__item_btn"><span class="c__item_arrow_more">→</span></div>
-            </a>
             
         </div>
 

@@ -12,12 +12,11 @@ weight: 7
 draft: false
 ---
 
-
 Stegos创造了尖端技术，可以保护您的秘密免受窥探，让您感觉更有能力和安全。
 
 这是即将推出的Stegos主网的第二个预览版本。我们在此版本中声明了功能冻结 - 在即将发布的主要网络发布之前，没有计划任何新功能。当然，在最终的主网发布之前，将进行一些小的改进和错误修复。
 
-## Stegos v0.9中的新功能：
+### Stegos v0.9中的新功能：
 
 - 节点已分为两个二进制文件：完整节点守护程序（stegosd）和命令行客户端（stegos）。
 
@@ -34,26 +33,29 @@ Stegos创造了尖端技术，可以保护您的秘密免受窥探，让您感�
 
 - 加强节点的docker镜像的安全性。
 
-有关其他信息，请参阅[先前版本][1]和[项目计划][2]。不支持从Mainnet Preview 1升级 - 请从没有旧数据库和密钥的干净目录开始。
+了解更多信息，请查看[之前发布的文章][1]以及[项目发展计划][2]。
 
-## 安装指导
+不支持从主网预览1升级 - 请从没有旧数据库和密钥的纯净目录开始。
+
+### 安装指导
 
 安装从此版本开始，提供了Stegos平台的两个组件：
-Stegosd - Stegos全节点守护进程。
-Stegos - Stegos命令行客户端。
+- `Stegos` - Stegos全节点守护进程。
+- `Stegos` - Stegos命令行客户端。
 
-## 运行节点
+
+### 运行节点
 
 下载并运行Stegos Node。
 
-### Linux 64-bit:
+**Linux 64-bit:**
 ```
 curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
 ```
 
-### macOS 64-bit:
+**macOS 64-bit:**
 ```
 curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
 chmod a+x stegos
@@ -64,21 +66,21 @@ chmod a+x stegos
 
 将创建以下文件和目录：
 
-- wallet.pkey - Base58格式的电子钱包公钥（地址）
-- wallet.ske - 钱包密钥。
-- network.pkey - HEX格式的网络公钥。
-- network.skey - 网络密钥。
-- data / chain / - 区块链数据库。
-- data/wallet/ - 钱包数据库。
-- api_token.txt - API令牌需要连接到Node API。
+- `wallet.pkey` - Base58格式的电子钱包公钥（地址）
+- `wallet.skey` - 钱包密钥。
+- `network.pkey` - HEX格式的网络公钥。
+- `network.skey` - 网络密钥。
+- `data / chain/` - 区块链数据库。
+- `data/wallet/` - 钱包数据库。
+- `api_token.txt` - API令牌需要连接到Node API。
 
 创建新钱包后，节点将开始与网络同步，并打印大量INFO消息以及有关同步状态的调试信息。
 
-## 连接到节点
+### 连接到节点
 
 下载并运行命令行客户端。
 
-### Linux 64-bit:
+**Linux 64-bit:**
 
 ```
 curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd
@@ -86,7 +88,7 @@ chmod a+x stegosd
 ./stegosd
 ```
 
-### macOS 64-bit:
+**macOS 64-bit:**
 
 ```
 curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
@@ -94,7 +96,7 @@ chmod a+x stegos
 ./stegos
 ```
 
-## 反馈
+### 反馈
 
 请加入我们的[电报社群][3]，从而获取测试代币，并且让我们知道你的想法。订阅官方[电报公告群][4]，从而获得最新的消息。
 
