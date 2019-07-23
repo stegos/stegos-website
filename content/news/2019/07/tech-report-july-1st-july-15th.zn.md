@@ -2,7 +2,7 @@
 author: "Vladimir Lebedev"
 date: 2019-07-22
 linktitle: 技术进展周报 20190715
-title: "技术进展周报 7月1日-7月15日"
+title: "技术进展报告 7月1日-7月15日"
 description: "开发团队报告了过去的sprint结果，并宣布了下一个sprint的计划"
 metaTitle: "技术进展报告 7月1日-7月15日"
 metaDescription: "开发团队报告了过去的sprint结果，并宣布了下一个sprint的计划"
