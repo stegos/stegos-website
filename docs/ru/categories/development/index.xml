@@ -6,10 +6,22 @@
     <description>Recent content in DEVELOPMENT on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/ru/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Технический отчет, 1 июля - 15 июля</title>
+      <link>https://stegos.com/ru/news/2019/07/tech-report-july-1st-july-15th/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/ru/news/2019/07/tech-report-july-1st-july-15th/</guid>
+      <description>Отчет разработчиков за 1 июля - 15 июля Добро пожаловать в отчет о развитии Stegos в двадцатом спринте, охватывающим период с 1 по 15 июля.
+Вся команда разработчиков была занята &amp;ldquo;по полной&amp;rdquo; в рамках подготовки к запуску нашей основной сети. До запуска всего несколько недель, поэтому большая часть нашей работы была направлена на тестирование блокчейна и последние штрихи к приложению Stegos.
+Улучшение приложения
+Мы добавили несколько функций в приложение Stegos wallet, включая поддержку нескольких учетных записей в одном кошельке.</description>
+    </item>
     
     <item>
       <title>Основная сеть, предварительный релиз 3</title>
