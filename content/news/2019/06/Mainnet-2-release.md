@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-06-19
 linktitle: Mainnet Preview 2 20190619
 title: "Mainnet Preview 2"
-description: "This is a second Preview release of upcoming Stegos mainnet."
+description: "This is the second preview release of the upcoming Stegos mainnet"
 metaTitle: "Mainnet Preview 2"
-metaDescription: "This is a second Preview release of upcoming Stegos mainnet."
+metaDescription: "This is the second preview release of the upcoming Stegos mainnet"
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
 weight: 7
