@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-08-07
 linktitle: Mainnet Preview 4 20190807
 title: "Mainnet Preview 4"
-description: "This is a fourth Preview release of upcoming Stegos mainnet."
+description: "This is the fourth preview release of the upcoming Stegos mainnet."
 metaTitle: "Mainnet Preview 4"
-metaDescription: "This is a fourth Preview release of upcoming Stegos mainnet."
+metaDescription: "This is the fourth preview release of the upcoming Stegos mainnet."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
 weight: 7

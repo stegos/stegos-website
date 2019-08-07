@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-07-22
 linktitle: Technical Progress Report 20190715
 title: "Technical Progress Report July, 1st - July, 15th"
-description: "Development team reports past sprint results and is announcing plans for the next sprint."
+description: "Progress report on the development team's most recent sprint, and plans for the next sprint."
 metaTitle: "Technical Progress Report July, 1st - July, 15th"
-metaDescription: "Development team reports past sprint results and is announcing plans for the next sprint."
+metaDescription: "Progress report on the development team's most recent sprint, and plans for the next sprint."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
 weight: 7

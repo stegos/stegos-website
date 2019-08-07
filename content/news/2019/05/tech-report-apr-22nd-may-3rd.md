@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-05-01
 linktitle: Tech Report 20190501
 title: "Tech Report Apr, 22nd - May, 3rd "
-description: "Development team reports past sprint results and is announcing an upcoming first testnet release."
-metaTitle: ""
-metaDescription: ""
+description: "Progress report on the development team's most recent sprint, and plans for the next sprint."
+metaTitle: "Tech Report Apr, 22nd - May, 3rd "
+metaDescription: "Progress report on the development team's most recent sprint, and plans for the next sprint."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
 weight: 8
@@ -38,4 +38,3 @@ In progress
 Roman Tsisyk
 
  - Wallet Recovery is about recovery using 24-word recovery phrase. This feature has been implemented and can be used by Wallet UI.
-

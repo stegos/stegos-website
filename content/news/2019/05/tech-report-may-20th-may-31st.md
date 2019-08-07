@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-06-05
 linktitle: Tech Report 20190606
 title: "Tech Report May, 20th - May, 31st"
-description: "Development team reports past sprint results and is announcing an upcoming first testnet release."
-metaTitle: ""
-metaDescription: ""
+description: "Progress report on the development team's most recent sprint, and plans for the next sprint."
+metaTitle: "Tech Report May, 20th - May, 31st"
+metaDescription: "Progress report on the development team's most recent sprint, and plans for the next sprint."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
 weight: 8
