@@ -6,10 +6,24 @@
     <description>Recent content in 开发 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/zn/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>主网预览 4</title>
+      <link>https://stegos.com/zn/news/2019/07/mainnet-4-release/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/news/2019/07/mainnet-4-release/</guid>
+      <description>​ Stegos打造前沿科技，从而保护您的隐私安全，避免被其他人窥视，因此你会感到非常给力以及安全。 ​ 这是一个修复错误的版本, 自主网预览 3以来多出了100多个错误修复程序。 ​
+Stegos v0.11中的新增内容: ​ - 提高了Snowball混币协议的整体稳定性和性能，现在Snowball即使在3G/4G这样的慢速移动数据连接环境下也能可靠运行。 - 调整核心区块链常数和限制，以达到通胀目标，现在每隔6-8秒产生一个新区块。 - 将HashCash替换为VDF用于网络授权协议，使网络授权延迟更具可预测性。 - 节点添加自动re-staking，以允许节点在没有电子冷钱包密钥的情况下工作。 - 重新设计了交易跟踪和付款历史记录，修复了内部质量保证期间发现的几个问题。 - 重新安排数据目录布局并更改默认路径以满足Linux和Mac准则。 - 为Node和CLI添加了新的命令行和配置选项。 - 在命令行客户端中过滤掉扰人的通知。 - 改进了WebSocket API的可用性。 ​ 请参考Sprint 20 and Sprint 21 GitHub上的里程碑获取已修复错误的完整列表。 ​
+入门教程 ​
+运行节点 ​ 如果您安装了Mainnet Preview 3，请停止运行节点并清理数据目录： ​
+rm -rf ~/.local/stegos ~/.config/stegos  ​ 下载并运行Stegos节点: ​ Linux 64-bit: ​
+curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd chmod a+x stegosd ./stegosd  ​ macOS 64-bit: ​</description>
+    </item>
     
     <item>
       <title>技术进展报告 7月1日-7月15日</title>

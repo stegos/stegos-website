@@ -6,10 +6,47 @@
     <description>Recent content in News on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/zn/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>隐身模式已停用</title>
+      <link>https://stegos.com/zn/news/2019/07/88-news/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/news/2019/07/88-news/</guid>
+      <description>首先，我要为缺乏更新而道歉：当你像我们在Stegos那样认真对待隐私时，很难在保密和分享之间取得适当的平衡！
+请放心，整个团队一直在幕后工作，准备Stegos隐私链，应用程序和大量新的营销内容，但我还没有做好足够的工作来保持你-我们忠实的社区处于最新。
+现在有所改观了。
+从今天开始，我们将每周定期公布我们Stegos在各个方面的进展，而不仅仅是我们区块链开发的技术细节（当然，这些也会继续）。
+但我答应了给你们一个惊喜的消息，不是吗？ 别担心，我们对自己取得的进展披露太少的情况将得到改观（人们或许已经对此已司空见惯&amp;hellip;&amp;hellip;）。
+开始吧……
+我们现在处于发布主网的前夜，准备公开销售细节。这些花费的时间比我们想象的要长一些，所以为了表彰每个人的耐心和忠诚，我决定&amp;hellip;&amp;hellip;鼓声请&amp;hellip;&amp;hellip;已经投资于我们早期私人销售轮次的每个人都将获得双倍代币。*
+这意味着当我们的主网发布时，每个人将获得两倍于他们预期的STG。
+那么主网发布的时间是什么时候？ 我知道，在加密领域没有比“soon”更糟糕的词，所以我不会这么说。但我们仍然有一些法律和技术障碍需要明确，这些问题将在未来几周得到解决。
+下周我将在微信和电报群同时举行AMA（Ask Me Anything）活动，我将回答有关mainnet的所有问题，例如双倍令牌奖励等等。 细节很快就会确定，所以请开始考虑你想问的问题！
+还有什么？
+最后，我们一直在策划有关社区和营销方面非常令人兴奋的利好。 这是以前在加密领域中从未尝试过的东西，我们确信你们会喜欢它。我知道我承诺我们将从现在开始分享更多信息，但这真是太棒了，我将会享受让你们暂时保持几周悬念的感觉&amp;hellip;&amp;hellip;（但要密切注意我们的电报频道，你可能会得到一些提示&amp;hellip;）
+随着AMA的活动详情出炉，以及公布申请双倍代币的后续步骤，我将很快再次与你进行联系。
+回见 Joel
+*条件适用：此优惠政策不适用于种子轮期间购买的代币。此外，我希望能够自发主动地申请这个双倍代币的惊喜，但不幸的是，律师告知我们需要签署新的合同来确认。我将分别与所有私人销售投资者取得联系。现在让我们品尝这一刻。</description>
+    </item>
+    
+    <item>
+      <title>主网预览 4</title>
+      <link>https://stegos.com/zn/news/2019/07/mainnet-4-release/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/news/2019/07/mainnet-4-release/</guid>
+      <description>​ Stegos打造前沿科技，从而保护您的隐私安全，避免被其他人窥视，因此你会感到非常给力以及安全。 ​ 这是一个修复错误的版本, 自主网预览 3以来多出了100多个错误修复程序。 ​
+Stegos v0.11中的新增内容: ​ - 提高了Snowball混币协议的整体稳定性和性能，现在Snowball即使在3G/4G这样的慢速移动数据连接环境下也能可靠运行。 - 调整核心区块链常数和限制，以达到通胀目标，现在每隔6-8秒产生一个新区块。 - 将HashCash替换为VDF用于网络授权协议，使网络授权延迟更具可预测性。 - 节点添加自动re-staking，以允许节点在没有电子冷钱包密钥的情况下工作。 - 重新设计了交易跟踪和付款历史记录，修复了内部质量保证期间发现的几个问题。 - 重新安排数据目录布局并更改默认路径以满足Linux和Mac准则。 - 为Node和CLI添加了新的命令行和配置选项。 - 在命令行客户端中过滤掉扰人的通知。 - 改进了WebSocket API的可用性。 ​ 请参考Sprint 20 and Sprint 21 GitHub上的里程碑获取已修复错误的完整列表。 ​
+入门教程 ​
+运行节点 ​ 如果您安装了Mainnet Preview 3，请停止运行节点并清理数据目录： ​
+rm -rf ~/.local/stegos ~/.config/stegos  ​ 下载并运行Stegos节点: ​ Linux 64-bit: ​
+curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd chmod a+x stegosd ./stegosd  ​ macOS 64-bit: ​</description>
+    </item>
     
     <item>
       <title>技术进展报告 7月1日-7月15日</title>
