@@ -17,7 +17,7 @@ Stegos打造前沿科技，从而保护您的隐私安全，避免被其他人�
 这是一个修复错误的版本, 自[主网预览 3](https://github.com/stegos/stegos/releases/tag/v0.10)以来多出了100多个错误修复程序。
 ​
 ### Stegos v0.11中的新增内容:
-​
+
 - 提高了Snowball混币协议的整体稳定性和性能，现在Snowball即使在3G/4G这样的慢速移动数据连接环境下也能可靠运行。
 - 调整核心区块链常数和限制，以达到通胀目标，现在每隔6-8秒产生一个新区块。
 - 将HashCash替换为VDF用于网络授权协议，使网络授权延迟更具可预测性。
@@ -27,6 +27,8 @@ Stegos打造前沿科技，从而保护您的隐私安全，避免被其他人�
 - 为Node和CLI添加了新的命令行和配置选项。
 - 在命令行客户端中过滤掉扰人的通知。
 - 改进了WebSocket API的可用性。
+
+
 ​
 请参考[Sprint 20](https://github.com/stegos/stegos/milestone/21?closed=1) and [Sprint 21](https://github.com/stegos/stegos/milestone/22?closed=1) GitHub上的里程碑获取已修复错误的完整列表。
 ​
