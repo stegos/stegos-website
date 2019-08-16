@@ -6,17 +6,40 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>AMA session conducted over Telegram and Wechat, August 14, 2019</title>
+      <link>https://stegos.com/news/2019/08/ama/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/08/ama/</guid>
+      <description>Host ： Hello, and welcome to this Stegos community AMA event. Our AMA is about to begin! Please don’t post messages during the AMA. We will begin by answering the questions we collected in advance, followed by a 15-minute quickfire question session to conclude the AMA.
+Host ：Please welcome Stegos CEO Joel Reymont!
+Host ：Hi Joel, welcome to the community and this AMA!
+To start, Joel will outline Stegos&amp;rsquo; current status and future development vision, and share his experience of starting Stegos.</description>
+    </item>
+    
+    <item>
+      <title>Technical Progress Report July, 16th - August, 5th</title>
+      <link>https://stegos.com/news/2019/08/tech-report-july-16th-august-5th/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/08/tech-report-july-16th-august-5th/</guid>
+      <description>Development Report July 16th – August 5th Hello, and welcome to the Stegos Development report for our 21st Sprint, covering the period from July 16th through August 5th.
+We’ve mostly been concentrating on the Stegos GUI wallet. The Linux and iOS versions of the wallet are finished and being tested internally. Public testing will be announced shortly.
+ Snowball improvements  We’ve been working to improve Stegos’ state-of-the-art mixing protocol, known as Snowball.</description>
+    </item>
+    
+    <item>
       <title>Stealth Mode Deactivated</title>
-      <link>https://stegos.com/news/2019/07/88-news/</link>
+      <link>https://stegos.com/news/2019/08/88-news/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stegos.com/news/2019/07/88-news/</guid>
+      <guid>https://stegos.com/news/2019/08/88-news/</guid>
       <description>Dear Community, First of all, I&amp;rsquo;d like to apologize for the lack of updates: when you&amp;rsquo;re as serious about privacy as we are at Stegos, it can be hard to strike the right balance between secrecy and sharing! Rest assured, the whole team has been working hard behind the scenes on the Stegos chain, app, and a LOT of new marketing content, but I haven&amp;rsquo;t done a good enough job of keeping you, our loyal community, up to date.</description>
     </item>
     
