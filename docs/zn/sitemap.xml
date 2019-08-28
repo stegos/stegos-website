@@ -833,6 +833,27 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/team/p_drew/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/team/p_drew/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/team/p_drew/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/team/p_drew/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/team/p_eugene/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

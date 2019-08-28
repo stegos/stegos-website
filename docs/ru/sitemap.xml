@@ -567,6 +567,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/team/p_drew/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="https://stegos.com/ru/team/p_drew/"
                 />
