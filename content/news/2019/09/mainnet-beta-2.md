@@ -2,9 +2,9 @@
 author: "Vladimir Lebedev"
 date: 2019-09-05
 linktitle: Mainnet Beta 2 20190905
-title: "Mainnet Beta 2 Relased!"
+title: "Mainnet Beta 2 Released!"
 description: "Mainnet Beta 2 is now available, complete with full Windows support."
-metaTitle: "Mainnet Beta 2 Relased!"
+metaTitle: "Mainnet Beta 2 Released!"
 metaDescription: "Mainnet Beta 2 is now available, complete with full Windows support."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "report", "technology"]
