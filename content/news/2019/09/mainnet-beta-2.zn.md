@@ -1,7 +1,7 @@
 ---
 author: "Vladimir Lebedev"
 date: 2019-09-09
-linktitle: 预发布主网V2 20190905
+linktitle: 预发布主网V2 20190909
 title: "预发布主网V2上线!"
 description: "预发布主网V2现已上线，提供完整的Windows支持。"
 metaTitle: "预发布主网V2上线!"
