@@ -13,8 +13,8 @@ draft: false
 ---
 ### Dear Stegos Community,
 
-Thank you for all your testing feedback. We’re pleased to announce the release of main net beta 2.
-In addition to lots of improvements and UI tweaks, the most exciting feature of main net beta 2 is Windows support. So you can now use the app on Mac, Linux or Windows.
+Thank you for all your testing feedback. We’re pleased to announce the release of Mainnet Beta 2.
+In addition to lots of improvements and UI tweaks, the most exciting feature of Mainnet Beta 2 is Windows support. So you can now use the app on Mac, Linux or Windows.
 
 Please visit [releases](https://github.com/stegos/stegos-wallet/releases) to download the app.
 
