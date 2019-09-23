@@ -6,8 +6,8 @@ title: "AMA session conducted over Telegram and Wechat, August 14, 2019"
 description: "Full transcript of the AMA session conducted over Telegram and Wechat, August 14, 2019"
 metaTitle: "AMA session conducted over Telegram and Wechat, August 14, 2019"
 metaDescription: "Full transcript of the AMA session conducted over Telegram and Wechat, August 14, 2019"
-categories: [ "DEVELOPMENT" ]
-tags: ["stegos", "report", "technology", "ama"]
+categories: [ "INTERVIEW" ]
+tags: ["stegos", "interview", "technology", "ama"]
 weight: 7
 draft: false
 ---
