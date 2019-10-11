@@ -3,9 +3,9 @@ author: "Alan Li"
 date: 2019-09-23
 linktitle: BlockArk AMA 20190923
 title: "Review of AMA with BlockArk"
-description: "Review of Stegos AMA in BlockArk community"
+description: "Review of Stegos AMA in BlockArk community."
 metaTitle: "Review of AMA with BlockArk"
-metaDescription: "Review of Stegos AMA in BlockArk community"
+metaDescription: "Review of Stegos AMA in BlockArk community."
 categories: [ "INTERVIEW" ]
 tags: ["stegos", "interview", "technology", "ama"]
 weight: 7
