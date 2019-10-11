@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-10-07
 linktitle: Stegos Bounty and Hackathon 20191007
 title: "Stegos $150k Bounty and Hackathon"
-description: "Rules and task list for the Stegos hackathon"
+description: "Rules and task list for the Stegos hackathon."
 metaTitle: "Stegos $150k Bounty and Hackathon"
-metaDescription: "Rules and task list for the Stegos hackathon"
+metaDescription: "Rules and task list for the Stegos hackathon."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "bounty", "technology"]
 weight: 7
