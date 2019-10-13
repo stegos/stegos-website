@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-10-07
 linktitle: Stegos Bounty and Hackathon 20191007
 title: "Stegos $150k Bounty and Hackathon"
-description: "Rules and task list for the Stegos hackathon"
+description: "Rules and task list for the Stegos hackathon."
 metaTitle: "Stegos $150k Bounty and Hackathon"
-metaDescription: "Rules and task list for the Stegos hackathon"
+metaDescription: "Rules and task list for the Stegos hackathon."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "bounty", "technology"]
 weight: 7
@@ -40,7 +40,7 @@ The bounty bot is called [Jerry](https://t.me/StegosJerryBot). Interact with Jer
 
 # Hackathon Task List
 
-## Registration Tasks [COMPULSORY — DO THESE FIRST!]
+## Registration Tasks </br>[COMPULSORY — DO THESE FIRST!]
 
 These initial tasks are compulsory tasks to get you set up for the Stegos Telegram Bounty. You'll download the app, setup a wallet and register your public key with our bounty bot. This is how we'll track your progress through the bounty and send you tokens, so make sure you follow the instructions correctly.
 
