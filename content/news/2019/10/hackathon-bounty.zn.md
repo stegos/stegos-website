@@ -1,6 +1,6 @@
 ---
 author: "Vladimir Lebedev"
-date: 2019-10-07
+date: 2019-10-09
 linktitle: Stegos赏金和黑客马拉松活动 20191009
 title: "Stegos价值15万美元的赏金和黑客马拉松活动"
 description: "Stegos黑客马拉松规则和任务列表"
