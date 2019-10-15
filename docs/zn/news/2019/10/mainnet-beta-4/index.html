@@ -263,9 +263,9 @@ Linux: $HOME/.local/share/stegos
 <p>启动您现有的钱包应用程序（即使它不会同步）并保持打开状态。等待几分钟，然后通过先前版本的命令行界面访问您的钱包。如果还没有命令行界面，可以在这里获取：</p>
 
 <ul>
-<li>Windows: <a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-win-x64.zip">https://github.com/stegos/stegos/releases/download/v0.15/stegos-win-x64.zip</a></li>
-<li>Mac: <a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-macos-x64">https://github.com/stegos/stegos/releases/download/v0.15/stegos-macos-x64</a></li>
-<li>Linux: <a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-linux-x64">https://github.com/stegos/stegos/releases/download/v0.15/stegos-linux-x64</a></li>
+<li><a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-win-x64.zip">Windows</a></li>
+<li><a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-macos-x64">Mac</a></li>
+<li><a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-linux-x64">Linux</a></li>
 </ul>
 
 <p>启动对应操作系统的 <code>stegos</code> 二进制文件，然后在提示符输入 <code>show recovery</code> 命令：</p>
@@ -278,7 +278,9 @@ Linux: $HOME/.local/share/stegos
 ---
 - account_id: &quot;1&quot;
   type: recovery
-  recovery: loop digital canal about seed champion couch rain eight twice split spoon alert total primary radio wool minute increase arctic aim dentist length head
+  recovery: loop digital canal about seed champion couch
+  rain eight twice split spoon alert total primary radio
+  wool minute increase arctic aim dentist length head
   last_public_address_id: 0
 ...
 </code></pre>
@@ -304,35 +306,39 @@ Linux: $HOME/.local/share/stegos
 
 <p>此选项最耗时，但是易于应用并且可以保证成功。如果您对方式2不确定，请使用此选项。</p>
 
-<p>在启动新版本之前，您无需备份恢复短语，而是在此选项中备份您的 <code>accounts</code> 子目录并清除stegos工作文件夹中的其他几个子目录：</p>
+<p>在启动新版本之前，您无需备份恢复短语，而是在此选项中备份您的 <code>accounts</code> 子目录并清除stegos工作文件夹中的其他几个子目录:</p>
 
-<p>*第 1 步：*将以下目录备份（复制）到安全的地方：</p>
+<p>第 1 步：将以下目录备份（复制）到安全的地方:</p>
 
-<pre><code>Windows: C:\\Users\\[user]\\AppData\\Roaming\\stegos\\accounts\\
-Mac: $HOME/Library/Application Support/stegos/accounts/
-Linux: $HOME/.local/share/stegos/accounts/
-</code></pre>
+<ul>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts<br /></li>
+<li>Mac: $HOME/Library/Application Support/stegos/accounts/</li>
+<li>Linux: $HOME/.local/share/stegos/accounts/</li>
+</ul>
 
-<p>*第 2 步：*删除以下目录的区块链文件</p>
+<p>第 2 步：删除以下目录的区块链文件</p>
 
-<pre><code>Windows: C:\\Users\\[user]\\AppData\\Roaming\\stegos\\chain\\
-Mac: $HOME/Library/Application Support/stegos/chain/
-Linux: $HOME/.local/share/stegos/chain/
-</code></pre>
+<ul>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\chain<br /></li>
+<li>Mac: $HOME/Library/Application Support/stegos/chain/</li>
+<li>Linux: $HOME/.local/share/stegos/chain/</li>
+</ul>
 
-<p><em>第 3 步：</em> 删除已删除的帐户文件夹</p>
+<p>第 3 步：删除已删除的帐户文件夹</p>
 
-<pre><code>Windows: C:\\Users\\[user]\\AppData\\Roaming\\stegos\\accounts\\.trash\\
-Mac: $HOME/Library/Application Support/stegos/accounts/.trash/
-Linux: $HOME/.local/share/stegos/accounts/.trash/
-</code></pre>
+<ul>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts\.trash<br /></li>
+<li>Mac: $HOME/Library/Application Support/stegos/accounts/.trash/</li>
+<li>Linux: $HOME/.local/share/stegos/accounts/.trash/</li>
+</ul>
 
-<p><em>第 4 步:</em> 删除每个帐户的操作历史记录</p>
+<p>第 4 步: 删除每个帐户的操作历史记录</p>
 
-<pre><code>Windows: C:\\Users\\[user]\\AppData\\Roaming\\stegos\\accounts\\[account_num]\\history\\
-Mac: $HOME/Library/Application Support/stegos/accounts/[account_num]/history/
-Linux: $HOME/.local/share/stegos/accounts/[account_num]/history/
-</code></pre>
+<ul>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts\[account_num]\history<br /></li>
+<li>Mac: $HOME/Library/Application Support/stegos/accounts/[account_num]/history/</li>
+<li>Linux: $HOME/.local/share/stegos/accounts/[account_num]/history/</li>
+</ul>
 
 <p>在完成上述所有删除操作后, 你应该只剩下两个文件, <code>account.pkey</code> 和 <code>account.skey</code> , 作为stegos工作文件夹中的每个帐户的子目录。</p>
 
