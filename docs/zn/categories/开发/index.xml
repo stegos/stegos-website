@@ -29,7 +29,7 @@ Windows: C:\Users\[user]\AppData\Roaming\stegos Mac: $HOME/Library/Application S
 您将立即在赏金机器人注册的帐户中获得赏金代币。但是，此前发送代币操作的历史记录将被永久删除。
 方式 2 此方式仅建议对自己技术有信心的用户使用，因为它要求您下载并使用先前版本的CLI钱包界面。
 启动您现有的钱包应用程序（即使它不会同步）并保持打开状态。等待几分钟，然后通过先前版本的命令行界面访问您的钱包。如果还没有命令行界面，可以在这里获取：
- Windows: https://github.com/stegos/stegos/releases/download/v0.15/stegos-win-x64.zip Mac: https://github.com/stegos/stegos/releases/download/v0.15/stegos-macos-x64 Linux: https://github.com/stegos/stegos/releases/download/v0.15/stegos-linux-x64  启动对应操作系统的 stegos 二进制文件，然后在提示符输入 show recovery 命令：
+ Windows Mac Linux  启动对应操作系统的 stegos 二进制文件，然后在提示符输入 show recovery 命令：
 account#1&amp;gt; show recovery --- - type: get_recovery ... --- - account_id: &amp;quot;1&amp;quot; type: recovery recovery: loop digital canal about seed champion couch rain eight twice split spoon alert total primary radio wool minute increase arctic aim dentist length head last_public_address_id: 0 .</description>
     </item>
     
