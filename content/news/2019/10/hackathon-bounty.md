@@ -3,9 +3,9 @@ author: "Vladimir Lebedev"
 date: 2019-10-07
 linktitle: Stegos Bounty and Hackathon 20191007
 title: "Stegos $150k Bounty and Hackathon"
-description: "Rules and task list for the Stegos hackathon"
+description: "Rules and task list for the Stegos hackathon."
 metaTitle: "Stegos $150k Bounty and Hackathon"
-metaDescription: "Rules and task list for the Stegos hackathon"
+metaDescription: "Rules and task list for the Stegos hackathon."
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "bounty", "technology"]
 weight: 7
@@ -24,7 +24,7 @@ The first part is a social media and community bounty run on our website, with b
 
 ## Part 2: $75,000 Testing and Feedback Bounty Program
 
-The second part will be running in the [Stegos Telegram group](https://t.me/stegos4privacy), and we think it's something really exciting and unique: we're going to award $75,000 in STG coins for testing our blockchain and app and providing feedback, and we're going to use the latest version of the Stegos blockchain to track the scores. At the end of the contest, everyone will receive STG based on the number of testSTG they've earned.
+The second part will be running in the [Stegos Telegram group](https://stg.to/tgn), and we think it's something really exciting and unique: we're going to award $75,000 in STG coins for testing our blockchain and app and providing feedback, and we're going to use the latest version of the Stegos blockchain to track the scores. At the end of the contest, everyone will receive STG based on the number of testSTG they've earned.
 
 For example, if 1,000,000 testSTG are issued during the hackathon and you earn 100,000, you would have 10% of the total supply and thus win 10% of the bounty pool, or $7,500.  
 
