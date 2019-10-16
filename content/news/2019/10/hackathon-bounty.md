@@ -36,11 +36,11 @@ Stegos is a completely private blockchain, so no-one can track Stegos transactio
 
 As the hackathon proceeds, we'll be adding more functionality to the bounty bot, including daily rewards. So make sure to check into the Stegos Telegram group every day!
 
-The bounty bot is called Jerry (Telegram username: [StegosJerryBot](https://t.me/StegosJerryBot)). Interact with Jerry by sending private messages on Telegram. You can see the list of commands by typing `/help`.
+The bounty bot is called [Jerry](https://t.me/StegosJerryBot). Interact with Jerry by sending private messages on Telegram. You can see the list of commands by typing `/help`.
 
 # Hackathon Task List
 
-## Registration Tasks [COMPULSORY — DO THESE FIRST!]
+## Registration Tasks <br> [COMPULSORY — DO THESE FIRST!]
 
 These initial tasks are compulsory tasks to get you set up for the Stegos Telegram Bounty. You'll download the app, setup a wallet and register your public key with our bounty bot. This is how we'll track your progress through the bounty and send you tokens, so make sure you follow the instructions correctly.
 
