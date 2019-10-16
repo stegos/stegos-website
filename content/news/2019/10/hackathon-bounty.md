@@ -40,7 +40,7 @@ The bounty bot is called [Jerry](https://t.me/StegosJerryBot). Interact with Jer
 
 # Hackathon Task List
 
-## Registration Tasks </br>[COMPULSORY — DO THESE FIRST!]
+## Registration Tasks <br> [COMPULSORY — DO THESE FIRST!]
 
 These initial tasks are compulsory tasks to get you set up for the Stegos Telegram Bounty. You'll download the app, setup a wallet and register your public key with our bounty bot. This is how we'll track your progress through the bounty and send you tokens, so make sure you follow the instructions correctly.
 
@@ -50,7 +50,7 @@ These initial tasks are compulsory tasks to get you set up for the Stegos Telegr
 
 **Reward:** 0 (unfortunately there is no way to reward this task).
 
-**How to Claim:** Head [here to download](https://github.com/stegos/stegos-wallet/releases/tag/v0.14) and install the latest version of the Stegos desktop app.
+**How to Claim:** Head [here to download](https://github.com/stegos/stegos-wallet/releases/tag/v0.16) and install the latest version of the Stegos desktop app.
 
 ### Registration
 
@@ -60,7 +60,7 @@ These initial tasks are compulsory tasks to get you set up for the Stegos Telegr
 
 **How to Claim:** Find your public key in the Stegos app, and copy it to your clipboard.
 
-In Telegram, send a private message to Jerry, the Stegos Bounty Bot (username: [StegosJerryBot](https://t.me/StegosJerryBot))
+In Telegram, send a private message to Jerry, the Stegos Bounty Bot (username: [StegosJerryBot](https://t.me/StegosJerryBot)).
 
 Send Jerry the following command:
 
@@ -177,11 +177,11 @@ The development team may be in touch to ask for more information or with request
 
 Awards for finding bugs will be given at the discretion of our support and development teams, depending on the severity of the bug (the highest rewards will only be issued a few times during the bounty).
 
-## Daily Free Tokens
+## UPDATED: Daily Free Tokens
 
-**Task:** Once a day, claim 100 free testSTG. Come back on consecutive days to get more tokens.
+**Task:** Claim free testSTG once a day. Come back on consecutive days to get more tokens.
 
-**Reward:** 100 testSTG. You also get a bonus for claiming on consecutive days. So the first day you'll get 100, the second 110, the third 120, etc., up to a maximum of 200. Don't miss a day, or this will reset to 100!
+**Reward:** Jerry will send you a random reward of 100, 250, 500, 1000 or even 5000 testSTG. Come back on consecutive days to get a bonus multiplier of 10% for each day you've claimed! Don't miss a day or your multiplier will reset.
 
 **How to claim:** Send `/free` to the bounty bot once a day to claim your free tokens!
 
