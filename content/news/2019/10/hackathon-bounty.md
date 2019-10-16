@@ -50,7 +50,7 @@ These initial tasks are compulsory tasks to get you set up for the Stegos Telegr
 
 **Reward:** 0 (unfortunately there is no way to reward this task).
 
-**How to Claim:** Head [here to download](https://stegos.com/news/2019/10/mainnet-beta-4/) and install the latest version of the Stegos desktop app.
+**How to Claim:** Head [here to download](https://github.com/stegos/stegos-wallet/releases/tag/v0.16) and install the latest version of the Stegos desktop app.
 
 ### Registration
 
