@@ -11,7 +11,7 @@ tags: ["stegos", "report", "technology"]
 weight: 7
 draft: false
 ---
-## Dear Stegos Community
+## Dear Stegos Community!
 
 We're pleased to announce the fourth beta release of the upcoming Stegos mainnet, which fixes a major bug and brings many speed improvements.
 
