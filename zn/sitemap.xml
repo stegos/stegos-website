@@ -48,6 +48,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/10/mainnet-beta-3-and-150k-bounty/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/news/2019/10/mainnet-beta-3-and-150k-bounty/"
                 />
@@ -96,6 +101,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://stegos.com/news/2019/09/mainnet-beta-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/2019/09/mainnet-beta-2/"
                 />
     <xhtml:link
                 rel="alternate"

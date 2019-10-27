@@ -6,10 +6,31 @@
     <description>Recent content in технология on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/ru/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Новости Stegos: 150 тысяч долларов и более баунти!</title>
+      <link>https://stegos.com/ru/news/2019/10/mainnet-beta-3-and-150k-bounty/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/ru/news/2019/10/mainnet-beta-3-and-150k-bounty/</guid>
+      <description>Уважаемое сообщество Stegos, Большие новости на этой неделе. Разработчики выпустили следующую бета-версию основной сети: Mainnet Beta 3. Это будет последняя тестовая версия mainnet перед нашим выпуском. Вы можете прочитать полные примечания к выпуску здесь.
+На этой неделе также отмечается запуск нашего баунти и хакатон, где вы можете выполнить задачи, чтобы заработать долю от 150000 долларов в STG. Баунти будет иметь две половины: конкурс социальных сетей, запущенный на нашем веб-сайте и работающий на платформе Vyper competition, и хакатон, размещенный на нашей собственной бета-цепочке mainnet и поддерживаемый ботом Telegram bounty.</description>
+    </item>
+    
+    <item>
+      <title>Релиз Mainnet Beta 2!</title>
+      <link>https://stegos.com/ru/news/2019/09/mainnet-beta-2/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/ru/news/2019/09/mainnet-beta-2/</guid>
+      <description>Уважаемое сообщество Stegos, Спасибо за все ваши отзывы в процессе тестирования. Мы рады сообщить о выпуске второй бета-версии основной сети. В дополнение к множеству улучшений и настроек пользовательского интерфейса, самой интересной особенностью этого релиза является поддержка Windows. Таким образом, теперь вы можете использовать приложение на Mac, Linux или Windows.
+Пожалуйста, посетите релизы, чтобы скачать приложение.
+Как всегда, пожалуйста, присылайте комментарии, сообщения об ошибках и любые другие отзывы по адресу support@stegos.</description>
+    </item>
     
     <item>
       <title>Сессия вопросов-ответов, проведенная в Telegram и Wechat, 14 августа 2019 года</title>
