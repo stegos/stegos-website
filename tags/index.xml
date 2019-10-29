@@ -6,24 +6,33 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>report</title>
-      <link>https://stegos.com/tags/report/</link>
-      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <title>bounty</title>
+      <link>https://stegos.com/tags/bounty/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stegos.com/tags/report/</guid>
+      <guid>https://stegos.com/tags/bounty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hackathon</title>
+      <link>https://stegos.com/tags/hackathon/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/hackathon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stegos</title>
       <link>https://stegos.com/tags/stegos/</link>
-      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/tags/stegos/</guid>
       <description></description>
@@ -32,18 +41,18 @@
     <item>
       <title>technology</title>
       <link>https://stegos.com/tags/technology/</link>
-      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/tags/technology/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bounty</title>
-      <link>https://stegos.com/tags/bounty/</link>
-      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
+      <title>report</title>
+      <link>https://stegos.com/tags/report/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://stegos.com/tags/bounty/</guid>
+      <guid>https://stegos.com/tags/report/</guid>
       <description></description>
     </item>
     
