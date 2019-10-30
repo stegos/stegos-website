@@ -20,7 +20,7 @@ Our community and network have both grown enormously, and we've been able to mak
 
 We've recently translated the bounty into Chinese to reach our community. Participation has been through the roof, with a consistent flow of new members signing up.
 
-As a result, we're delighted to announce that we've decided to **extend the bounty and hackathon by TWO WEEKS**, taking the new end date to midnight UTC on **Sunday November 18th**.
+As a result, we're delighted to announce that we've decided to **extend the bounty and hackathon by TWO WEEKS**, taking the new end date to midnight UTC on **Sunday November 17th**.
 
 And that's not all: to make sure new players have a chance to do well and existing players aren't penalized, we're **expanding both prize pools to $100k each**, taking the total to **$200,000 in STG!**
 
