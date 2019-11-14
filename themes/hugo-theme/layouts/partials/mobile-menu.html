@@ -1,0 +1,93 @@
+<div class="m_s_content_block">
+
+    <div class="content__item more_block">
+        <!--<a href="#" class="base_button header_btn">-->
+        <!--<div class="b_b_text">Learn more</div>-->
+        <!--</a>-->
+    </div>
+
+    <div class="content__item link_list">
+        {{ if .IsHome }}
+        <a href="#" class="menu_link">
+            <span class="sector_news" style="display: none;"></span>
+            {{ T "news" | safeHTML }}
+        </a>
+        <a href="#" class="menu_link">
+            <span class="sector_why" style="display: none;"></span>
+            {{ T "why_stegos" | safeHTML }}
+        </a>
+        <a href="#" class="menu_link">
+            <span class="sector_st_mob" style="display: none;"></span>
+            {{ T "stegos_app" | safeHTML }}
+        </a>
+        <a href="#" class="menu_link">
+            <span class="sector_team" style="display: none;"></span>
+            {{ T "team" | safeHTML }}
+        </a>
+        <a href="#" class="menu_link">
+            <span class="sector_pro" style="display: none;"></span>
+            {{ T "the_project" | safeHTML }}
+        </a>
+
+        <a href="#" class="menu_link">
+            <span class="sector_road" style="display: none;"></span>
+            {{ T "roadmap" | safeHTML }}
+        </a>
+
+        <a href="#" class="menu_link">
+            <span class="sector_part" style="display: none;"></span>
+            {{ T "partners" | safeHTML }}
+        </a>
+        {{ else }}
+        <a href="{{ "/" | absLangURL }}#sector_news" class="menu_link_out">
+        {{ T "news" | safeHTML }}
+        </a>
+        <a href="{{ "/" | absLangURL }}#sector_why" class="menu_link_out">
+        {{ T "why_stegos" | safeHTML }}
+        </a>
+        <a href="{{ "/" | absLangURL }}#sector_st_mob" class="menu_link_out">
+        Stegos app
+        </a>
+        <a href="{{ "/" | absLangURL }}#sector_team" class="menu_link_out">
+        {{ T "team" | safeHTML }}
+        </a>
+        <a href="{{ "/" | absLangURL }}#sector_pro" class="menu_link_out">
+        {{ T "the_project" | safeHTML }}
+        </a>
+
+        <a href="{{ "/" | absLangURL }}#sector_road" class="menu_link_out">
+        {{ T "roadmap" | safeHTML }}
+        </a>
+
+        <a href="{{ "/" | absLangURL }}#sector_part" class="menu_link_out">
+        {{ T "partners" | safeHTML }}
+        </a>
+        {{ end }}
+
+    </div>
+
+    <div class="content__item">
+        <div class="menu_header">
+            <div class="m_h_lang_btn lang_block">
+                <a class="m_h_lang_btn base_button">
+                    <div class="b_b_text">{{ $.Site.Language.LanguageName }}</div>
+                </a>
+
+                <div class="inner_lang_block">
+                    {{ if .IsTranslated }}
+                    {{ range .Translations }}
+                    <a href="{{ .Permalink }}" class="m_h_lang_btn base_button">
+                        <div class="b_b_text">{{ .Language.LanguageName }}</div>
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+
+            </div>
+            <a class="menu_close_btn">
+                <span class="btn_close"></span>
+            </a>
+        </div>
+    </div>
+
+</div>

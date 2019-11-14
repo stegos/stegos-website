@@ -1,0 +1,66 @@
+<div class="nav_block">
+
+    <div class="m_h_lang_btn lang_block mob_display">
+        <a class="m_h_lang_btn base_button">
+            <div class="b_b_text">{{ $.Site.Language.LanguageName }}</div>
+        </a>
+
+        <div class="inner_lang_block">
+            {{ if .IsTranslated }}
+            {{ range .Translations }}
+            <a href="{{ .Permalink }}" class="m_h_lang_btn base_button">
+                <div class="b_b_text">{{ .Language.LanguageName }}</div>
+            </a>
+            {{ end }}
+            {{ end }}
+        </div>
+
+    </div>
+
+    {{ if .IsHome }}
+    <div class="m_h_icon">
+        <span class="main_icon"></span>
+    </div>
+    {{ else }}
+    <a href="{{ "/" | absLangURL }}" class="m_h_icon">
+        <span class="main_icon"></span>
+    </a>
+    {{ end }}
+
+
+    <div class="nav_list desktop_display">
+
+        <a href='{{ .Site.BaseURL }}/docs/{{ T "whitepaper_pdf" | safeHTML }}' target="_blank" class="m_h_nav_link">
+            <div class="m_h_nav_text">{{ T "whitepaper" | safeHTML }}</div>
+        </a>
+
+        <a href="{{ "news/" | absLangURL }}" class="m_h_nav_link">
+            <div class="m_h_nav_text">{{ T "news" | safeHTML }}</div>
+        </a>
+
+        <div class="m_h_lang_btn lang_block">
+            <a class="m_h_lang_btn base_button">
+                <div class="b_b_text">{{ $.Site.Language.LanguageName }}</div>
+            </a>
+
+            <div class="inner_lang_block">
+                {{ if .IsTranslated }}
+                {{ range .Translations }}
+                <a href="{{ .Permalink }}" class="m_h_lang_btn base_button">
+                    <div class="b_b_text">{{ .Language.LanguageName }}</div>
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="m_h_menu_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</div>
