@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stegos.com/news/2019/11/mainnet-launch/</loc>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/news/2019/11/mainnet-beta-5/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -660,7 +667,7 @@
   
   <url>
     <loc>https://stegos.com/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -681,7 +688,7 @@
   
   <url>
     <loc>https://stegos.com/categories/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -702,7 +709,7 @@
   
   <url>
     <loc>https://stegos.com/categories/development/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -723,7 +730,7 @@
   
   <url>
     <loc>https://stegos.com/news/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -744,7 +751,7 @@
   
   <url>
     <loc>https://stegos.com/tags/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -765,7 +772,7 @@
   
   <url>
     <loc>https://stegos.com/tags/report/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -781,7 +788,7 @@
   
   <url>
     <loc>https://stegos.com/tags/stegos/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -802,7 +809,7 @@
   
   <url>
     <loc>https://stegos.com/tags/technology/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

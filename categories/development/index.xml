@@ -6,10 +6,20 @@
     <description>Recent content in DEVELOPMENT on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mainnet Launch Announcement</title>
+      <link>https://stegos.com/news/2019/11/mainnet-launch/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/11/mainnet-launch/</guid>
+      <description>Dear Stegos Community, After thousands of hours of development work, months of testing and six weeks of intense feedback and updates courtesy of our wonderful Stegos community and the bounty and hackathon, we&amp;rsquo;re delighted to announce that the Stegos Mainnet will be launching on Wednesday 20th November!
+STG Unlock Schedule We&amp;rsquo;re committed to a rapid unlock schedule to give everyone access to the STG they&amp;rsquo;ve bought and earned as soon as possible.</description>
+    </item>
     
     <item>
       <title>Mainnet Beta 5 Launched!</title>
