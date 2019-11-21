@@ -6,10 +6,21 @@
     <description>Recent content in report on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/report/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mainnet Launched!</title>
+      <link>https://stegos.com/news/2019/11/mainnet-launched-announcement/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/11/mainnet-launched-announcement/</guid>
+      <description>Dear Stegos Community, We&amp;rsquo;re delighted to announce the successful launch of the Stegos mainnet!
+Head here to download v1.0 of the Stegos destkop app and get started. Existing users should delete their testnet chain data and restart their app: it will update automatically.
+What Next? This week we&amp;rsquo;re concentrating on sending everyone their STG coins. If we need any information from you, the team will be in touch directly.</description>
+    </item>
     
     <item>
       <title>Mainnet Launch Announcement</title>
