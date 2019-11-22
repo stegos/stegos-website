@@ -6,10 +6,21 @@
     <description>Recent content in report on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/report/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mainnet Release Notes</title>
+      <link>https://stegos.com/news/2019/11/mainnet-release-notes/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/11/mainnet-release-notes/</guid>
+      <description>Dear Stegos Community, We&amp;rsquo;re delighted to announce the release of the Stegos mainnet.
+Please download v1.0 of the Stegos desktop app by selecting the file from the Assets menu at the bottom of the page which matches your operating system.
+New Users If this is your first time using the Stegos app, you don&amp;rsquo;t need to do anything else. Just download and install the app and you&amp;rsquo;re ready to go!</description>
+    </item>
     
     <item>
       <title>Mainnet Launched!</title>
