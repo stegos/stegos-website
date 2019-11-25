@@ -6,10 +6,22 @@
     <description>Recent content in stegos on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/stegos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crypto Daku AMA</title>
+      <link>https://stegos.com/news/2019/11/ama-daku/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/11/ama-daku/</guid>
+      <description>Dear Stegos Community, On November 18th, our CEO Joel took part in a Telegram AMA for Crypto Daku. The transcript of that AMA is provided below:
+Transcript AMA Crypto Daku - 18.11.2019
+Which types of updates you&amp;rsquo;ve done in recently launched mainnet beta 5 as compared to previous beta versions?
+ Good morning everyone! The event updates were very much focused on the stability of the mainnet and improvements to sync times.</description>
+    </item>
     
     <item>
       <title>Mainnet Release Notes</title>
