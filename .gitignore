@@ -3,3 +3,4 @@
 /public/*
 !/public/.gitkeep
 hugo
+.DS_Store
