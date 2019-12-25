@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>holidays on </title>
+    <link>https://stegos.com/tags/holidays/</link>
+    <description>Recent content in holidays on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stegos.com/tags/holidays/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Happy Holidays from Stegos</title>
+      <link>https://stegos.com/news/2019/12/happy-holidas-from-stegos/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2019/12/happy-holidas-from-stegos/</guid>
+      <description>Dear community, From our Stegos family to yours, we wish you happiness and peace this holiday season!
+Regardless of what you celebrate, we hope you get some private time to relax and spend time with friends and family as the year comes to an end.
+News Rundown The end of the year has been extremely busy at Stegos HQ. Here’s some of the things you might have missed:
+Mainnet Launch The Stegos mainnet launched in November, and everything went very smoothly, thanks to all the bug testing and feedback from the community during the hackathon.</description>
+    </item>
+    
+  </channel>
+</rss>
