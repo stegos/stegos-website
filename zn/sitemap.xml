@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stegos.com/zn/news/2019/12/happy-holidays-from-stegos/</loc>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2019/12/happy-holidays-from-stegos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2019/12/happy-holidays-from-stegos/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2019/11/ama-crypto-differ/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -706,7 +723,7 @@
   
   <url>
     <loc>https://stegos.com/zn/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -727,7 +744,7 @@
   
   <url>
     <loc>https://stegos.com/zn/categories/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -747,8 +764,29 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/categories/development/</loc>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/categories/development/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -769,7 +807,7 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -789,24 +827,8 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/tags/ama/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/ama/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/ama/"
-                />
-  </url>
-  
-  <url>
     <loc>https://stegos.com/zn/tags/stegos/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -826,19 +848,41 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/tags/%E8%8A%82%E6%97%A5/</loc>
+    <lastmod>2019-12-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/ama/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/ama/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/ama/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/categories/%E9%87%87%E8%AE%BF/</loc>
+    <loc>https://stegos.com/zn/tags/%E9%87%87%E8%AE%BF/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/tags/%E9%87%87%E8%AE%BF/</loc>
+    <loc>https://stegos.com/zn/categories/%E9%87%87%E8%AE%BF/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -900,27 +944,6 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/tags/technology/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/categories/development/</loc>
-    <lastmod>2019-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/categories/development/"
                 />
   </url>
   
