@@ -14,7 +14,7 @@
   linkIcon: "fa-github"
 #- linkURL: "https://bitcointalk.org/index.php?topic=5132686.new#new"
 #  linkIcon: "fa-bitcoin"
-- linkURL: "https://forum.stegos.com/"
+- linkURL: "https://forum.stegos.com?locale=ru"
   linkIcon: "fa-discourse"
 - linkURL: "/"
   linkIcon: ""
