@@ -16,7 +16,6 @@
 #  linkIcon: "fa-bitcoin"
 - linkURL: "https://forum.stegos.com/"
   linkIcon: "fa-discourse"
-- linkURL: "/"
-  linkIcon: ""
-- linkURL: "/"
-  linkIcon: ""
+#  Empty block below to arrange icons
+#- linkURL: "/"
+#  linkIcon: ""

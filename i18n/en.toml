@@ -17,8 +17,8 @@ other =  "Reject surveillance <br> embrace your freedom!"
 [main_header_info]
 other = "Stegos protects and empowers users<br> by keeping their private information safe<br> from prying eyes"
 
-[main_header_form_title]
-other = "We are launching very soon"
+#[main_header_form_title]
+#other = "We are launching very soon"
 
 [your_email_address]
 other = "your email address"

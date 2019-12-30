@@ -16,7 +16,6 @@
 #  linkIcon: "fa-bitcoin"
 - linkURL: "https://forum.stegos.com?locale=ru"
   linkIcon: "fa-discourse"
-- linkURL: "/"
-  linkIcon: ""
-- linkURL: "/"
-  linkIcon: ""
+#- linkURL: "/"
+#  linkIcon: ""
+

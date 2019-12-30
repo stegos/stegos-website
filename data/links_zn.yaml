@@ -20,7 +20,6 @@
 #  linkIcon: "fa-zhihu"
 - linkURL: "https://forum.stegos.com?locale=zh_CN"
   linkIcon: "fa-discourse"
-- linkURL: "/"
-  linkIcon: ""
-- linkURL: "/"
-  linkIcon: ""
+#- linkURL: "/"
+#  linkIcon: ""
+

@@ -13,7 +13,7 @@
      </div>
 
      <div class="m_f_content_block desktop_display">
-
+	  <!--
           <div class="c__item_title">{{ T "subscribe_to_our_newsletter" | safeHTML }}</div>
 
           <form name="sub_form" method="POST" action="https://stegos.activehosted.com/proc.php" id="_form_12_"
@@ -35,7 +35,7 @@
                </div>
                <div class="_form-thank-you" style="display:none;"></div>
           </form>
-
+	  -->
           <div class="c__item_title">{{ T "still_have_questions" | safeHTML }}</div>
 
           <div class="c__item_cont">
@@ -67,14 +67,18 @@
            <i class="fab {{ .linkIcon }}"></i>
        </a>
        {{ end }}
-	<!--
+	
           <a class="icon_link code_link code_link_footer">
                <i class="fab fa-weixin"></i>
                <div class="code_link_box big">
                     <div class="code_link_qq"></div>
                </div>
           </a>
-
+          <!-- Below is block to leave a space and lift up the icon of weechat -->
+          <a href=/ target="_blank" class="icon_link">
+                    <i class="fab "></i>
+          </a>
+	<!--
           <a class="icon_link code_link code_link_footer">
                <i class="qq_icon"></i>
                <div class="code_link_box">
