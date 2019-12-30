@@ -17,8 +17,8 @@ other = "Платформа для приватных<br> приложений"
 [main_header_info]
 other = "Stegos обеспечивает абсолютно приватную<br> и безопасную платформу для создания<br> децентрализованных мобильных приложений"
 
-[main_header_form_title]
-other = "Запускаемся в самое ближайшее время"
+#[main_header_form_title]
+#other = "Запускаемся в самое ближайшее время"
 
 [your_email_address]
 other = "Ваш e-mail"
