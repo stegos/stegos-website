@@ -3,9 +3,9 @@ author: "Sergey Timoshenko"
 date: 2019-12-25
 linktitle:  来自Stegos的祝福：节日快乐！ 20191225
 title: "来自Stegos的祝福：节日快乐！"
-description: "来自Stegos的祝福：节日快乐！"
+description: "Stegos的家人们, 我们祝愿您在这个假期里幸福快乐！"
 metaTitle: "来自Stegos的祝福：节日快乐！"
-metaDescription: "来自Stegos的祝福：节日快乐！"
+metaDescription: "Stegos的家人们, 我们祝愿您在这个假期里幸福快乐！"
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "节日"]
 weight: 7
