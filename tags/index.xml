@@ -6,10 +6,37 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>discourse</title>
+      <link>https://stegos.com/tags/discourse/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/discourse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forums</title>
+      <link>https://stegos.com/tags/forums/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/forums/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stegos</title>
+      <link>https://stegos.com/tags/stegos/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/stegos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>holidays</title>
@@ -17,15 +44,6 @@
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/tags/holidays/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stegos</title>
-      <link>https://stegos.com/tags/stegos/</link>
-      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://stegos.com/tags/stegos/</guid>
       <description></description>
     </item>
     

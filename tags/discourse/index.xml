@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>discourse on </title>
+    <link>https://stegos.com/tags/discourse/</link>
+    <description>Recent content in discourse on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stegos.com/tags/discourse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stegos Discourse Forums Launch Announcement</title>
+      <link>https://stegos.com/news/2020/01/discours-forums/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/01/discours-forums/</guid>
+      <description>The Stegos Discourse Forums Have Arrived!
+Stegos is a unique privacy network with many advanced and unusual features. This places Stegos a cut above the rest of the crypto pack, but it can also make it tricky for newcomers to just jump in. And for those who already know their way around our blockchain, it can be hard to find a place to discuss advanced topics or find the answers to tricky questions.</description>
+    </item>
+    
+  </channel>
+</rss>
