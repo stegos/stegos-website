@@ -6,10 +6,19 @@
     <description>Recent content in News on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ready, Set, Stake!</title>
+      <link>https://stegos.com/news/2020/01/pools/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/01/pools/</guid>
+      <description>Don’t want to run a node? Don’t know how? Maybe you’re a little short on STG, or don’t have the resources or availability to run a reliable node of your own? Maybe you’ve got the opposite problem, and have some STG to spare? Don’t worry, we’ve got everyone covered. Stegos staking pools are here. While community infrastructure builds up in and around the Stegos network, we’re taking the initiative to put together a number of public staking pools.</description>
+    </item>
     
     <item>
       <title>Stegos Discourse Forums Launch Announcement</title>
