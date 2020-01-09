@@ -7,6 +7,16 @@
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2020/01/pools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2020/01/pools/"
+                />
   </url>
   
   <url>
@@ -877,6 +887,16 @@
     <loc>https://stegos.com/tags/stake/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/stake/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/stake/"
+                />
   </url>
   
   <url>
