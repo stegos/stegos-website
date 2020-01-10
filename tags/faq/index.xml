@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pools on </title>
-    <link>https://stegos.com/tags/pools/</link>
-    <description>Recent content in pools on </description>
+    <title>faq on </title>
+    <link>https://stegos.com/tags/faq/</link>
+    <description>Recent content in faq on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://stegos.com/tags/pools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stegos.com/tags/faq/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://stegos.com/news/2020/01/pools_faq/</guid>
       <description>This week marked the launch of the Stegos staking pools. You can find the launch announcement here, along with all the details about our first pool, The Vault, and the huge bonuses it brings!
 This announcement generated a lot of excitement in the community, but also a lot of requests for more details. Here are the answers to some of the most common questions. If you still want to know more, contact one of the admins on our Telegram group, or head to the forums.</description>
-    </item>
-    
-    <item>
-      <title>Ready, Set, Stake!</title>
-      <link>https://stegos.com/news/2020/01/pools/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stegos.com/news/2020/01/pools/</guid>
-      <description>Don’t want to run a node? Don’t know how? Maybe you’re a little short on STG, or don’t have the resources or availability to run a reliable node of your own? Maybe you’ve got the opposite problem, and have some STG to spare? Don’t worry, we’ve got everyone covered. Stegos staking pools are here. While community infrastructure builds up in and around the Stegos network, we’re taking the initiative to put together a number of public staking pools.</description>
     </item>
     
   </channel>

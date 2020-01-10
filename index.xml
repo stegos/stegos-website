@@ -6,10 +6,29 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How it Works: Gamified Proof-of-Stake (gPoS)!</title>
+      <link>https://stegos.com/news/2020/01/gpos/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/01/gpos/</guid>
+      <description>Cryptocurrency design is often focused on security, scalability and decentralization, and rightly so. But that’s not enough to build large networks which can last for the long haul. At Stegos, we know that a cryptocurrency network also needs to be fun, engaging, surprising, and rewarding. Our gamified Proof-of-Stake (gPoS) system is built with exactly these qualities in mind. Read on to learn more about what gPoS is, how it works, why a balance of risk and reward helps promote engagement and decentralization.</description>
+    </item>
+    
+    <item>
+      <title>Stegos Staking Pools FAQ</title>
+      <link>https://stegos.com/news/2020/01/pools_faq/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/01/pools_faq/</guid>
+      <description>This week marked the launch of the Stegos staking pools. You can find the launch announcement here, along with all the details about our first pool, The Vault, and the huge bonuses it brings!
+This announcement generated a lot of excitement in the community, but also a lot of requests for more details. Here are the answers to some of the most common questions. If you still want to know more, contact one of the admins on our Telegram group, or head to the forums.</description>
+    </item>
     
     <item>
       <title>Ready, Set, Stake!</title>

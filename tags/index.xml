@@ -6,17 +6,53 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>faq</title>
+      <link>https://stegos.com/tags/faq/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gPoS</title>
+      <link>https://stegos.com/tags/gpos/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/gpos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>pools</title>
       <link>https://stegos.com/tags/pools/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/tags/pools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stegos</title>
+      <link>https://stegos.com/tags/stegos/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/stegos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>system</title>
+      <link>https://stegos.com/tags/system/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/system/</guid>
       <description></description>
     </item>
     
@@ -26,15 +62,6 @@
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/tags/stake/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stegos</title>
-      <link>https://stegos.com/tags/stegos/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stegos.com/tags/stegos/</guid>
       <description></description>
     </item>
     
