@@ -7,7 +7,7 @@ description: "准备好，Stegos推出官方验证池服务"
 metaTitle: "准备，配置，挖矿！"
 metaDescription: "准备好，Stegos推出官方验证池服务"
 categories: [ "DEVELOPMENT" ]
-tags: ["stegos", "准备v", "stake"]
+tags: ["stegos", "验证池"]
 weight: 7
 draft: false
 ---
