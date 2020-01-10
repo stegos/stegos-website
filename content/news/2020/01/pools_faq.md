@@ -18,7 +18,7 @@ This announcement generated a lot of excitement in the community, but also a lot
 
 If you’d like to sign up, you’ll need to complete the KYC form [here](https://airtable.com/shrQOS6Qv5PMNSMR4). You’ll then be sent an application form for the pool itself. These two forms will walk you through everything you need to do, and your STG will be earning their keep in no time!
 
-<img src="/images/pools_faq.jpeg" style="object-fit:cover;width:100%"/>
+<img src="/images/pool_faq.jpeg" style="object-fit:cover;width:100%"/>
 
 ### What are the Stegos staking pools?
 
