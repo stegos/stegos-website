@@ -6,10 +6,20 @@
     <description>Recent content in DEVELOPMENT on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal Security: Best Practices</title>
+      <link>https://stegos.com/news/2020/01/practices/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/01/practices/</guid>
+      <description>Privacy and security go hand-and-hand, and the Stegos team is dedicated to ensuring the security of your Stegos nodes and funds, particularly when it comes to exchanges. But as with all crypto, ultimate responsibility lies with the user. Read on for some simple tips to help protect yourself against hackers and nefarious actors!
+Our CEO Joel recently commented on the official Stegos Telegram channel about security measures, exchanges and how that translates to executive decisions by Stegos team, along with some strategies users can employ to protect their STG holdings.</description>
+    </item>
     
     <item>
       <title>How it Works: Gamified Proof-of-Stake (gPoS)!</title>

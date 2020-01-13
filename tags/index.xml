@@ -6,10 +6,37 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Practices</title>
+      <link>https://stegos.com/tags/practices/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://stegos.com/tags/security/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stegos</title>
+      <link>https://stegos.com/tags/stegos/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/tags/stegos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>faq</title>
@@ -35,15 +62,6 @@
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/tags/pools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stegos</title>
-      <link>https://stegos.com/tags/stegos/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stegos.com/tags/stegos/</guid>
       <description></description>
     </item>
     
