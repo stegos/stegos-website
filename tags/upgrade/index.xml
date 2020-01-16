@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>upgrade on </title>
+    <link>https://stegos.com/tags/upgrade/</link>
+    <description>Recent content in upgrade on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stegos.com/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wallet Upgrade and Bithumb Instructions</title>
+      <link>https://stegos.com/news/2020/01/walletupgrade/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/01/walletupgrade/</guid>
+      <description>There is a lot happening with Stegos lately, and it&amp;rsquo;s just the beginning! A new wallet is out, and Bithumb Global is ready for trading. Follow the steps below to stay up-to-date with recent developments and keep your funds secure. The news is out: Stegos is officially trading on Bithumb Global. With the new wallet upgrade, you&amp;rsquo;ll be able to seamlessly send STG to the exchange in order to trade freely.</description>
+    </item>
+    
+  </channel>
+</rss>
