@@ -1,11 +1,11 @@
 ---
 author: "Sergey Timoshenko"
 date: 2020-01-16
-linktitle:  "Official Exchange Listing: Trade STG on Bithumb Global! 20200116"
-title: "Official Exchange Listing: Trade STG on Bithumb Global!"
-description: "Official Exchange Listing: Trade STG on Bithumb Global!"
-metaTitle: "You can now deposit and trade STG on Bithumb Global"
-metaDescription: "Starting from Jan 17th, deposit and trade STG on Bithumb Global"
+linktitle:  "STG上线交易所：在Bithumb Global上交易STG！ 20200116"
+title: "STG上线交易所：在Bithumb Global上交易STG！"
+description: "STG上线交易所：在Bithumb Global上交易STG"
+metaTitle: "STG上线交易所：在Bithumb Global上交易STG！"
+metaDescription: "STG上线交易所：在Bithumb Global上交易STG"
 categories: [ "TRADING" ]
 tags: ["stegos", "trading", "exchange", "bithumb"]
 weight: 7
