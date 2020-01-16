@@ -3,9 +3,9 @@ author: "Sergey Timoshenko"
 date: 2020-01-13
 linktitle:  "保护个人资金安全的最佳做法 20200113"
 title: "保护个人资金安全的最佳做法"
-description: "Privacy and security go hand-and-hand"
+description: "手把手教你保护自身隐私和安全"
 metaTitle: "保护个人资金安全的最佳做法"
-metaDescription: "Privacy and security go hand-and-hand"
+metaDescription: "手把手教你保护自身隐私和安全"
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "Practices", "Security"]
 weight: 7

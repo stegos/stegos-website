@@ -1,7 +1,7 @@
 ---
 author: "Sergey Timoshenko"
 date: 2020-01-16
-linktitle:  "Official Exchange Listing: Trade STG on Bithumb Global! 20200110"
+linktitle:  "Official Exchange Listing: Trade STG on Bithumb Global! 20200116"
 title: "Official Exchange Listing: Trade STG on Bithumb Global!"
 description: "Official Exchange Listing: Trade STG on Bithumb Global!"
 metaTitle: "You can now deposit and trade STG on Bithumb Global"
@@ -19,7 +19,9 @@ For the past several months, we've been working hard with the Bithumb Global tea
 
 [Deposits](https://global.bithumb.pro/asset/deposit/spot?c=STG) will be accepted from January 16th 2020 at 9am UTC. [Trading](https://global.bithumb.pro/spot/trade;symbol=STG_USDT) will be activated from January 17th at 10am UTC. You will be able to trade STG for Tether (USDT) and vice versa.
 
-If you're new to Bithumb Global, make sure to sign up beforehand so you have funds allocated once trading begins. You can sign up for an account [here](https://www.bithumb.pro/en-us).
+**IMPORTANT: Deposits to Bithumb can be made publicly or privately. If you want to make a private payment, you MUST generate a payment certificate and provide the output hash or your deposit will be lost. To make a public payment from our GUI wallet, please download the latest version from here.**
+
+If you're new to Bithumb Global, make sure to sign up beforehand so you have funds allocated once trading begins. You can sign up for an account [here](https://stg.to/bg).
 
 ## Who Are Bithumb Global?
 
@@ -43,6 +45,10 @@ The Stegos Team
 
 
 Bithumb Global App links and QR codes:
+
+[Signup link](https://stg.to/bg)
+
+<img src="/images/BithumbGlobal.jpg" style="object-fit:cover;width:100%"/>
 
 [Main download page](https://www.bithumb.pro/en-us/download)
 
