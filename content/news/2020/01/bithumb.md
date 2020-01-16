@@ -39,3 +39,30 @@ Our partnership with Bithumb Global is a huge milestone, and the first of many l
 
 Happy trading!
 
+The Stegos Team
+
+
+Bithumb Global App links and QR codes:
+
+[iPhone](https://apps.apple.com/us/app/bithumb-global/id1467713913):
+
+<img src="/images/BithumbIPhoneQR.png" style="object-fit:cover;width:100%"/>
+
+[Android APK](https://www.apkfollow.com/app/bithumb-global/global.bithumb.android/): 
+
+<img src="/images/BithumbAndroidAPKQR.png" style="object-fit:cover;width:100%"/>
+
+[Google Play](https://play.google.com/store/apps/details?id=global.bithumb.android&hl=en_IE):
+
+<img src="/images/BithumbGooglePlayQR.png" style="object-fit:cover;width:100%"/>
+
+Website: [https://www.stegos.com](https://www.stegos.com/)
+
+Forums: [https://forum.stegos.com](https://forum.stegos.com/)
+
+Telegram: [https://t.me/stegos4privacy](https://t.me/stegos4privacy)
+
+Wallet: [https://github.com/stegos/stegos-wallet/releases](https://github.com/stegos/stegos-wallet/releases)
+
+Wiki: [https://github.com/stegos/stegos/wiki/](https://github.com/stegos/stegos/wiki/)
+
