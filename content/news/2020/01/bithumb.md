@@ -19,7 +19,7 @@ For the past several months, we've been working hard with the Bithumb Global tea
 
 [Deposits](https://global.bithumb.pro/asset/deposit/spot?c=STG) will be accepted from January 16th 2020 at 9am UTC. [Trading](https://global.bithumb.pro/spot/trade;symbol=STG_USDT) will be activated from January 17th at 10am UTC. You will be able to trade STG for Tether (USDT) and vice versa.
 
-**IMPORTANT: Deposits to Bithumb can be made publicly or privately. If you want to make a private payment, you MUST generate a payment certificate and provide the output hash or your deposit will be lost. To make a public payment from our GUI wallet, please download the latest version from here.**
+**IMPORTANT: Deposits to Bithumb should be made publicly. To make a public payment from our GUI wallet, please download the latest version from [here](https://github.com/stegos/stegos-wallet/releases).**
 
 If you're new to Bithumb Global, make sure to sign up beforehand so you have funds allocated once trading begins. You can sign up for an account [here](https://stg.to/bg).
 
