@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TRADING on </title>
+    <link>https://stegos.com/categories/trading/</link>
+    <description>Recent content in TRADING on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://stegos.com/categories/trading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Official Exchange Listing: Trade STG on Bithumb Global!</title>
+      <link>https://stegos.com/news/2020/01/bithumb/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/01/bithumb/</guid>
+      <description>It&amp;rsquo;s the announcement everyone in the community has been patiently (alright, maybe not so patiently) waiting for&amp;hellip; our first officially endorsed exchange! Bithumb Global is here. For the past several months, we&amp;rsquo;ve been working hard with the Bithumb Global team to ensure STG can be properly and securely integrated without compromising our unique privacy features. Bithumb Global is currently the only exchange officially endorsed by the Stegos team.
+Deposits will be accepted from January 16th 2020 at 9am UTC.</description>
+    </item>
+    
+  </channel>
+</rss>
