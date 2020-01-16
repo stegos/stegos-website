@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stegos.com/zn/news/2020/01/practices/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2020/01/practices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2020/01/practices/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2020/01/pools/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -764,7 +781,7 @@
   
   <url>
     <loc>https://stegos.com/zn/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -785,7 +802,7 @@
   
   <url>
     <loc>https://stegos.com/zn/categories/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -806,7 +823,7 @@
   
   <url>
     <loc>https://stegos.com/zn/categories/development/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -827,7 +844,7 @@
   
   <url>
     <loc>https://stegos.com/zn/news/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -847,8 +864,40 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/tags/practices/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/practices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/practices/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/security/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/security/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/security/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/tags/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -869,7 +918,7 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/stegos/</loc>
-    <lastmod>2020-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
