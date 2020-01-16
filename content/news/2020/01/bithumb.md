@@ -44,6 +44,8 @@ The Stegos Team
 
 Bithumb Global App links and QR codes:
 
+[Main download page](https://www.bithumb.pro/en-us/download)
+
 [iPhone](https://apps.apple.com/us/app/bithumb-global/id1467713913):
 
 <img src="/images/BithumbIPhoneQR.png" style="object-fit:cover;width:100%"/>
