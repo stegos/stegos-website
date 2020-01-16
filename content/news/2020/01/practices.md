@@ -3,9 +3,9 @@ author: "Sergey Timoshenko"
 date: 2020-01-13
 linktitle:  "Personal Security: Best Practices 20200113"
 title: "Personal Security: Best Practices"
-description: "Privacy and security go hand-and-hand"
+description: "Privacy and security go hand-in-hand"
 metaTitle: "Personal Security: Best Practices"
-metaDescription: "Privacy and security go hand-and-hand"
+metaDescription: "Privacy and security go hand-in-hand"
 categories: [ "DEVELOPMENT" ]
 tags: ["stegos", "Practices", "Security"]
 weight: 7
