@@ -587,6 +587,13 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/news/2020/01/simpler-staking/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/news/2019/05/tech-report-may-20th-may-31st/</loc>
     <lastmod>2019-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -795,7 +802,7 @@
   
   <url>
     <loc>https://stegos.com/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -816,7 +823,7 @@
   
   <url>
     <loc>https://stegos.com/categories/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -837,7 +844,7 @@
   
   <url>
     <loc>https://stegos.com/categories/development/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -858,7 +865,7 @@
   
   <url>
     <loc>https://stegos.com/news/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -878,20 +885,8 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/tags/practices/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/tags/security/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://stegos.com/tags/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -911,8 +906,20 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/tags/pools/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/tags/stake/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/tags/stegos/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -932,6 +939,18 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/tags/practices/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/tags/security/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/tags/faq/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -944,20 +963,8 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/tags/pools/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://stegos.com/tags/system/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/tags/stake/</loc>
-    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
