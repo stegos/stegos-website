@@ -113,7 +113,11 @@ Stegos验证者与比特币矿工有点相似，尽管成为验证者几乎不�
 Stegos团队
 
 官网: [https://www.stegos.com](https://www.stegos.com/)
+
 论坛: [https://forum.stegos.com](https://forum.stegos.com/c/forum-chinese-version/9)
+
 电报: [https://t.me/stegos4privacy](https://t.me/stegos4privacy)
+
 钱包: [https://github.com/stegos/stegos-wallet/releases](https://github.com/stegos/stegos-wallet/releases)
+
 Wiki: [https://github.com/stegos/stegos/wiki/](https://github.com/stegos/stegos/wiki/)
