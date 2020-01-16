@@ -20,6 +20,40 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/zn/news/2020/01/pools_faq/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2020/01/pools_faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2020/01/pools_faq/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/2020/01/gpos/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2020/01/gpos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2020/01/gpos/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2020/01/pools/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -934,6 +968,70 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/tags/stegos/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/faq/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/faq/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/gpos/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/gpos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/gpos/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/pools/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/pools/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/pools/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/system/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/system/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/system/"
                 />
   </url>
   
