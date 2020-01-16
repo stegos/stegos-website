@@ -6,10 +6,19 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/zn/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TRADING</title>
+      <link>https://stegos.com/zn/categories/trading/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/categories/trading/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DEVELOPMENT</title>

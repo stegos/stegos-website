@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stegos.com/zn/news/2020/01/bithumb/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2020/01/bithumb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2020/01/bithumb/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2020/01/practices/</loc>
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -815,7 +832,7 @@
   
   <url>
     <loc>https://stegos.com/zn/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -836,7 +853,7 @@
   
   <url>
     <loc>https://stegos.com/zn/categories/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -852,6 +869,133 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/news/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/categories/trading/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/categories/trading/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/categories/trading/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/bithumb/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/bithumb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/bithumb/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/exchange/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/exchange/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/exchange/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/stegos/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/stegos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/tags/stegos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/stegos/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/tags/trading/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/trading/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/trading/"
                 />
   </url>
   
@@ -873,27 +1017,6 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/categories/development/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/news/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/news/"
                 />
   </url>
   
@@ -926,48 +1049,6 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/tags/security/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/tags/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/tags/stegos/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/stegos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/tags/stegos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/stegos/"
                 />
   </url>
   
