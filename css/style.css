@@ -444,6 +444,10 @@ main {
   border: none;
   margin: auto 0 20px 0; }
 
+.video_content {
+  margin: 0 auto;
+}
+
 .form_block {
   width: 60%; }
   .form_block input {
