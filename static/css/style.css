@@ -441,7 +441,8 @@ main {
   text-transform: uppercase;
   letter-spacing: 2.21px;
   color: #d3d3d4;
-  margin: auto 0 20px 0; }
+  border: none;
+  margin: 20px 0 20px 0; }
 
 .form_block {
   width: 60%; }
