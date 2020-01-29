@@ -371,12 +371,13 @@ main {
     color: #ff6c00; }
   .main_header .m_h_content_block {
     display: flex;
+    
     margin-left: 80px;
     margin-top: 6%;
     height: 82%;
     justify-content: space-between; }
   .main_header .m_h_content {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -447,15 +448,22 @@ main {
 
 .video_content {
   margin: 0 auto;
-  width: 500px;
+  width: 465px;
   height: 366px;
+  padding: 0px;
 }
   .video_content .vbg {
+    margin: 0 auto;
     position: absolute;
     width: inherit;
     height: inherit;
     opacity: 0.7; 
     background: url("../images/laptop-bg.png") center no-repeat;}
+  .video_content .ifr {
+    width:300px;
+    height:217px;
+    z-index:2;
+    margin:22px 0 0 81px;}
 
 
 
@@ -527,9 +535,39 @@ main {
     width: 340px; } }
 @media only screen and (max-width: 899px) {
   .main_header .m_h_content_block {
-    margin-left: 60px; }
+    margin-left: 0px; 
+    margin:0px 0 0 0px;}
   .main_header .m_h_content_text {
-    font-size: 32px; } }
+    font-size: 32px;
+    margin:0px 0 0 0px;} 
+  .main_header .m_h_content_info {
+    margin: 10px 0 0px 0; }
+
+  .video_content {
+    margin: 0 0 0 41px;
+    width: 300px;
+    height: 217px;
+    border: 1px solid;
+    padding: 0px;
+}
+  .video_content .vbg {
+    position: relative;top:0;left:0;
+    width: inherit;
+    height: inherit;
+    opacity: 0.7; 
+    padding: 0px;
+    background: none;
+    border: 1px solid;
+    margin:0px 0 0 0px;}
+
+  .video_content .ifr {
+    width:300px;
+    height:217px;
+    z-index:2;
+    margin:0px 0 0 0px;
+    padding:0;
+    }
+}
 @media only screen and (min-width: 720px) {
   .main_header {
     height: 100vh; } }
