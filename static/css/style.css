@@ -544,7 +544,7 @@ main {
     margin: 10px 0 0px 0; }
 
   .video_content {
-    margin: 0 0 0 41px;
+    margin: 0 0 0 10px;
     width: 300px;
     height: 217px;
     border: 1px solid;
@@ -563,7 +563,7 @@ main {
   .video_content .ifr {
     width:300px;
     height:217px;
-    z-index:2;
+    z-index:10;
     margin:0px 0 0 0px;
     padding:0;
     }
