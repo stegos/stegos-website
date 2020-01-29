@@ -116,10 +116,14 @@
                 <div class="m_h_content_info">
                     {{ T "main_header_info" | safeHTML }}
                 </div>
+        	
         	<div class="video_content">
-            	    <iframe width="300" height="217" src="https://www.youtube.com/embed/D9H_d7qCPlo">
+            	    <div class="vbg">
+            	    <iframe  src="https://www.youtube.com/embed/D9H_d7qCPlo" style="width:300px;height:217px;z-index:2;margin:22px 0 0 98px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" enablejsapi="1">
 		    </iframe>
-                </div>
+    		    </div>
+            	</div>
+                
                 <!--
                 <div class="form_title">{{ T "main_header_form_title" | safeHTML }}</div>
                 <div class="form_block">

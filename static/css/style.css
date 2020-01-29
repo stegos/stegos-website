@@ -444,9 +444,20 @@ main {
   border: none;
   margin: auto 0 20px 0; }
 
+
 .video_content {
   margin: 0 auto;
+  width: 500px;
+  height: 366px;
 }
+  .video_content .vbg {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    opacity: 0.7; 
+    background: url("../images/laptop-bg.png") center no-repeat;}
+
+
 
 .form_block {
   width: 60%; }
