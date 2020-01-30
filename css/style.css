@@ -545,9 +545,8 @@ main {
 
   .video_content {
     margin: 0 0 0 10px;
-    width: 300px;
-    height: 217px;
-    border: 1px solid;
+    width: 375px;
+    height: 300px;
     padding: 0px;
 }
   .video_content .vbg {
@@ -556,15 +555,14 @@ main {
     height: inherit;
     opacity: 0.7; 
     padding: 0px;
-    background: none;
-    border: 1px solid;
+    background: url("../images/laptop-bg400.png") center no-repeat;
     margin:0px 0 0 0px;}
 
   .video_content .ifr {
-    width:300px;
-    height:217px;
+    width:241px;
+    height:175px;
     z-index:10;
-    margin:0px 0 0 0px;
+    margin:20px 0 0 65px;
     padding:0;
     }
 }
