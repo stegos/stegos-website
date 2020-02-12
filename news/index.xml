@@ -6,10 +6,21 @@
     <description>Recent content in News on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Importance of Mobile Privacy</title>
+      <link>https://stegos.com/news/2020/02/mobileprivacy/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/02/mobileprivacy/</guid>
+      <description>At Stegos, our primary development focus right now is our mobile app, and with it our fully private messaging system. This is a crucial part of our vision, because true online privacy is impossible without private transactions AND private communications working in tandem. Recently, we shared a video showcasing the current development state of our mobile app. In case you missed it, check out the video below:
+https://www.youtube.com/watch?v=W7pzQ97BRUY
+Development has progressed significantly since that version, but the following features were already on display:</description>
+    </item>
     
     <item>
       <title>Official Exchange Listing: Trade STG on Bithumb Global!</title>
