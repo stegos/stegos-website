@@ -7,6 +7,16 @@
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2020/02/mobileprivacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2020/02/mobileprivacy/"
+                />
   </url>
   
   <url>
@@ -907,6 +917,16 @@
     <loc>https://stegos.com/categories/mobile/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/categories/mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/categories/mobile/"
+                />
   </url>
   
   <url>
