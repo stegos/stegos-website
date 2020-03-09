@@ -6,10 +6,19 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/zn/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DEVELOPMENT</title>
+      <link>https://stegos.com/zn/categories/development/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/zn/categories/development/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mobile</title>
@@ -35,15 +44,6 @@
       <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/zn/categories/trading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DEVELOPMENT</title>
-      <link>https://stegos.com/zn/categories/development/</link>
-      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://stegos.com/zn/categories/development/</guid>
       <description></description>
     </item>
     

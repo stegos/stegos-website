@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stegos.com/zn/news/2020/03/roadmapupdate/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/2020/03/roadmapupdate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/2020/03/roadmapupdate/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/zn/news/2020/02/mobileprivacy/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -856,7 +873,7 @@
   
   <url>
     <loc>https://stegos.com/zn/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -877,7 +894,7 @@
   
   <url>
     <loc>https://stegos.com/zn/categories/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -897,24 +914,29 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/zn/categories/mobile/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <loc>https://stegos.com/zn/categories/development/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://stegos.com/categories/mobile/"
+                href="https://stegos.com/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/categories/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
-                href="https://stegos.com/zn/categories/mobile/"
+                href="https://stegos.com/zn/categories/development/"
                 />
   </url>
   
   <url>
     <loc>https://stegos.com/zn/news/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -935,7 +957,7 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -956,7 +978,7 @@
   
   <url>
     <loc>https://stegos.com/zn/tags/stegos/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -972,6 +994,22 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/tags/stegos/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/zn/categories/mobile/</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/categories/mobile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/categories/mobile/"
                 />
   </url>
   
@@ -1042,27 +1080,6 @@
                 rel="alternate"
                 hreflang="zn"
                 href="https://stegos.com/zn/tags/trading/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/zn/categories/development/</loc>
-    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/categories/development/"
                 />
   </url>
   

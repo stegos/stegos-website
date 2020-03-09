@@ -6,10 +6,20 @@
     <description>Recent content in stegos on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://stegos.com/tags/stegos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stegos Updated Roadmap</title>
+      <link>https://stegos.com/news/2020/03/roadmapupdate/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://stegos.com/news/2020/03/roadmapupdate/</guid>
+      <description>Things have been a little quiet here at Stegos this past month, but not because there hasn&amp;rsquo;t been anything going on. In fact, quite the opposite: everyone is hunkered down developing some of our best and most private technology yet. If you want to follow our progress, you can always check out our GitHub.
+Here&amp;rsquo;s the updated roadmap of cool things we&amp;rsquo;re developing in 2020 (and beyond), along with a brief explanation about why each milestone is so important.</description>
+    </item>
     
     <item>
       <title>The Importance of Mobile Privacy</title>
