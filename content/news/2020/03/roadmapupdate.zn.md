@@ -1,11 +1,11 @@
 ---
 author: "Sergey Timoshenko"
 date: 2020-03-09
-linktitle: Updated Roadmap 20200309
+linktitle: 最新的路线图 20200309
 title: "最新的路线图"
-description: "An updated roadmap for Stegos in 2020"
+description: "一个2020年的最新路线图"
 metaTitle: "最新的路线图"
-metaDescription: "An updated roadmap for Stegos in 2020"
+metaDescription: "一个2020年的最新路线图"
 categories: [ "Development" ]
 tags: ["stegos"]
 weight: 7
@@ -109,3 +109,5 @@ Stegos团队
 开发者文档: [https://docs.stegos.com/](https://docs.stegos.com/)
 
 微信公众号: stegos4privacy
+
+English version: [https://stegos.com/news/2020/03/roadmapupdate/](https://stegos.com/news/2020/03/roadmapupdate/)
