@@ -235,12 +235,8 @@
 
             <h1 class="news_title">Testnet 7 Release</h1>
 
-            
-
-<p>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.</p>
-
+            <p>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.</p>
 <p>This is the seventh testnet release of the Stegos blockchain. Changes since <a href="https://github.com/stegos/stegos/releases/tag/v0.6">Testnet 6</a>:</p>
-
 <ul>
 <li>New StakeUTXO, Core Blockchain, StakeUTXOs with BLS signatures</li>
 <li>Public payment UTXO, Core Blockchain, UTXO with uncloaked recipient pubkey and amount</li>
@@ -255,35 +251,21 @@
 <li>Use AONT (All or Nothing) for all serialized representation of secrets, Security, additional security for in-memory representations of secrets</li>
 <li>Implement WAU (Wipe After Use) for all secrets, Security, additional security for in-memory representations of secrets</li>
 </ul>
-
 <p><strong>Breaking changes:</strong></p>
-
 <p>TestNet-7 release is not compatible with TestNet-6. Please reset your local database if you upgrading from the previous release:</p>
-
 <pre><code>rm -rf database/
-</code></pre>
-
-<p>Check <a href="https://github.com/stegos/stegos/wiki/project-plan#sprint16">the project plan</a> for additional information.</p>
-
+</code></pre><p>Check <a href="https://github.com/stegos/stegos/wiki/project-plan#sprint16">the project plan</a> for additional information.</p>
 <p>Please join us on <a href="https://t.me/stegos4privacy">Telegram</a> to get test tokens and let us know your thoughts.</p>
-
 <h3 id="testnet-node-installation">Testnet node installation</h3>
-
 <h4 id="linux-64-bit">Linux 64-bit:</h4>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<h4 id="macos-64-bit">macOS 64-bit:</h4>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos
+</code></pre></div><h4 id="macos-64-bit">macOS 64-bit:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>Right after the start the node will print a lot of <code>INFO</code> messages with debugging information regarding bootstrapping your node. Press <code>Enter</code> to get <code>stegos&gt;</code> prompt. To get help enter <code>help</code> command at the prompt.</p>
+</code></pre></div><p>Right after the start the node will print a lot of <code>INFO</code> messages with debugging information regarding bootstrapping your node. Press <code>Enter</code> to get <code>stegos&gt;</code> prompt. To get help enter <code>help</code> command at the prompt.</p>
 
 
         </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -890,8 +890,9 @@
   
   <url>
     <loc>https://stegos.com/</loc>
-    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-08-10T15:25:29+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -910,9 +911,39 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/news/</loc>
+    <lastmod>2020-08-10T15:25:29+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/news/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/news/2020/08/restoring-consensus/</loc>
+    <lastmod>2020-08-10T15:25:29+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://stegos.com/categories/</loc>
     <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -933,7 +964,8 @@
   <url>
     <loc>https://stegos.com/categories/development/</loc>
     <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -952,51 +984,10 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/news/</loc>
-    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/news/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/tags/</loc>
-    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://stegos.com/tags/stegos/</loc>
     <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1015,9 +1006,32 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/tags/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/categories/mobile/</loc>
     <lastmod>2020-02-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1031,25 +1045,10 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/categories/trading/</loc>
-    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/categories/trading/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/categories/trading/"
-                />
-  </url>
-  
-  <url>
     <loc>https://stegos.com/tags/bithumb/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1065,7 +1064,8 @@
   <url>
     <loc>https://stegos.com/tags/exchange/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1081,7 +1081,8 @@
   <url>
     <loc>https://stegos.com/tags/pools/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1097,13 +1098,32 @@
   <url>
     <loc>https://stegos.com/tags/stake/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/categories/trading/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/categories/trading/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/categories/trading/"
+                />
   </url>
   
   <url>
     <loc>https://stegos.com/tags/trading/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1119,13 +1139,15 @@
   <url>
     <loc>https://stegos.com/tags/upgrade/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/tags/practices/</loc>
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1141,7 +1163,8 @@
   <url>
     <loc>https://stegos.com/tags/security/</loc>
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1157,7 +1180,8 @@
   <url>
     <loc>https://stegos.com/tags/faq/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1173,7 +1197,8 @@
   <url>
     <loc>https://stegos.com/tags/gpos/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1189,7 +1214,8 @@
   <url>
     <loc>https://stegos.com/tags/system/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1205,41 +1231,29 @@
   <url>
     <loc>https://stegos.com/tags/discourse/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/tags/forums/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/tags/holidays/</loc>
     <lastmod>2019-12-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/categories/interview/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/categories/interview/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/categories/interview/"
-                />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/tags/ama/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1253,9 +1267,27 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/categories/interview/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/categories/interview/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/categories/interview/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/tags/interview/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1271,7 +1303,8 @@
   <url>
     <loc>https://stegos.com/tags/technology/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1287,7 +1320,8 @@
   <url>
     <loc>https://stegos.com/tags/report/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1303,7 +1337,8 @@
   <url>
     <loc>https://stegos.com/tags/bounty/</loc>
     <lastmod>2019-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -1319,13 +1354,29 @@
   <url>
     <loc>https://stegos.com/tags/hackathon/</loc>
     <lastmod>2019-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/tags/blockchain/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://stegos.com/tags/mobile/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/categories/overview/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1339,21 +1390,10 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/tags/blockchain/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/tags/mobile/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://stegos.com/tags/design/</loc>
     <lastmod>2019-02-22T12:05:29+01:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1369,13 +1409,15 @@
   <url>
     <loc>https://stegos.com/tags/smartcontracts/</loc>
     <lastmod>2019-02-22T12:05:29+01:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/tags/competition/</loc>
     <lastmod>2019-02-11T21:02:22+06:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"
@@ -1537,7 +1579,8 @@
   
   <url>
     <loc>https://stegos.com/team/</loc>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zn"

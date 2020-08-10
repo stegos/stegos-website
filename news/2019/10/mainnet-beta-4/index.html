@@ -223,55 +223,33 @@
 
             <h1 class="news_title">Mainnet Beta 4 released!</h1>
 
-            
-
-<h2 id="dear-stegos-community">Dear Stegos Community!</h2>
-
+            <h2 id="dear-stegos-community">Dear Stegos Community!</h2>
 <p>We&rsquo;re pleased to announce the fourth beta release of the upcoming Stegos mainnet, which fixes a major bug and brings many speed improvements.</p>
-
 <p><strong>VERY IMPORTANT!!!:</strong> This release involves a complete restart of the chain, SO PLEASE READ THE NEXT SECTION EXTREMELY CAREFULLY OR YOU MAY LOSE YOUR TOKENS AND HACKATHON PROGRESS.</p>
-
 <h2 id="steps-to-install-the-new-release">Steps to install the new release</h2>
-
 <h3 id="if-you-are-already-participating-in-the-bounty">If you are already participating in the bounty</h3>
-
 <p>If you are an existing participant of the bounty program and have already received bounty tokens to your Stegos wallet, you <strong>MUST BACK UP YOUR ACCOUNT</strong>, otherwise all of your bounty tokens will be <strong>permanently lost</strong>! (If you are not already a bounty participant, skip to the next section.)</p>
-
 <p>You have three options to back up your account:</p>
-
 <h3 id="option-1"><strong>Option 1</strong></h3>
-
-<p>*THIS OPTION WILL WORK ONLY IF YOUR WALLET IS CURRENTLY <strong>RUNNING</strong>. IF YOU HAVE CLOSED YOUR APP, YOU WON&rsquo;T BE ABLE TO USE THIS OPTION. PLEASE USE OPTION 2 OR 3.*</p>
-
+<p><em>THIS OPTION WILL WORK ONLY IF YOUR WALLET IS CURRENTLY <strong>RUNNING</strong>. IF YOU HAVE CLOSED YOUR APP, YOU WON&rsquo;T BE ABLE TO USE THIS OPTION. PLEASE USE OPTION 2 OR 3.</em></p>
 <p>Go to the Stegos account registered in the bounty, click the settings button and then click &ldquo;Backup&rdquo;. Now, write down the 24-word recovery (seed) phrase for the account and keep it in a safe place.</p>
-
 <p>Once you&rsquo;ve stored your recovery phrase, close the wallet and clean the wallet&rsquo;s working directory by removing the following directory on your computer:</p>
-
 <pre><code>Windows: C:\Users\[user]\AppData\Roaming\stegos
 Mac: $HOME/Library/Application Support/stegos
 Linux: $HOME/.local/share/stegos
 </code></pre>
-
 <p>After that you should <a href="https://github.com/stegos/stegos-wallet/releases/tag/v0.16">download and install the new release of the wallet</a> or node using one of the <strong>Assets</strong> link below.</p>
-
 <p>Next, restore your account using the recovery phrase you just wrote down.</p>
-
 <p>You will get your bounty tokens in the account registered with the bounty bot immediately. However, the outgoing (send) operations history will be permanently deleted.</p>
-
 <h3 id="option-2"><strong>Option 2</strong></h3>
-
 <p><strong>This option is recommended only for technically confident users,</strong> as it requires you to download and use the CLI wallet interface from the previous release.</p>
-
 <p>Launch your existing wallet application (even though it will not sync) and keep it open. Wait a couple of minutes, then access your wallet via the previous version of the command-line interface. If you don&rsquo;t already have it, you can get it here:</p>
-
 <ul>
 <li><a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-win-x64.zip">Windows</a></li>
 <li><a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-macos-x64">Mac</a></li>
 <li><a href="https://github.com/stegos/stegos/releases/download/v0.15/stegos-linux-x64">Linux</a></li>
 </ul>
-
 <p>Launch the corresponding <code>stegos</code> binary for your operating system and input the <code>show recovery</code> command at the prompt:</p>
-
 <pre><code>account#1&gt; show recovery
 ---
 - type: get_recovery
@@ -286,81 +264,54 @@ Linux: $HOME/.local/share/stegos
   last_public_address_id: 0
 ...
 </code></pre>
-
 <p>You may also need to issue the <code>unseal</code> command before using <code>show recovery</code>. The password will be the same as for your GUI wallet.</p>
-
 <p>Write down the recovery phrase from the <code>recovery:</code> field in command&rsquo;s response and keep it in a safe place.</p>
-
 <p>Now exit from <code>stegos</code> CLI, close the wallet application and clean the wallet&rsquo;s working directory by removing the following directory on your computer:</p>
-
 <pre><code>Windows: C:\Users\[user]\AppData\Roaming\stegos
 Mac: $HOME/Library/Application Support/stegos
 Linux: $HOME/.local/share/stegos
 </code></pre>
-
 <p>Next, <a href="https://github.com/stegos/stegos-wallet/releases/tag/v0.16">download and install a new release</a> of the wallet or node using one of the links in <strong>Assets</strong> below and restore your account using the recovery phrase you&rsquo;ve just wrote down.</p>
-
 <p>You will get your bounty tokens in the account registered with the bounty bot immediately. The outgoing (send) operations history will be lost permanently.</p>
-
 <h3 id="option-3"><strong>Option 3</strong></h3>
-
 <p>This option is the most time consuming, but it is easy to apply and success is guaranteed. If you aren&rsquo;t confident about Option 2, please use this one.</p>
-
 <p>Instead of saving your recovery phrase, in this option you&rsquo;ll back up your <code>accounts</code> subdirectory and clean up several other subdirectories in the stegos working folder before launching the new release:</p>
-
 <p><em>Step 1</em>: Back up (copy) the following directory to a safe place:</p>
-
 <ul>
-<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts<br /></li>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts\</li>
 <li>Mac: $HOME/Library/Application Support/stegos/accounts/</li>
 <li>Linux: $HOME/.local/share/stegos/accounts/</li>
 </ul>
-
 <p><em>Step 2:</em> Remove blockchain files</p>
-
 <ul>
-<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\chain<br /></li>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\chain\</li>
 <li>Mac: $HOME/Library/Application Support/stegos/chain/</li>
 <li>Linux: $HOME/.local/share/stegos/chain/</li>
 </ul>
-
 <p><em>Step 3:</em> Remove deleted accounts folder</p>
-
 <ul>
-<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts\.trash<br /></li>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts\.trash\</li>
 <li>Mac: $HOME/Library/Application Support/stegos/accounts/.trash/</li>
 <li>Linux: $HOME/.local/share/stegos/accounts/.trash/</li>
 </ul>
-
 <p><em>Step 4:</em> Remove history of operations for each account</p>
-
 <ul>
-<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts\[account_num]\history<br /></li>
+<li>Windows: C:\Users\[user]\AppData\Roaming\stegos\accounts\[account_num]\history\</li>
 <li>Mac: $HOME/Library/Application Support/stegos/accounts/[account_num]/history/</li>
 <li>Linux: $HOME/.local/share/stegos/accounts/[account_num]/history/</li>
 </ul>
-
 <p>After removing all of the above, you should have only two files, <code>account.pkey</code> and <code>account.skey</code> , for each account subdirectory in the stegos working folder.</p>
-
 <p>After that you must <a href="https://github.com/stegos/stegos-wallet/releases/tag/v0.16">download and install a new release of the wallet</a> or node using one of the <strong>Assets</strong> links below. You will get your bounty tokens immediately to the account registered with the bounty bot. The outgoing (send) operations history will be lost permanently.</p>
-
 <h3 id="if-you-are-not-a-participant-in-the-bounty">If you are not a participant in the bounty</h3>
-
 <p>If you haven&rsquo;t registered an account with our bounty bot, but you have previously installed our node or wallet, you still have to remove the stegos working directory completely prior to launching the new release:</p>
-
 <pre><code>Windows: C:\Users\[user]\AppData\Roaming\stegos
 Mac: $HOME/Library/Application Support/stegos
 Linux: $HOME/.local/share/stegos
 </code></pre>
-
 <p>After that you can download and install a new release of the wallet or node using one of the <strong>Assets</strong> links below.</p>
-
-<h3 id="if-you-re-installing-our-wallet-or-node-for-the-first-time">If you&rsquo;re installing our wallet or node for the first time</h3>
-
+<h3 id="if-youre-installing-our-wallet-or-node-for-the-first-time">If you&rsquo;re installing our wallet or node for the first time</h3>
 <p>If you never installed our software before on this computer, you can simply download and install a new release of the wallet or node using one of the <strong>Assets</strong> links below without any preparatory steps.</p>
-
-<h3 id="changes-since-mainnet-beta-3-https-github-com-stegos-stegos-releases-tag-v0-14">Changes since <a href="https://github.com/stegos/stegos/releases/tag/v0.14">Mainnet Beta 3</a>:</h3>
-
+<h3 id="changes-since-mainnet-beta-3httpsgithubcomstegosstegosreleasestagv014">Changes since <a href="https://github.com/stegos/stegos/releases/tag/v0.14">Mainnet Beta 3</a>:</h3>
 <ul>
 <li><strong>Fast Synchronization Protocol</strong>. This release introduces a new, much faster synchronization protocol. We decided to switch from a more sophisticated but slow Kademlia-DHT based unicast protocol to a much simpler direct sync protocol between peers in our gossip network. This should be <strong>at least ten times faster</strong>.</li>
 <li><strong>Fixed 24-word recovery.</strong> Wallets now recover completely when the 24-word recovery method was used. (This problem only affected the wallet&rsquo;s local UTXO database. The actual balance was securely stored on the blockchain and wasn&rsquo;t affected.)</li>
@@ -369,13 +320,9 @@ Linux: $HOME/.local/share/stegos
 <li><strong>Fixed &ldquo;entered unreachable code&rdquo; bug.</strong> Node crashed with an assertion on SIGKILL.</li>
 <li><strong>Fixed miscellaneous CLI bugs.</strong> Bugs related to JSON parsing and bech32 addresses were fixed in the Stegos CLI client.</li>
 </ul>
-
 <h3 id="getting-started">Getting Started</h3>
-
 <p>See <a href="https://docs.stegos.com">https://docs.stegos.com</a></p>
-
 <h3 id="feedback">Feedback</h3>
-
 <p>​
 Please join us on <a href="https://stg.to/tgc">Telegram Chat</a> to let us know your thoughts. Subscribe to the official <a href="https://stg.to/tgn">Telegram Channel</a> for the latest news.</p>
 

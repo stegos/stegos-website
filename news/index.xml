@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on </title>
@@ -6,7 +6,7 @@
     <description>Recent content in News on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 15:25:29 +0300</lastBuildDate>
     
 	<atom:link href="https://stegos.com/news/index.xml" rel="self" type="application/rss+xml" />
     
@@ -154,7 +154,8 @@ New Users If this is your first time using the Stegos app, you don&amp;rsquo;t n
       <guid>https://stegos.com/news/2019/11/mainnet-launched-announcement/</guid>
       <description>Dear Stegos Community, We&amp;rsquo;re delighted to announce the successful launch of the Stegos mainnet!
 Head here to download v1.0 of the Stegos destkop app and get started. Existing users should delete their testnet chain data and restart their app: it will update automatically.
-What Next? This week we&amp;rsquo;re concentrating on sending everyone their STG coins. If we need any information from you, the team will be in touch directly.</description>
+What Next? This week we&amp;rsquo;re concentrating on sending everyone their STG coins. If we need any information from you, the team will be in touch directly.
+Now that the core Stegos blockchain has been developed and tested, the team are moving on to implementing the key features needed to make Stegos the number one privacy coin.</description>
     </item>
     
     <item>
@@ -316,7 +317,7 @@ This is a third Preview release of upcoming Stegos mainnet. In order to boost no
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/news/2019/06/tech-report-june-17th-july-1st/</guid>
-      <description>Done in Sprint 19  Switched to new pairing-based crypto implementation based on BLS12-381 curve, [Crypto], 40x improvement in BLS signature verification time Switched to Dalek Curve25519 implementation for single curve crypto, [Crypto], 10x improvement in Bulletproof verification time, future compatibility with iOS CryptoKit Implemented of Payment Certificates in CLI Wallet, [Wallet], payment certificates are needed if you have to proof that you send a particular amount of tokens to somebody</description>
+      <description>Done in Sprint 19  Switched to new pairing-based crypto implementation based on BLS12-381 curve, [Crypto], 40x improvement in BLS signature verification time Switched to Dalek Curve25519 implementation for single curve crypto, [Crypto], 10x improvement in Bulletproof verification time, future compatibility with iOS CryptoKit Implemented of Payment Certificates in CLI Wallet, [Wallet], payment certificates are needed if you have to proof that you send a particular amount of tokens to somebody Switched to using Base58 for wallet keys on the disk, [Wallet], more user-friendly external representation of keys saved on disk Stress Testing: Packet Delay and Loss, [Testing], part of test harness Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, [Testing], stress testing the vital subsystems using transactional loads from transaction generator  Plans for Sprint 20  Implement Accounts API, [Wallet], to support multiple accounts per Wallet application Transaction status tracking in Account API and Transaction History, [Wallet], to enable more user-friendly transaction status reporting Introducing VDFs and Kalman filter for stabilizing the block time, [Core], making block time predictable in order to stabilize annual inflation More Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, [Testing], stress testing the vital subsystems using transactional loads from transaction generator Finish GUI Wallet, [Wallet], user-friendly Wallet application based on Electron RELEASE THE MAINNET!</description>
     </item>
     
     <item>
@@ -336,7 +337,7 @@ New in Stegos v0.9:  Node has been split into two binaries: a full node daemon (
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/news/2019/06/tech-report-june-3rd-june-17th/</guid>
-      <description> Done in Sprint 18  Base functionality of GUI Wallet desktop application, Wallet, implementing bootstrapping visualisation, accounts and payments Persist Payment History and Payment Certificates in Wallet, Wallet, required to support showing the payment history in wallet Improve security of Docker image, Security, strengthen the security of the node&amp;rsquo;s docker image Introduce variable fees in transactions, Core Blockchain, Wallet, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block Use Base58 for external representation of wallet public keys (addresses), Core Blockchain, provide more user-friendly encoding of addresses Implement WebSocket API Authorization, Security, introduce API tokens for authorizing WebSockets API usage, even on localhost Support changing the wallet password, Security, provide the ability for the user to change wallet password Stress Testing: Large Number of Nodes, Testing, part of test harness Split log output and CLI, Node CLI, separating CLI application from node binary Introduce variable fees in transactions, Core Blockchain, Wallet, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block Speed up BLS signatures, Core Blockchain, BLS signature verification time has been improved from 200ms down to 5ms per signature  Plans for Sprint 19  Stress Testing: Packet Delay and Loss, Testing, part of test harness Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, Testing, stress testing the vital subsystems using transactional loads from transaction generator  </description>
+      <description>Done in Sprint 18  Base functionality of GUI Wallet desktop application, Wallet, implementing bootstrapping visualisation, accounts and payments Persist Payment History and Payment Certificates in Wallet, Wallet, required to support showing the payment history in wallet Improve security of Docker image, Security, strengthen the security of the node&amp;rsquo;s docker image Introduce variable fees in transactions, Core Blockchain, Wallet, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block Use Base58 for external representation of wallet public keys (addresses), Core Blockchain, provide more user-friendly encoding of addresses Implement WebSocket API Authorization, Security, introduce API tokens for authorizing WebSockets API usage, even on localhost Support changing the wallet password, Security, provide the ability for the user to change wallet password Stress Testing: Large Number of Nodes, Testing, part of test harness Split log output and CLI, Node CLI, separating CLI application from node binary Introduce variable fees in transactions, Core Blockchain, Wallet, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block Speed up BLS signatures, Core Blockchain, BLS signature verification time has been improved from 200ms down to 5ms per signature  Plans for Sprint 19  Stress Testing: Packet Delay and Loss, Testing, part of test harness Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, Testing, stress testing the vital subsystems using transactional loads from transaction generator  </description>
     </item>
     
     <item>
@@ -402,9 +403,9 @@ This is the sixth Testnet release of the Stegos blockchain. Changes since Testne
       <guid>https://stegos.com/news/2019/05/tech-report-may-20th-may-31st/</guid>
       <description>During the last two weeks our development team has been working hard to finalize major features of the upcoming testnet release.
 Here is what we accomplished in the period May, 20th — May, 31st:
-Done in Sprint 17  Speed-up node bootstrap and re-synchronization, Node, fine-tuning bootstrap constants
- Service Awards, Core Blockchain, required to create an incentive for validators to be always online
- Compress Micro Blocks to Macro Blocks, Consensus, remove last epoch’s micro blocks by moving their data to a single macro block</description>
+Done in Sprint 17   Speed-up node bootstrap and re-synchronization, Node, fine-tuning bootstrap constants
+  Service Awards, Core Blockchain, required to create an incentive for validators to be always online
+  Compress Micro Blocks to Macro Blocks, Consensus, remove last epoch’s micro blocks by moving their data to a single macro block</description>
     </item>
     
     <item>
@@ -439,7 +440,7 @@ Done
       <guid>https://stegos.com/news/2019/04/testnet-5-release/</guid>
       <description>Stegos Testnet 5 Release Notes
 Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.
-This is the fifth testnet release of the Stegos blockchain. Changes since Testnet 4:
+This is the fifth testnet release of the Stegos blockchain. Changes since [Testnet 4](https://github.com/stegos /stegos/releases/tag/v0.4):
  Added a fork resolution mechanism to consensus and improved handling of network partitions. Implemented basic cheating detection of malicious validators in consensus (without punishment for now). Significantly reduced the time of full sync with the network.</description>
     </item>
     
@@ -515,6 +516,17 @@ Stegos Privacy Blockchain is the best way to secure your data, transactions and 
       <guid>https://stegos.com/news/2019/01/tech-report-dec31st-jan-27th/</guid>
       <description>Dec,31st - Jan,13th, the Stegos development team has released the blockchain prototype (MVP). The MVP release containts the following base features:
  Nodes can select a group of validators among them Nodes can elect a leader of the consensus Nodes can verify incoming transactions The leader of consensus can create and propose blocks Validators can verify proposed blocks and co-sign them with their BLS signature The leader can form the final BLS multi-signature and broadcast sealed block to the network Nodes can verify and process incoming sealed blocks by pruning spent UTXOs out of the UTXO set  There is no disk persistance in the MVP release, as well as new nodes cannot connect and bootstrap from the living nodes.</description>
+    </item>
+    
+    <item>
+      <title>Restoring Consensus</title>
+      <link>https://stegos.com/news/2020/08/restoring-consensus/</link>
+      <pubDate>Mon, 10 Aug 2020 15:25:29 +0300</pubDate>
+      
+      <guid>https://stegos.com/news/2020/08/restoring-consensus/</guid>
+      <description>We have 69M STG actively staked. More than 2/3 of the 80+ active nodes seem to have been shut down without the stake being retired first. This means we lost consensus and the blockchain cannot operate.
+Please bring your node back online by shutting it down if it’s already running or just restarting it as usual, e.g. using stegosd -n mainnet.
+Please use the command-line interface to check if your node started properly by running stages and then typing show status at the prompt.</description>
     </item>
     
   </channel>

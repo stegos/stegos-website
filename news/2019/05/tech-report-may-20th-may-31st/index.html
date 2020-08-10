@@ -235,58 +235,73 @@
 
             <h1 class="news_title">Tech Report May, 20th - May, 31st</h1>
 
-            
-
-<p>During the last two weeks our development team has been working hard to finalize major features of the upcoming testnet release.</p>
-
+            <p>During the last two weeks our development team has been working hard to finalize major features of the upcoming testnet release.</p>
 <p>Here is what we accomplished in the period <strong>May, 20th — May, 31st</strong>:</p>
-
 <h2 id="done-in-sprint-17">Done in Sprint 17</h2>
-
 <ul>
-<li><p>Speed-up node bootstrap and re-synchronization, <code>Node</code>, fine-tuning bootstrap constants</p></li>
-
-<li><p>Service Awards, <code>Core Blockchain</code>, required to create an incentive for validators to be always online</p></li>
-
-<li><p>Compress Micro Blocks to Macro Blocks, <code>Consensus</code>, remove last epoch’s micro blocks by moving their data to a single macro block</p></li>
-
-<li><p>Optimize bulletproofs, <code>Crypto</code>, a single bulletproof verification is now 10 ms (without AVX optimization)</p></li>
-
-<li><p>HashCash: more bug-fixing, <code>Network</code>, bug fixing of HashCash protocol</p></li>
-
-<li><p>Fork Resolution: more bug-fixing, <code>Consensus</code>, bug fixing of fork resolution mechanism for micro blocks</p></li>
-
-<li><p>UTXO Timestamp Locking, <code>Core Blockchain</code>, implement locking of UTXOs</p></li>
-
-<li><p>PublicPaymentUTXO: additional tx validation rules, <code>Core Blockchain</code>, implement additional transaction verification rules for transactions involving public payment UTXOs</p></li>
-
-<li><p>PublicPaymentUTXO: support in wallet, <code>Wallet</code>, implement support for public payment UTXOs usage in wallet</p></li>
+<li>
+<p>Speed-up node bootstrap and re-synchronization, <code>Node</code>, fine-tuning bootstrap constants</p>
+</li>
+<li>
+<p>Service Awards, <code>Core Blockchain</code>, required to create an incentive for validators to be always online</p>
+</li>
+<li>
+<p>Compress Micro Blocks to Macro Blocks, <code>Consensus</code>, remove last epoch’s micro blocks by moving their data to a single macro block</p>
+</li>
+<li>
+<p>Optimize bulletproofs, <code>Crypto</code>, a single bulletproof verification is now 10 ms (without AVX optimization)</p>
+</li>
+<li>
+<p>HashCash: more bug-fixing, <code>Network</code>, bug fixing of HashCash protocol</p>
+</li>
+<li>
+<p>Fork Resolution: more bug-fixing, <code>Consensus</code>, bug fixing of fork resolution mechanism for micro blocks</p>
+</li>
+<li>
+<p>UTXO Timestamp Locking, <code>Core Blockchain</code>, implement locking of UTXOs</p>
+</li>
+<li>
+<p>PublicPaymentUTXO: additional tx validation rules, <code>Core Blockchain</code>, implement additional transaction verification rules for transactions involving public payment UTXOs</p>
+</li>
+<li>
+<p>PublicPaymentUTXO: support in wallet, <code>Wallet</code>, implement support for public payment UTXOs usage in wallet</p>
+</li>
 </ul>
-
 <h2 id="plans-for-sprint-18">Plans for Sprint 18</h2>
-
 <ul>
-<li><p>Base functionality of GUI Wallet desktop application, <code>Wallet</code>, implementing bootstrapping visualisation, accounts and payments</p></li>
-
-<li><p>Improve security of Docker image, <code>Security</code>, strengthen the security of the node&rsquo;s docker image</p></li>
-
-<li><p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p></li>
-
-<li><p>Persist Payment History and Payment Certificates in Wallet, <code>Wallet</code>, required to support showing the payment history in wallet</p></li>
-
-<li><p>Use Base58 for external representation of wallet public keys (addresses), <code>Core Blockchain</code>, provide more user-friendly encoding of addresses</p></li>
-
-<li><p>Implement WebSocket API Authorization, <code>Security</code>, introduce API tokens for authorizing WebSockets API usage, even on localhost</p></li>
-
-<li><p>Support changing the wallet password, <code>Security</code>, provide the ability for the user to change wallet password</p></li>
-
-<li><p>Stress Testing: Packet Delay and Loss, <code>Testing</code>, part of test harness</p></li>
-
-<li><p>Stress Testing: Large Number of Nodes, <code>Testing</code>, part of test harness</p></li>
-
-<li><p>Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, <code>Testing</code>, stress testing the vital subsystems using transactional loads from transaction generator</p></li>
-
-<li><p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p></li>
+<li>
+<p>Base functionality of GUI Wallet desktop application, <code>Wallet</code>, implementing bootstrapping visualisation, accounts and payments</p>
+</li>
+<li>
+<p>Improve security of Docker image, <code>Security</code>, strengthen the security of the node&rsquo;s docker image</p>
+</li>
+<li>
+<p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p>
+</li>
+<li>
+<p>Persist Payment History and Payment Certificates in Wallet, <code>Wallet</code>, required to support showing the payment history in wallet</p>
+</li>
+<li>
+<p>Use Base58 for external representation of wallet public keys (addresses), <code>Core Blockchain</code>, provide more user-friendly encoding of addresses</p>
+</li>
+<li>
+<p>Implement WebSocket API Authorization, <code>Security</code>, introduce API tokens for authorizing WebSockets API usage, even on localhost</p>
+</li>
+<li>
+<p>Support changing the wallet password, <code>Security</code>, provide the ability for the user to change wallet password</p>
+</li>
+<li>
+<p>Stress Testing: Packet Delay and Loss, <code>Testing</code>, part of test harness</p>
+</li>
+<li>
+<p>Stress Testing: Large Number of Nodes, <code>Testing</code>, part of test harness</p>
+</li>
+<li>
+<p>Stress Testing: Blockchain, Consensus, Service Awards, Slashing, ValueShuffle, <code>Testing</code>, stress testing the vital subsystems using transactional loads from transaction generator</p>
+</li>
+<li>
+<p>Introduce variable fees in transactions, <code>Core Blockchain, Wallet</code>, introduce the ability to set arbitrary fee amount for transaction in order to increase chances of transaction to be included in the nearest block</p>
+</li>
 </ul>
 
 

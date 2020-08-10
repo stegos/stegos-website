@@ -235,56 +235,35 @@
 
             <h1 class="news_title">Основная сеть, предварительный релиз 3</h1>
 
-            
-
-<p>Stegos создает передовые технологии, которые защищают ваши секреты от посторонних глаз, чтобы вы чувствовали себя в безопасности.</p>
-
+            <p>Stegos создает передовые технологии, которые защищают ваши секреты от посторонних глаз, чтобы вы чувствовали себя в безопасности.</p>
 <p>Это третий предварительный релиз предстоящего выпуска основной сети Stegos. В целях улучшения синхронизации узлов и производительности начальной загрузки мы переключились на новую криптографическую реализацию на основе BLS12-381, что позволило в 40 раз сократить время проверки подписи BLS. Другим важным достижением было переключение single curve crypto с Curve1174 на Curve25519 для увеличения производительности Bulletproofs и обеспечения совместимости с iOS CryptoKit.</p>
-
-<h3 id="новое-в-stegos-v0-10">Новое в Stegos v0.10:</h3>
-
+<h3 id="новое-в-stegos-v010">Новое в Stegos v0.10:</h3>
 <ul>
 <li>Произведено переключение на новую криптографическую реализацию на основе кривых <em>BLS12-381</em>, в 40 раз сокращено время проверки подписи BLS</li>
 <li>Сделано переключение на Dalek <em>Curve25519</em> в реализации для single curve crypto, реализовано десятикратное улучшение времени проверки Bulletproof, обеспечена будущая совместимость с iOS CryptoKit</li>
 <li>Реализовано применение платежных сертификатов в Clip Wallet, что будет необходимо, если вам понадобятся доказательства отправки определенного количества токенов кому-либо</li>
 <li>Переключение на использование Base58 для ключей кошелька на диске позволяет обеспечить более удобное внешнее представление ключей, сохраненных на диске</li>
 </ul>
-
 <p>Смотрите предыдущие <a href="https://github.com/stegos/stegos/releases">релизы</a> и <a href="https://github.com/stegos/stegos/wiki/project-plan#sprint19">план проекта</a> для получения дополнительной информации.</p>
-
 <p>Обновление с Mainnet Preview 2 не поддерживается, пожалуйста, очистите каталог от старых баз данных и ключей.</p>
-
 <h3 id="установка">Установка</h3>
-
 <p>Начиная второго предварительного релиза основной сети, предоставляются два компонента платформы Stegos:</p>
-
 <ul>
 <li><code>stegosd</code> - Stegos Full Node Daemon.</li>
 <li><code>stegos</code> - Stegos Command-Line Client.</li>
 </ul>
-
 <h4 id="running-node">Running Node</h4>
-
 <p>Скачайте и запустите ноду Stegos.</p>
-
 <p><strong>Linux 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegosd-linux-x64 -o stegosd
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegosd-linux-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p><strong>macOS 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegosd-macos-x64 -o stegosd
+</code></pre></div><p><strong>macOS 64-bit:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegosd-macos-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p>При первом запуске нода создаст новый кошелек. Пожалуйста, создайте надежный пароль и сохраните его в безопасном месте. Этот пароль используется локально для шифрования данных на диске. Механизм восстановления пароля отсутствует.</p>
-
+</code></pre></div><p>При первом запуске нода создаст новый кошелек. Пожалуйста, создайте надежный пароль и сохраните его в безопасном месте. Этот пароль используется локально для шифрования данных на диске. Механизм восстановления пароля отсутствует.</p>
 <p>Будут созданы следующие файлы и каталоги:</p>
-
 <ul>
 <li><code>wallet.pkey</code> - Wallet Public Key (Address) in Base58 format</li>
 <li><code>wallet.skey</code> - Wallet Secret Key.</li>
@@ -294,31 +273,19 @@ chmod a+x stegosd
 <li><code>data/wallet/</code> - Wallet Database.</li>
 <li><code>api_token.txt</code> - API Token need to connect to Node API.</li>
 </ul>
-
 <p>После создания нового кошелька узел начнет синхронизацию с сетью и напечатает множество информационных сообщений <code>INFO</code> с информацией о состоянии синхронизации.</p>
-
 <h4 id="подключение-к-узлу">Подключение к узлу</h4>
-
 <p>Скачайте и запустите клиент командной строки (command-line client).</p>
-
 <p><strong>Linux 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegos-linux-x64 -o stegos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p><strong>macOS 64-bit</strong>:</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegos-macos-x64 -o stegos
+</code></pre></div><p><strong>macOS 64-bit</strong>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.10/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>Клиент командной строки попытается подключиться к локальному узлу и напечатать приглашение вида &ldquo;stegos&gt;&rdquo;. Для получения справки введите команду <code>help</code> в командной строке. По умолчанию клиент считывает маркер API из файла <code>api_token.txt</code> в текущем каталоге и пытается подключиться к адресу узла (по умолчанию <code>127.0.0.1:3145</code>). Пожалуйста, обратите на это внимание, команда <code>stegos --help</code> поможет переопределить эти параметры.</p>
-
+</code></pre></div><p>Клиент командной строки попытается подключиться к локальному узлу и напечатать приглашение вида &ldquo;stegos&gt;&rdquo;. Для получения справки введите команду <code>help</code> в командной строке. По умолчанию клиент считывает маркер API из файла <code>api_token.txt</code> в текущем каталоге и пытается подключиться к адресу узла (по умолчанию <code>127.0.0.1:3145</code>). Пожалуйста, обратите на это внимание, команда <code>stegos --help</code> поможет переопределить эти параметры.</p>
 <h3 id="обратная-связь">Обратная связь</h3>
-
 <p>Пожалуйста, вступайте к нам в <a href="https://stg.to/tgcru">Telegram чат</a>, получайте тестовые токены и дайте нам обратную связь.
 Подписывайтесь на наш официальный <a href="https://stg.to/tgnru">Telegram канал</a>, чтобы получать последние новости.</p>
 

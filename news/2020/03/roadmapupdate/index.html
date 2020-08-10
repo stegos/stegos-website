@@ -223,94 +223,49 @@
 
             <h1 class="news_title">Stegos Updated Roadmap</h1>
 
-            
-
-<p><img src="/images/Roadmap_Update.jpg" style="object-fit:cover;width:100%"/></p>
-
+            <!-- raw HTML omitted -->
 <p>Things have been a little quiet here at Stegos this past month, but not because there hasn&rsquo;t been anything going on. In fact, quite the opposite: everyone is hunkered down developing some of our best and most private technology yet. If you want to follow our progress, you can always check out our GitHub.</p>
-
 <p>Here&rsquo;s the updated roadmap of cool things we&rsquo;re developing in 2020 (and beyond), along with a brief explanation about why each milestone is so important. If you&rsquo;ve got any questions or comments, be sure to head to our Telegram channel to let us know.</p>
-
 <h3 id="block-explorer-v1">Block Explorer v1</h3>
-
 <p>This is already up and running, and can be found here. It&rsquo;s a little different from other block explorers, because Stegos is so private, but you can check out the current block number, number of transactions per block and the current size of the validator service award jackpot, along with the past history of the awards.</p>
-
 <h3 id="mobile-app-demo">Mobile App Demo</h3>
-
 <p>The Stegos mobile app is currently undergoing internal testing and bug fixing ready for a wider demo rollout in the next few weeks.</p>
-
 <p>We&rsquo;re calling this version a demo because it won&rsquo;t quite meet our self-imposed usability requirements: the app has a smaller storage footprint than the desktop app, but it achieves that by downloading the whole chain first and then deleting the parts it doesn&rsquo;t need. We&rsquo;ll change that in the next update, but for now this is only really suitable for use over WiFi.</p>
-
 <p>We&rsquo;ll be looking for your help putting the app through its paces, so be on the lookout for a testing and feedback bounty very soon.</p>
-
 <h3 id="gossip-protocol">Gossip Protocol</h3>
-
 <p>The Stegos network currently relies heavily on our bootstrap nodes, with all network traffic being routed through them. With the gossip protocol nodes will be able to communicate among themselves, making the network more secure and much faster. This will reduce our infrastructure load and massively improve syncing times.</p>
-
 <h3 id="block-explorer-v2">Block Explorer v2</h3>
-
 <p>Our current block explorer provides a lot of useful data about the Stegos chain and the validator service award, we&rsquo;ve had a lot of requests to make it searchable. After the update, you&rsquo;ll be able to search for public payments. (Private payments will obviously always remain private — we couldn&rsquo;t provide data for them even if we wanted to!)</p>
-
 <h3 id="full-mobile-app">Full Mobile App</h3>
-
 <p>The first truly mobile version of the Stegos app. Once we update the app to only download the block headers and the transactions relevant to your account, you&rsquo;ll be able to use the app over data as well as WiFi, finally giving you privacy in your pocket at all times!</p>
-
 <h3 id="mobile-app-optimizations">Mobile App Optimizations</h3>
-
 <p>Even once the app is released, we won&rsquo;t be resting on our laurels. We&rsquo;ve got a lot of plans to optimize the app and reduce resource consumption, to make sure you won&rsquo;t have to keep running to charge your battery.</p>
-
 <h3 id="private-chat">Private Chat</h3>
-
 <p>This is the big one: fully private one-to-one and group messaging, all secured by the Stegos blockchain. This has been pushed from the first release because the chat protocol requires some fundamental changes to the underlying blockchain, but once these changes have been implemented, you&rsquo;ll be able to send messages and transact with complete privacy, all from a single app: something no other crypto currency or messaging app can provide!</p>
-
 <h3 id="streamlined-desktop-node">Streamlined desktop node</h3>
-
 <p>Like the mobile wallet, the streamlined desktop node will just download the block headers and the data related to your own transactions. This will massively reduce storage requirements and syncing times for users where this is in an issue.</p>
-
 <h3 id="public-ip-addresses">Public IP addresses</h3>
-
 <p>With this update, full nodes will be required to use public IP addresses. This will further reduce the load on the Stegos nodes, which are currently handling all the traffic from IP-shielded nodes on our network.</p>
-
 <h3 id="flexible-node-discovery">Flexible node discovery</h3>
-
 <p>Improving how node discovery works will remove the need for Stegos-controlled bootstrap nodes, making the Stegos network truly decentralized and ensuring that the Stegos chain will always live on even if the nodes controlled by the Stegos team are disrupted or otherwise taken offline.</p>
-
 <h3 id="red-packets">Red packets</h3>
-
 <p>Private red packets are our marketing ace in the hole: send tokens via chat to your friends and contacts, or use bigger packets for promotions and advertising. Red packets have an in-built delay while they interact with the chain: you&rsquo;ll be able to use this time to show messages, short videos or advertising.</p>
-
 <h3 id="two-key-encryption-scheme">Two-key encryption scheme</h3>
-
 <p>It&rsquo;s currently impossible to build truly secure Stegos apps because you need to use your private key to scan the blockchain to search for incoming transactions. This introduces an extremely small but real security risk. Ideally, your private key should always remain in cold storage and never be connected directly to the internet. But many decentralized apps require a constant connection to work. It&rsquo;s a tricky problem.</p>
-
 <p>By switching to a two-key encryption scheme, we can add a new kind of key which lets you scan the blockchain but not make any outgoing transactions. So this key can be used to power the apps, while the all important private key stays in cold storage.</p>
-
 <p>This will allow all kinds of automated private apps without putting anyone tokens at risks. It will also allow us to minimize the use of public transactions, which are an inelegant solution in a privacy network.</p>
-
 <h3 id="privacy-marketplace">Privacy Marketplace</h3>
-
 <p>The Stegos privacy marketplace will replicate the features of the world&rsquo;s largest online marketplaces, like Taobao and Ebay, but completely privately. By scaling up the same technology used in our private transactions and messaging, we&rsquo;ll be able to offer large-scale e-commerce in complete privacy.</p>
-
 <h3 id="decentralized-exchange-dex">Decentralized exchange (DEX)</h3>
-
 <p>Cryptocurrencies are ushering in a new era of privacy, but exchanges are an enormous weak point. You often have to undergo more KYC to register with an exchange than you would to set up a normal bank account! A decentralized exchanged will give people a truly private gateway to the world of crypto.</p>
-
 <h3 id="ios-app">iOS app</h3>
-
 <p>We&rsquo;ve focused on Android so far because we can reach more users that way and it&rsquo;s easier to distribute Android apps than iOS ones (getting privacy apps onto the Apple Store is a nightmare!). But we know a lot of people use iOS, so we&rsquo;re committed to providing a version of the mobile app so everyone has access to mobile privacy, regardless of their device.</p>
-
 <h3 id="blockchain-pruning">Blockchain pruning</h3>
-
 <p>Blockchains are cumbersome beasts. The Stegos blockchain is still less than six months old and it&rsquo;s already growing quite large. This is a problem for our dream of fully mobile privacy, even with the streamlined nodes which only download block headers.</p>
-
 <p>Luckily, we have a solution. By pruning spent UTXOs and expired messages, we&rsquo;ll be able to ensure the Stegos blockchain always stays at around 1-2 GB, no matter how long the chain gets. The encryption required to ensure this is done correctly, securely and privately, all without expending huge amounts of computational resources, is complicated and intricate.</p>
-
 <p>The Stegos Team</p>
-
 <p>Website: <a href="https://www.stegos.com/">https://www.stegos.com</a></p>
-
 <p>Telegram: <a href="https://t.me/stegos4privacy">https://t.me/stegos4privacy</a></p>
-
 <p>Wallet: <a href="https://github.com/stegos/stegos-wallet/releases">https://github.com/stegos/stegos-wallet/releases</a></p>
 
 

@@ -235,16 +235,12 @@
 
             <h1 class="news_title">主网预览 4</h1>
 
-            
-
-<p>​
+            <p>​
 Stegos打造前沿科技，从而保护您的隐私安全，避免被其他人窥视，因此你会感到非常给力以及安全。
 ​
 这是一个修复错误的版本, 自<a href="https://github.com/stegos/stegos/releases/tag/v0.10">主网预览 3</a>以来多出了100多个错误修复程序。
 ​</p>
-
-<h3 id="stegos-v0-11中的新增内容">Stegos v0.11中的新增内容:</h3>
-
+<h3 id="stegos-v011中的新增内容">Stegos v0.11中的新增内容:</h3>
 <ul>
 <li>提高了Snowball混币协议的整体稳定性和性能，现在Snowball即使在3G/4G这样的慢速移动数据连接环境下也能可靠运行。</li>
 <li>调整核心区块链常数和限制，以达到通胀目标，现在每隔6-8秒产生一个新区块。</li>
@@ -256,49 +252,34 @@ Stegos打造前沿科技，从而保护您的隐私安全，避免被其他人�
 <li>在命令行客户端中过滤掉扰人的通知。</li>
 <li>改进了WebSocket API的可用性。</li>
 </ul>
-
 <p>​
 请参考<a href="https://github.com/stegos/stegos/milestone/21?closed=1">Sprint 20</a> and <a href="https://github.com/stegos/stegos/milestone/22?closed=1">Sprint 21</a> GitHub上的里程碑获取已修复错误的完整列表。
 ​</p>
-
 <h3 id="入门教程">入门教程</h3>
-
 <p>​</p>
-
 <h4 id="运行节点">运行节点</h4>
-
 <p>​
 如果您安装了Mainnet Preview 3，请停止运行节点并清理数据目录：
 ​</p>
-
 <pre><code>rm -rf ~/.local/stegos ~/.config/stegos
-</code></pre>
-
-<p>​
+</code></pre><p>​
 下载并运行Stegos节点:
 ​
 <strong>Linux 64-bit:</strong>
 ​</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p>​
+</code></pre></div><p>​
 <strong>macOS 64-bit:</strong>
 ​</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p>​
+</code></pre></div><p>​
 在第一次运行时，节点将在以下路径中创建一个数据目录 <code>$HOME/.local/share/stegos</code> on Linux or <code>$HOME/Library/Application Support/stegos</code> 在Mac上，该目录的结构如下:
 ​
 ​</p>
-
 <pre><code>    ├── accounts/  &lt;!-- Accounts
     │   ├── 1
     │   │   ├── account.pkey &lt;!-- Account #1 public key (address)
@@ -312,42 +293,30 @@ chmod a+x stegosd
     ├── chain/               &lt;!-- Blockchain (RocksDB)
     ├── network.pkey         &lt;!-- Ephemeral network (consensus) public key.
     ├── network.skey         &lt;!-- Ephemeral network (consensus) secret key.
-</code></pre>
-
-<p>​
+</code></pre><p>​
 节点将开始与网络同步，并打印大量INFO消息，其中包含有关同步状态的调试信息。
 ​
 新节点没有默认帐户。如要创建新帐户，请使用命令行客户端连接到节点。
 ​</p>
-
 <h4 id="连接到节点">连接到节点</h4>
-
 <p>​
 下载并运行命令行客户端。
 ​
 Linux 64-bit:
 ​</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-linux-x64 -o stegos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>​
+</code></pre></div><p>​
 macOS 64-bit:
 ​</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-macos-x64 -o stegos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>​
+</code></pre></div><p>​
 命令行客户端将尝试连接到本地节点并进行打印 <code>stegos&gt;</code> 提示。想要获得帮助，请在提示符下输入 <code>help</code> 命令。默认情况下, 客户端从当前目录中的 <code>api_token.txt</code> 文件中读取API代币，并尝试连接到默认 (<code>127.0.0.1:3145</code>) 节点地址。请查阅 <code>stegos --help</code> 来覆写这些选项。
 ​</p>
-
 <h4 id="账户使用">账户使用</h4>
-
 <p>​
 输入 <code>create account</code> 创建新账户。系统会要求您输入密码，此密码在本地用于加密磁盘上的数据，请记住它。
 ​
@@ -365,9 +334,7 @@ chmod a+x stegos
 ​
 输入 <code>show history 15m</code> 查看已创建交易和付款历史的状态。
 ​</p>
-
 <h3 id="反馈">反馈</h3>
-
 <p>​
 请加入我们的<a href="https://stg.to/tgcch">电报群</a>来获取测试网代币。
 订阅官方<a href="https://stg.to/tgnch">电报公告频道</a>来获取最新的消息。</p>

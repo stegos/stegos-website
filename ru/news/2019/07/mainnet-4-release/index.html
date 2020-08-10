@@ -235,14 +235,9 @@
 
             <h1 class="news_title">Основная сеть, предварительный релиз 4</h1>
 
-            
-
-<p>Stegos создает передовые технологии, которые защищают ваши секреты от посторонних глаз, чтобы вы чувствовали себя в безопасности.</p>
-
+            <p>Stegos создает передовые технологии, которые защищают ваши секреты от посторонних глаз, чтобы вы чувствовали себя в безопасности.</p>
 <p>Этот исправляет более 100 проблем и потенциальных уязвимостей с момента <a href="https://github.com/stegos/stegos/releases/tag/v0.10">Mainnet Preview 3</a>.</p>
-
-<h3 id="новое-в-stegos-v0-11">Новое в Stegos v0.11:</h3>
-
+<h3 id="новое-в-stegos-v011">Новое в Stegos v0.11:</h3>
 <ul>
 <li>Улучшена общая стабильность и производительность протокола Snowball, теперь Snowball надежно работает даже на медленных мобильных соединениях 3G/4G.</li>
 <li>Произведен тюнинг основных констант и ограничений блокчейна для достижения целей по инфляции, теперь новый блок создается каждые 6-8 секунд.</li>
@@ -254,84 +249,46 @@
 <li>Отфильтрованы излишние уведомления в клиенте командной строки.</li>
 <li>Улучшено удобство использования WebSocket API.</li>
 </ul>
-
 <p>Смотрите предыдущие <a href="https://github.com/stegos/stegos/milestone/21?closed=1">Спринт 20</a> и <a href="https://github.com/stegos/stegos/milestone/22?closed=1">Спринт 21</a> на GitHub для полного списка исправленных ошибок.</p>
-
 <h3 id="начало-работы">Начало работы</h3>
-
 <h4 id="запуск-ноды">Запуск ноды</h4>
-
 <p>Если Вы ранее устанавливали Mainnet Preview 3, то, пожалуйста, остановите Ноды и удалите каталоги с данными:</p>
-
 <pre><code>rm -rf ~/.local/stegos ~/.config/stegos
-</code></pre>
-
-<p>Скачайте и запустите Ноду Stegos:</p>
-
+</code></pre><p>Скачайте и запустите Ноду Stegos:</p>
 <p><strong>Linux 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p><strong>macOS 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd
+</code></pre></div><p><strong>macOS 64-bit:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p>При первом запуске Нода создаст директорию <code>$HOME/.local/share/stegos</code> на Linux или <code>$HOME/Library/Application Support/stegos</code> на Mac. Эта директория имеет следующую структуру:</p>
-
+</code></pre></div><p>При первом запуске Нода создаст директорию <code>$HOME/.local/share/stegos</code> на Linux или <code>$HOME/Library/Application Support/stegos</code> на Mac. Эта директория имеет следующую структуру:</p>
 <pre><code>[#таблица (которая синяя)!!!!!!!!!]
 
-</code></pre>
-
-<p>Нода начнет синхронизацию с сетью и напечатает много информационных сообщений с отладочной информацией о состоянии синхронизации.</p>
-
+</code></pre><p>Нода начнет синхронизацию с сетью и напечатает много информационных сообщений с отладочной информацией о состоянии синхронизации.</p>
 <p>Новый Нода по умолчанию не имеет счетов. Чтобы создать новый счет, подключитесь к узлу с помощью клиента командной строки.</p>
-
 <h4 id="соединение-с-нодой">Соединение с нодой</h4>
-
 <p>Скачайте и запустите клиент командной строки.</p>
-
 <p>Linux 64-bit:</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-linux-x64 -o stegos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>macOS 64-bit:</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-macos-x64 -o stegos
+</code></pre></div><p>macOS 64-bit:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>Клиент командной строки попытается подключиться к локальному узлу и напечатать приглашение &ldquo;stegos&gt;&rdquo;. Если Вам необходима подсказка, введите команду &ldquo;help&rdquo; в командной строке. По умолчанию клиент считывает маркер API из файла &lsquo;api_token.txt&rsquo; в текущем каталоге и пытается подключиться к адресу узла по умолчанию (<code>127.0.0.1:3145</code>). Команда <code>stegos --help</code> подскажет как переопределить эти параметры.</p>
-
+</code></pre></div><p>Клиент командной строки попытается подключиться к локальному узлу и напечатать приглашение &ldquo;stegos&gt;&rdquo;. Если Вам необходима подсказка, введите команду &ldquo;help&rdquo; в командной строке. По умолчанию клиент считывает маркер API из файла &lsquo;api_token.txt&rsquo; в текущем каталоге и пытается подключиться к адресу узла по умолчанию (<code>127.0.0.1:3145</code>). Команда <code>stegos --help</code> подскажет как переопределить эти параметры.</p>
 <h4 id="работа-с-учетными-записями">Работа с учетными записями</h4>
-
 <p>Введите <code>create account</code>, чтобы создать новый счет. Вам будет предложено ввести пароль. Этот пароль используется только локально для шифрования данных на диске. Пожалуйста, запомните его и/или сохраните в безопасном месте.</p>
-
 <p>Введите <code>show recovery</code>, чтобы получить фразу восстановления из 24 слов. Эта фраза восстановления является закодированным представлением вашего секретного ключа. Пожалуйста, сохраните данную фразу в безопасном месте. Других механизмов восстановления пароля НЕ СУЩЕСТВУЕТ.</p>
-
 <p>Введите <code>recover account</code>, чтобы восстановить счет из фразы восстановления 24 слов.</p>
-
 <p>Введите <code>show accounts</code>, чтобы отобразить список доступных аккаунтов.</p>
-
 <p>Введите <code>use ACCOUNT_ID</code> для переключения между активными учетными записями в CLI.</p>
-
 <p>Введите <code>show balance</code>, чтобы увидеть текущий баланс.</p>
-
 <p>Введите <code>pay RECIPIENT AMOUNT</code>, чтобы совершить платеж получателю.</p>
-
 <p>Введите <code>show history 15m</code>, чтобы увидеть статус созданной транзакции и историю платежей (за последние 15 минут).</p>
-
 <h3 id="обратная-связь">Обратная связь</h3>
-
 <p>Пожалуйста, вступайте к нам в <a href="https://stg.to/tgc">Telegram чат</a>, получайте тестовые токены и дайте нам обратную связь.
 Подписывайтесь на наш официальный <a href="https://stg.to/tgn">Telegram канал</a>, чтобы получать последние новости.</p>
 

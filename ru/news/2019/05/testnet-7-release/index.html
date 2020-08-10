@@ -235,12 +235,8 @@
 
             <h1 class="news_title">Тестовая сеть, релиз 7</h1>
 
-            
-
-<p>Stegos создает передовые технологии, которые защищают ваши секреты от посторонних глаз, чтобы вы чувствовали себя в безопасности.</p>
-
+            <p>Stegos создает передовые технологии, которые защищают ваши секреты от посторонних глаз, чтобы вы чувствовали себя в безопасности.</p>
 <p>Это седьмой тестовый выпуск блокчейна Stegos. Изменения произведенные после <a href="https://github.com/stegos/stegos/releases/tag/v0.6">Testnet 6</a>:</p>
-
 <ul>
 <li>Новый StakeUTXO, StakeUTXOs с подписями BLS</li>
 <li>Публичный платеж, UTXO с открытым ключом получателя и суммой</li>
@@ -249,41 +245,27 @@
 <li>Обрезка блокчейна и наказание владельца слота за одновременную публикацию двух разных блоков</li>
 <li>Re-Staking, достижение консенсуса и изменение ключей валидаторов в заданных интервалах</li>
 <li>Стабилизация ValueShuffle в случае epoch change, тонкая настройка кода фасилитатора</li>
-<li>Изменение ключей PBC: поддержка изменения ключей PBC узла (валидатора) \&ldquo;на лету\&rdquo;</li>
+<li>Изменение ключей PBC: поддержка изменения ключей PBC узла (валидатора) &quot;на лету&quot;</li>
 <li>Проверка устаревших соединений, установка повторного подключения в случае таковых</li>
 <li>Стресс-тестирование: развертывание TxGenerator, тестирование, поддержка развертывания генератора транзакций для devnets</li>
 <li>Использование AONT (все или ничего) для всех сериализованных представлений секретов, обеспечение дополнительной безопасности для их представлений в памяти</li>
 <li>Имплементация WAU (вытирание после использования) для всех секретных сообщений, обеспечивает дополнительную безопасность от считывания секретной информации из памяти</li>
 </ul>
-
 <p><strong>Критическое изменение:</strong></p>
-
 <p>Выпуск тестовой сети в 7 релизе не полностью совместим с выпуском 6 релиза. Пожалуйста, сбросьте локальную базу данных, если вы обновляете предыдущую версию:</p>
-
 <pre><code>rm -rf database/
-</code></pre>
-
-<p>Проверьте <a href="https://github.com/stegos/stegos/wiki/project-plan#sprint16">the project plan</a> для получения дополнительной информации.</p>
-
+</code></pre><p>Проверьте <a href="https://github.com/stegos/stegos/wiki/project-plan#sprint16">the project plan</a> для получения дополнительной информации.</p>
 <p>Пожалуйста, вступите в нашу группу <a href="https://t.me/stegos4privacy">Telegram</a>, чтобы получить тестовые токены и дайте нам обратную связь.</p>
-
 <h3 id="установка-узла-тестовой-сети">Установка узла тестовой сети</h3>
-
 <h4 id="linux-64-bit">Linux 64-bit:</h4>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<h4 id="macos-64-bit">macOS 64-bit:</h4>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos
+</code></pre></div><h4 id="macos-64-bit">macOS 64-bit:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>Сразу после запуска узел будет печатать много информационных сообщений с отладочной информацией относительно начальной загрузки вашего узла. Нажмите Enter, чтобы получить stegos. Для получения справки введите команду help в командной строке.</p>
+</code></pre></div><p>Сразу после запуска узел будет печатать много информационных сообщений с отладочной информацией относительно начальной загрузки вашего узла. Нажмите Enter, чтобы получить stegos. Для получения справки введите команду help в командной строке.</p>
 
 
         </div>

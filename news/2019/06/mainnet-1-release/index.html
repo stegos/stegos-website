@@ -235,19 +235,13 @@
 
             <h1 class="news_title">Mainnet Preview 1</h1>
 
-            
-
-<h2 id="stegos-mainnet-preview-1-release-notes">Stegos Mainnet Preview 1 Release Notes</h2>
-
+            <h2 id="stegos-mainnet-preview-1-release-notes">Stegos Mainnet Preview 1 Release Notes</h2>
 <p>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.</p>
-
 <p>This is a first preview release of upcoming Stegos mainnet. This preview version is considered mostly feature-complete. All core features have been implemented, yet some improvements and bug fixes need to be made for the final release.</p>
-
-<h3 id="new-in-stegos-v0-8">New in Stegos v0.8:</h3>
-
+<h3 id="new-in-stegos-v08">New in Stegos v0.8:</h3>
 <ul>
 <li>Created an innovative blockchain compression technology to remove intermediate intra-epoch blocks after reaching the final pBFT consensus in validators group. Together with blockchain pruning technology this makes Stegos the most compact blockchain ever.</li>
-<li>Added Service Awards, a new incentive for validators to stay online. Each block contributes <sup>1</sup>&frasl;<sub>3</sub> of its reward into a special fund, which is periodically awarded to an arbitrary validator, which always stayed online since the last draw.</li>
+<li>Added Service Awards, a new incentive for validators to stay online. Each block contributes 1/3 of its reward into a special fund, which is periodically awarded to an arbitrary validator, which always stayed online since the last draw.</li>
 <li>Reached 10x performance boost on Bulletproof validation. A single Bulletproof verification is now just 10 ms.</li>
 <li>Increased performance of node synchronization and disk recovery from 200 to 6000 epochs per hour. We keep working on optimizing the underlying crypto-primitives in order to speed up the node sync more.</li>
 <li>Fine-tuned blockchain constants to get a trade off between finality time and node synchronization time.</li>
@@ -256,34 +250,20 @@
 <li>Introduced UTXO Timestamp Locking.</li>
 <li>PublicPaymentUTXOs: introduced additional tx validation rules and implemented support for public payment UTXOs usage in the wallet.</li>
 </ul>
-
 <p>See previous <a href="https://github.com/stegos/stegos/releases">releases</a> and <a href="https://github.com/stegos/stegos/wiki/project-plan#sprint17">the project plan</a> for additional information.</p>
-
 <h3 id="installation">Installation</h3>
-
 <p>If you upgrading from the previous release, please reset your blockchain database first:</p>
-
 <pre><code>rm -rf database/
-</code></pre>
-
-<h4 id="linux-64-bit">Linux 64-bit:</h4>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-linux-x64 -o stegos
+</code></pre><h4 id="linux-64-bit">Linux 64-bit:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<h4 id="macos-64-bit">macOS 64-bit:</h4>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
+</code></pre></div><h4 id="macos-64-bit">macOS 64-bit:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>Right after the start the node will print a lot of <code>INFO</code> messages with debugging information regarding bootstrapping your node. Press <code>Enter</code> to get <code>stegos&gt;</code> prompt. To get help enter <code>help</code> command at the prompt.</p>
-
+</code></pre></div><p>Right after the start the node will print a lot of <code>INFO</code> messages with debugging information regarding bootstrapping your node. Press <code>Enter</code> to get <code>stegos&gt;</code> prompt. To get help enter <code>help</code> command at the prompt.</p>
 <h3 id="feedback">Feedback</h3>
-
 <p>Please join us on <a href="https://stg.to/tgc">Telegram Chat</a> to get test tokens and let us know your thoughts.
 Subscribe to official <a href="https://stg.to/tgn">Telegram Channel</a> for the latest news.</p>
 

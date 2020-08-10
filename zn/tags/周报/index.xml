@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>周报 on </title>
@@ -44,9 +44,9 @@
 Stegos v0.11中的新增内容:  提高了Snowball混币协议的整体稳定性和性能，现在Snowball即使在3G/4G这样的慢速移动数据连接环境下也能可靠运行。 调整核心区块链常数和限制，以达到通胀目标，现在每隔6-8秒产生一个新区块。 将HashCash替换为VDF用于网络授权协议，使网络授权延迟更具可预测性。 节点添加自动re-staking，以允许节点在没有电子冷钱包密钥的情况下工作。 重新设计了交易跟踪和付款历史记录，修复了内部质量保证期间发现的几个问题。 重新安排数据目录布局并更改默认路径以满足Linux和Mac准则。 为Node和CLI添加了新的命令行和配置选项。 在命令行客户端中过滤掉扰人的通知。 改进了WebSocket API的可用性。  ​ 请参考Sprint 20 and Sprint 21 GitHub上的里程碑获取已修复错误的完整列表。 ​
 入门教程 ​
 运行节点 ​ 如果您安装了Mainnet Preview 3，请停止运行节点并清理数据目录： ​
-rm -rf ~/.local/stegos ~/.config/stegos  ​ 下载并运行Stegos节点: ​ Linux 64-bit: ​
-curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd chmod a+x stegosd ./stegosd  ​ macOS 64-bit: ​
-curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd chmod a+x stegosd .</description>
+rm -rf ~/.local/stegos ~/.config/stegos ​ 下载并运行Stegos节点: ​ Linux 64-bit: ​
+curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd chmod a+x stegosd ./stegosd ​ macOS 64-bit: ​
+curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd chmod a+x stegosd ./stegosd ​ 在第一次运行时，节点将在以下路径中创建一个数据目录 $HOME/.</description>
     </item>
     
     <item>
@@ -80,13 +80,13 @@ Sprint 21有望成为主网发布之前的最后一期Sprint。我们将继续�
 这是即将推出的Stegos主网的第三个预览。为了提高节点同步和自举性能，我们已经切换到新的配对曲线BLS12-381，将BLS签名验证时间减少了40倍。另一个主要成就是将单曲线加密从Curve1174切换到Curve25519以提高防弹性能并提供与iOS13 CryptoKit的兼容性。
 Stegos v0.10中的新增内容：  [加密] 基于BLS12-381曲线切换到新的基于配对的加密实现，BLS签名验证速度提升了40倍。 [加密] 切换到Dalek Curve25519实现单曲线加密，防弹验证时间提高10倍，未来与iOS CryptoKit兼容。 [钱包] 在CLI钱包中实施支付证书，如果您必须证明您向某人发送了特定数量的代币，则需要支付证书。 [钱包] 切换到使用Base58用于磁盘上的钱包密钥，保存在磁盘上的密钥更加用户友好的外部表示。  了解更多信息，请查看之前发布的文章以及项目发展计划。
 不支持从主网预览2升级 - 请从没有旧数据库和密钥的纯净目录开始。
-安装指导 安装从此版本开始，提供了Stegos平台的两个组件： - Stegos - Stegos全节点守护进程。 - Stegos - Stegos命令行客户端。
-运行节点 下载并运行Stegos Node。
+安装指导 安装从此版本开始，提供了Stegos平台的两个组件：
+ Stegos - Stegos全节点守护进程。 Stegos - Stegos命令行客户端。  运行节点 下载并运行Stegos Node。
 Linux 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd chmod a+x stegosd ./stegosd  macOS 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos chmod a+x stegos ./stegos  在第一次启动时，节点将创建一个新钱包。请创建一个强密码并将其保存在安全的地方。此密码在本地用于加密磁盘上的数据。这里没有密码恢复机制。
+curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd chmod a+x stegosd ./stegosd macOS 64-bit:
+curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos chmod a+x stegos ./stegos 在第一次启动时，节点将创建一个新钱包。请创建一个强密码并将其保存在安全的地方。此密码在本地用于加密磁盘上的数据。这里没有密码恢复机制。
 将创建以下文件和目录：
- wallet.pkey - Base58格式的电子钱包公钥（地址） wallet.ske - 钱包密钥。 network.pkey - HEX格式的网络公钥。 network.</description>
+ wallet.pkey - Base58格式的电子钱包公钥（地址） wallet.ske - 钱包密钥。 network.pkey - HEX格式的网络公钥。 network.skey - 网络密钥。 data / chain/ - 区块链数据库。 data/wallet/ - 钱包数据库。 api_token.</description>
     </item>
     
     <item>
@@ -95,14 +95,7 @@ curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/zn/news/2019/06/tech-report-june-17th-july-1st/</guid>
-      <description> Sprint 19完成的任务  [加密] 基于* BLS12-381 *曲线，切换到新的基于配对的加密实现，BLS签名验证时间提高40倍 [加密] 切换到Dalek * Curve25519 *实现单曲线加密，防弹验证速度提高了10倍，提供将来与iOS CryptoKit的兼容性 [钱包] 在CLI钱包中实施支付证书，如果您必须证明您向某人发送了特定数量的代币，则需要支付证书 [钱包] 切换到使用Base58用于磁盘上的钱包键，更加用户友好的键保存在磁盘上的外部表示 [测试] 压力测试：数据包延迟和丢失，测试工具的一部分 [测试] 压力测试：区块链，共识，服务激励，作恶惩罚（Slashing），ValueShuffle，对使用交易生成器的交易性负载功能的重要子系统进行压力测试
-Sprint 20的计划 [钱包] 部署Accounts API，以支持每个Wallet应用程序的多个帐户
- [钱包] 帐户API和交易历史记录中的交易状态跟踪，以实现更加用户友好的交易状态报告
- [核心] 引入VDF和卡尔曼滤波器以稳定块时间，使块时间可预测，以稳定年度通胀率
- [测试] 更多压力测试：区块链，共识，服务奖励，作恶惩罚（Slashing），ValueShuffle，对使用交易生成器的交易性负载功能的重要子系统进行压力测试
- [钱包] 完成钱包的图形用户界面（GUI），基于Electron的用户友好型电子钱包应用程序
- 上线主网！
-  </description>
+      <description>Sprint 19完成的任务  [加密] 基于* BLS12-381 *曲线，切换到新的基于配对的加密实现，BLS签名验证时间提高40倍 [加密] 切换到Dalek * Curve25519 *实现单曲线加密，防弹验证速度提高了10倍，提供将来与iOS CryptoKit的兼容性 [钱包] 在CLI钱包中实施支付证书，如果您必须证明您向某人发送了特定数量的代币，则需要支付证书 [钱包] 切换到使用Base58用于磁盘上的钱包键，更加用户友好的键保存在磁盘上的外部表示 [测试] 压力测试：数据包延迟和丢失，测试工具的一部分 [测试] 压力测试：区块链，共识，服务激励，作恶惩罚（Slashing），ValueShuffle，对使用交易生成器的交易性负载功能的重要子系统进行压力测试  Sprint 20的计划  [钱包] 部署Accounts API，以支持每个Wallet应用程序的多个帐户 [钱包] 帐户API和交易历史记录中的交易状态跟踪，以实现更加用户友好的交易状态报告 [核心] 引入VDF和卡尔曼滤波器以稳定块时间，使块时间可预测，以稳定年度通胀率 [测试] 更多压力测试：区块链，共识，服务奖励，作恶惩罚（Slashing），ValueShuffle，对使用交易生成器的交易性负载功能的重要子系统进行压力测试 [钱包] 完成钱包的图形用户界面（GUI），基于Electron的用户友好型电子钱包应用程序 上线主网！  </description>
     </item>
     
     <item>
@@ -113,20 +106,20 @@ Sprint 20的计划 [钱包] 部署Accounts API，以支持每个Wallet应用程�
       <guid>https://stegos.com/zn/news/2019/06/mainnet-2-release/</guid>
       <description>Stegos创造了尖端技术，可以保护您的秘密免受窥探，让您感觉更有能力和安全。
 这是即将推出的Stegos主网的第二个预览版本。我们在此版本中声明了功能冻结 - 在即将发布的主要网络发布之前，没有计划任何新功能。当然，在最终的主网发布之前，将进行一些小的改进和错误修复。
-Stegos v0.9中的新功能：  节点已分为两个二进制文件：完整节点守护程序（stegosd）和命令行客户端（stegos）。
- 已将持久的事务历史记录添加到钱包中（请参阅show history命令）。
- 付款证书已在钱包中引入 - 一种（可选）方式，供发件人向任意第三方证明他已付款。
- 切换到Base58以便外部表示钱包公钥（地址），以提供更加用户友好的地址编码。
- 引入了为交易设定任意费用金额的能力，以增加交易被包括在最近的区块中的机会。
- 引入了用于授权WebSockets API使用的API令牌，即使对于localhost也是如此。 提供了用户更改钱包密码的能力。
- 加强节点的docker镜像的安全性。
+Stegos v0.9中的新功能：   节点已分为两个二进制文件：完整节点守护程序（stegosd）和命令行客户端（stegos）。
+  已将持久的事务历史记录添加到钱包中（请参阅show history命令）。
+  付款证书已在钱包中引入 - 一种（可选）方式，供发件人向任意第三方证明他已付款。
+  切换到Base58以便外部表示钱包公钥（地址），以提供更加用户友好的地址编码。
+  引入了为交易设定任意费用金额的能力，以增加交易被包括在最近的区块中的机会。
+  引入了用于授权WebSockets API使用的API令牌，即使对于localhost也是如此。 提供了用户更改钱包密码的能力。
+  加强节点的docker镜像的安全性。
   了解更多信息，请查看之前发布的文章以及项目发展计划。
 不支持从主网预览1升级 - 请从没有旧数据库和密钥的纯净目录开始。
-安装指导 安装从此版本开始，提供了Stegos平台的两个组件： - Stegos - Stegos全节点守护进程。 - Stegos - Stegos命令行客户端。
-运行节点 下载并运行Stegos Node。
+安装指导 安装从此版本开始，提供了Stegos平台的两个组件：
+ Stegos - Stegos全节点守护进程。 Stegos - Stegos命令行客户端。  运行节点 下载并运行Stegos Node。
 Linux 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosd chmod a+x stegosd ./stegosd  macOS 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegos chmod a+x stegos ./stegos  在第一次启动时，节点将创建一个新钱包。请创建一个强密码并将其保存在安全的地方。此密码在本地用于加密磁盘上的数据。这里没有密码恢复机制。</description>
+curl -L https://github.com/stegos/stegos/releases/download/v0.9/stegosd-linux-x64 -o stegosdchmod a+x stegosd./stegosdmacOS 64-bit:
+curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64 -o stegoschmod a+x stegos.</description>
     </item>
     
     <item>
@@ -135,7 +128,7 @@ curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://stegos.com/zn/news/2019/06/tech-report-june-3rd-june-17th/</guid>
-      <description> Sprint 18完成的任务  [钱包] 钱包桌面应用图形用户界面(GUI)的基础功能，部署驱动程序可视化，账户和支付功能。 [钱包] 在电子钱包中保留付款历史记录和付款凭证，以支持在钱包中显示付款历史记录 [安全] 提高Docker镜像的安全性，增强节点docker镜像的安全性 [核心][钱包] 在交易中引入可变费用，引入为交易设置任意gas费用的能力，以增加交易被打包入最新区块中的机会 [核心] 使用Base58进行钱包公钥（地址）的外部表示，提供更加用户友好的地址编码 [安全] 实现WebSocket API授权，引入API令牌以授权WebSockets API使用，甚至在localhost上 [安全] 支持更改钱包密码，为用户提供更改钱包密码的能力 [测试] 压力测试：大量节点，测试工具集的一部分 [节点CLI] 拆分日志输出和CLI，将CLI应用程序与节点二进制文件分开 [核心] 加速BLS签名速度，BLS签名验证时间从每个签名200ms降低到每个签名5ms  Sprint 19的计划  [测试] 压力测试：数据包延迟和丢失，测试工具集的一部分 [测试] 压力测试：区块链，共识，服务奖励，作恶惩罚，ValueShuffle，对使用交易生成器交易负载功能的重要子系统进行压力测试  </description>
+      <description>Sprint 18完成的任务  [钱包] 钱包桌面应用图形用户界面(GUI)的基础功能，部署驱动程序可视化，账户和支付功能。 [钱包] 在电子钱包中保留付款历史记录和付款凭证，以支持在钱包中显示付款历史记录 [安全] 提高Docker镜像的安全性，增强节点docker镜像的安全性 [核心][钱包] 在交易中引入可变费用，引入为交易设置任意gas费用的能力，以增加交易被打包入最新区块中的机会 [核心] 使用Base58进行钱包公钥（地址）的外部表示，提供更加用户友好的地址编码 [安全] 实现WebSocket API授权，引入API令牌以授权WebSockets API使用，甚至在localhost上 [安全] 支持更改钱包密码，为用户提供更改钱包密码的能力 [测试] 压力测试：大量节点，测试工具集的一部分 [节点CLI] 拆分日志输出和CLI，将CLI应用程序与节点二进制文件分开 [核心] 加速BLS签名速度，BLS签名验证时间从每个签名200ms降低到每个签名5ms  Sprint 19的计划  [测试] 压力测试：数据包延迟和丢失，测试工具集的一部分 [测试] 压力测试：区块链，共识，服务奖励，作恶惩罚，ValueShuffle，对使用交易生成器交易负载功能的重要子系统进行压力测试  </description>
     </item>
     
     <item>
@@ -146,25 +139,24 @@ curl -L https://github.com/stegos/stegos/releases/download/v0.8/stegos-macos-x64
       <guid>https://stegos.com/zn/news/2019/05/testnet-7-release/</guid>
       <description>测试网7发布 Stegos创建了前沿的技术，其可以保护你的秘密不被窥探，因此你会感觉非常安全且可靠。
 这是Stegos区块链发布的第七个版本的测试网。以下是 测试网6 以来的相关改进：
- [核心] 全新的StakeUTXO，以及带有BLS签名的StakeUTXOs
- [核心] 公开支付UTXO，未加密收件人的公钥和金额
- [核心] 将时间锁加入到所有UTXO类型中，让UTXO可以进行时间锁定
- [核心] 引入微观和宏观区块，为微观区块增加更多安全性
- [共识] 删减，对在相同高度发布两个不同区块的欺诈者进行惩罚
- [共识] 重新抵押，在预定的时间间隔内更改与标记令牌相关的验证器PBC密钥
- [ValueShuffle] 激活ValueShuffle，从而推动epoch变化，微调Facilitator的代码
- [网络] 修改PBC秘钥：network，支持修改节点的pbc（验证节点）秘钥
- [网络] 检查过时连接，检查有些过时连接是否重新连接
- [测试] 压力测试：部署TxGenerator，对devnets的交易生成器进行部署支持
- [安全] 对于系列展示的秘密使用AONT（全部或者全无）方法，内存中秘密数据的附加安全性
- [安全] 对于所有秘密部署WAU（使用后擦除），内存中秘密数据的附加安全性
+  [核心] 全新的StakeUTXO，以及带有BLS签名的StakeUTXOs
+  [核心] 公开支付UTXO，未加密收件人的公钥和金额
+  [核心] 将时间锁加入到所有UTXO类型中，让UTXO可以进行时间锁定
+  [核心] 引入微观和宏观区块，为微观区块增加更多安全性
+  [共识] 删减，对在相同高度发布两个不同区块的欺诈者进行惩罚
+  [共识] 重新抵押，在预定的时间间隔内更改与标记令牌相关的验证器PBC密钥
+  [ValueShuffle] 激活ValueShuffle，从而推动epoch变化，微调Facilitator的代码
+  [网络] 修改PBC秘钥：network，支持修改节点的pbc（验证节点）秘钥
+  [网络] 检查过时连接，检查有些过时连接是否重新连接
+  [测试] 压力测试：部署TxGenerator，对devnets的交易生成器进行部署支持
+  [安全] 对于系列展示的秘密使用AONT（全部或者全无）方法，内存中秘密数据的附加安全性
+  [安全] 对于所有秘密部署WAU（使用后擦除），内存中秘密数据的附加安全性
   重大改进：
 TestNet-7和TestNet-6并不兼容，如果你想从之前的版本进行更新，请重新设置你本地的数据库。
-rm -rf database/  请看项目计划从而获得更多信息。
+rm -rf database/ 请看项目计划从而获得更多信息。
 请加入我们的电报群来获得测试代币，并且让我们知道你的想法。
 测试网代码部署 Linux 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos chmod a+x stegos ./stegos  macOS 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos chmod a+x stegos .</description>
+curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos chmod a+x stegos .</description>
     </item>
     
     <item>
@@ -190,11 +182,11 @@ Sprint 16的结果
 这是Stegos区块链发布的第六个版本的测试网。以下是 测试网5 以来的相关改进：
  向PubSub协议添加了HashCash挑战，以限制拒绝服务攻击。 实现了简便的再抵押机制用来跟踪验证者的在线状态。 实现了使用24字符恢复短语来实现钱包备份。 实现了钱包密码保护和存储在磁盘上的私钥加密。 将1 STG拆分为1 000 000 microSTG。 限制交易和区块中的UTXO数量。  重大改进：
 TestNet-6和TestNet-5并不兼容，如果你想从之前的版本进行更新，请重新设置你本地的数据库。
-rm -rf database/  请看项目计划从而获得更多信息。
+rm -rf database/请看项目计划从而获得更多信息。
 请加入我们的电报群来获得测试代币，并且让我们知道你的想法。
 测试网代码部署 Linux 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos chmod a+x stegos ./stegos  macOS 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos chmod a+x stegos ./stegos  开始后，节点会打印出很多信息，其中包括部署节点的调试信息。请点击Enter键来获得 stegos&amp;gt; 的prompt，点击help按键可以获得相关帮助。</description>
+curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegoschmod a+x stegos./stegosmacOS 64-bit:
+curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegoschmod a+x stegos./stegos开始后，节点会打印出很多信息，其中包括部署节点的调试信息。请点击Enter键来获得 stegos&amp;gt; 的prompt，点击help按键可以获得相关帮助。</description>
     </item>
     
     <item>
@@ -219,11 +211,11 @@ Stegos已完成的工作 以下任务于4月8日至4月19日完成：
 这是Stegos区块链发布的第五个版本的测试网。以下是 测试网4 以来的相关改进：
  增加了一个分叉解决机制，以达成共识，提高网络分区处理速度。 实现了恶意共识验证者的基本作弊检测（现在不处罚）。 显著降低与网络完全同步的时间。 通过NAT遍历支持切换到真正的对等单播消息传递。 扩展的WebSocket API，支持有关区块链状态的通知。 修复了共识和网络子系统的错误并提高了稳定性  重大改进：
 TestNet-5和TestNet-4并不兼容，如果你想从之前的版本进行更新，请重新设置你本地的数据库。
-rm -rf database/  请看项目计划从而获得更多信息。
+rm -rf database/请看项目计划从而获得更多信息。
 请加入我们的电报群来获得测试代币，并且让我们知道你的想法。
 测试网代码部署 Linux 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos chmod a+x stegos ./stegos  macOS 64-bit:
-curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos chmod a+x stegos ./stegos  开始后，节点会打印出很多信息，其中包括部署节点的调试信息。请点击Enter键来获得 stegos&amp;gt; 的prompt，点击help按键可以获得相关帮助。</description>
+curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegoschmod a+x stegos./stegosmacOS 64-bit:
+curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegoschmod a+x stegos./stegos开始后，节点会打印出很多信息，其中包括部署节点的调试信息。请点击Enter键来获得 stegos&amp;gt; 的prompt，点击help按键可以获得相关帮助。</description>
     </item>
     
     <item>

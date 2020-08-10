@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -401,7 +401,8 @@
   <url>
     <loc>https://stegos.com/ru/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -420,9 +421,27 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/ru/tags/bounty/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/bounty/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/tags/bounty/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/ru/categories/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -443,7 +462,8 @@
   <url>
     <loc>https://stegos.com/ru/categories/development/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -464,7 +484,8 @@
   <url>
     <loc>https://stegos.com/ru/news/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -483,46 +504,10 @@
   </url>
   
   <url>
-    <loc>https://stegos.com/ru/tags/</loc>
-    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zn"
-                href="https://stegos.com/zn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stegos.com/ru/tags/bounty/</loc>
-    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stegos.com/tags/bounty/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://stegos.com/ru/tags/bounty/"
-                />
-  </url>
-  
-  <url>
     <loc>https://stegos.com/ru/tags/stegos/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -541,15 +526,39 @@
   </url>
   
   <url>
+    <loc>https://stegos.com/ru/tags/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://stegos.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zn"
+                href="https://stegos.com/zn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://stegos.com/ru/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://stegos.com/ru/tags/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://stegos.com/ru/tags/%D0%BE%D1%82%D1%87%D0%B5%D1%82/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -701,7 +710,8 @@
   
   <url>
     <loc>https://stegos.com/ru/team/</loc>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

@@ -235,14 +235,9 @@
 
             <h1 class="news_title">Mainnet Preview 4</h1>
 
-            
-
-<p>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.</p>
-
+            <p>Stegos creates cutting-edge technology that keeps your secrets safe from prying eyes so you feel empowered and secure.</p>
 <p>This is a bug fix release, containing more than 100 fixes since <a href="https://github.com/stegos/stegos/releases/tag/v0.10">Mainnet Preview 3</a>.</p>
-
-<h3 id="changes-in-stegos-v0-11">Changes in Stegos v0.11:</h3>
-
+<h3 id="changes-in-stegos-v011">Changes in Stegos v0.11:</h3>
 <ul>
 <li>Improved overall stability and performance of Snowball mixing protocol, now Snowball works reliably even on slow 3G/4G mobile data connections.</li>
 <li>Tuned core blockchain constants and limits to reach the inflation target, now a new block is produced every 6-8 seconds.</li>
@@ -254,36 +249,21 @@
 <li>Filtered out noisy notifications in the command-line client.</li>
 <li>Improved usability of WebSocket API.</li>
 </ul>
-
 <p>See <a href="https://github.com/stegos/stegos/milestone/21?closed=1">Sprint 20</a> and <a href="https://github.com/stegos/stegos/milestone/22?closed=1">Sprint 21</a> milestones on GitHub for the full list of fixed bugs.</p>
-
 <h3 id="getting-started">Getting Started</h3>
-
 <h4 id="running-node">Running Node</h4>
-
 <p>If you have Mainnet Preview 3 installation, please stop running nodes and clean data directories:</p>
-
 <pre><code>rm -rf ~/.local/stegos ~/.config/stegos
-</code></pre>
-
-<p>Download and run Stegos Node:</p>
-
+</code></pre><p>Download and run Stegos Node:</p>
 <p><strong>Linux 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-linux-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p><strong>macOS 64-bit:</strong></p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd
+</code></pre></div><p><strong>macOS 64-bit:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegosd-macos-x64 -o stegosd
 chmod a+x stegosd
 ./stegosd
-</code></pre>
-
-<p>On the first run, Node will create a data directory in <code>$HOME/.local/share/stegos</code> on Linux or <code>$HOME/Library/Application Support/stegos</code> on Mac. This directory has the following structure:</p>
-
+</code></pre></div><p>On the first run, Node will create a data directory in <code>$HOME/.local/share/stegos</code> on Linux or <code>$HOME/Library/Application Support/stegos</code> on Mac. This directory has the following structure:</p>
 <pre><code>    ├── accounts/  &lt;!-- Accounts
     │   ├── 1
     │   │   ├── account.pkey &lt;!-- Account #1 public key (address)
@@ -297,52 +277,29 @@ chmod a+x stegosd
     ├── chain/               &lt;!-- Blockchain (RocksDB)
     ├── network.pkey         &lt;!-- Ephemeral network (consensus) public key.
     ├── network.skey         &lt;!-- Ephemeral network (consensus) secret key.
-</code></pre>
-
-<p>Node will start synchronizing with the network and print a lot of INFO messages with debugging information regarding synchronization status.</p>
-
+</code></pre><p>Node will start synchronizing with the network and print a lot of INFO messages with debugging information regarding synchronization status.</p>
 <p>A fresh node doesn&rsquo;t have accounts by default. To create a new account, please connect to Node using a command-line client.</p>
-
 <h4 id="connecting-to-node">Connecting to Node</h4>
-
 <p>Download and run a command-line client.</p>
-
 <p>Linux 64-bit:</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-linux-x64 -o stegos
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>macOS 64-bit:</p>
-
-<pre><code class="language-bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-macos-x64 -o stegos
+</code></pre></div><p>macOS 64-bit:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -L https://github.com/stegos/stegos/releases/download/v0.11/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>The command-line client will try to connect to local node and print <code>stegos&gt;</code> prompt. To get help enter <code>help</code> command at the prompt. By default, the client reads API token from <code>api_token.txt</code> file in the current directory and tries to connect to default (<code>127.0.0.1:3145</code>) Node address. Please see <code>stegos --help</code> to override these options.</p>
-
+</code></pre></div><p>The command-line client will try to connect to local node and print <code>stegos&gt;</code> prompt. To get help enter <code>help</code> command at the prompt. By default, the client reads API token from <code>api_token.txt</code> file in the current directory and tries to connect to default (<code>127.0.0.1:3145</code>) Node address. Please see <code>stegos --help</code> to override these options.</p>
 <h4 id="working-with-accounts">Working with Accounts</h4>
-
 <p>Type <code>create account</code> to create a new account. You will be asked for a password. This password is used locally to encrypt your data on the disk. Please remember it.</p>
-
 <p>Type <code>show recovery</code> to get 24-word recovery phrase. This recovery phrase is an encoded representation of your secret key. Please write down it and keep it in a safe place. There are no other password recovery mechanisms.</p>
-
 <p>Type <code>recover account</code> to recover an account from saved 24-word recovery phrase.</p>
-
 <p>Type <code>show accounts</code> to list available accounts.</p>
-
 <p>Type <code>use ACCOUNT_ID</code> to switch between active accounts in CLI.</p>
-
 <p>Type <code>show balance</code> to get balance.</p>
-
 <p>Type <code>pay RECIPIENT AMOUNT</code> to send money.</p>
-
 <p>Type <code>show history 15m</code> to see status of created transaction and payment history.</p>
-
 <h3 id="feedback">Feedback</h3>
-
 <p>Please join us on <a href="https://stg.to/tgc">Telegram Chat</a> to get test tokens and let us know your thoughts.
 Subscribe to official <a href="https://stg.to/tgn">Telegram Channel</a> for the latest news.</p>
 

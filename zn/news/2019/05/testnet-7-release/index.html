@@ -235,68 +235,62 @@
 
             <h1 class="news_title">测试网7发布</h1>
 
-            
-
-<h2 id="测试网7发布">测试网7发布</h2>
-
+            <h2 id="测试网7发布">测试网7发布</h2>
 <p>Stegos创建了前沿的技术，其可以保护你的秘密不被窥探，因此你会感觉非常安全且可靠。</p>
-
 <p>这是Stegos区块链发布的第七个版本的测试网。以下是 <a href="https://stegos.com/news/2019/05/testnet-6-release/">测试网6</a> 以来的相关改进：</p>
-
 <ul>
-<li><p>[核心] 全新的StakeUTXO，以及带有BLS签名的StakeUTXOs</p></li>
-
-<li><p>[核心] 公开支付UTXO，未加密收件人的公钥和金额</p></li>
-
-<li><p>[核心] 将时间锁加入到所有UTXO类型中，让UTXO可以进行时间锁定</p></li>
-
-<li><p>[核心] 引入微观和宏观区块，为微观区块增加更多安全性</p></li>
-
-<li><p>[共识] 删减，对在相同高度发布两个不同区块的欺诈者进行惩罚</p></li>
-
-<li><p>[共识] 重新抵押，在预定的时间间隔内更改与标记令牌相关的验证器PBC密钥</p></li>
-
-<li><p>[ValueShuffle] 激活ValueShuffle，从而推动epoch变化，微调Facilitator的代码</p></li>
-
-<li><p>[网络] 修改PBC秘钥：network，支持修改节点的pbc（验证节点）秘钥</p></li>
-
-<li><p>[网络] 检查过时连接，检查有些过时连接是否重新连接</p></li>
-
-<li><p>[测试] 压力测试：部署TxGenerator，对devnets的交易生成器进行部署支持</p></li>
-
-<li><p>[安全] 对于系列展示的秘密使用AONT（全部或者全无）方法，内存中秘密数据的附加安全性</p></li>
-
-<li><p>[安全] 对于所有秘密部署WAU（使用后擦除），内存中秘密数据的附加安全性</p></li>
+<li>
+<p>[核心] 全新的StakeUTXO，以及带有BLS签名的StakeUTXOs</p>
+</li>
+<li>
+<p>[核心] 公开支付UTXO，未加密收件人的公钥和金额</p>
+</li>
+<li>
+<p>[核心] 将时间锁加入到所有UTXO类型中，让UTXO可以进行时间锁定</p>
+</li>
+<li>
+<p>[核心] 引入微观和宏观区块，为微观区块增加更多安全性</p>
+</li>
+<li>
+<p>[共识] 删减，对在相同高度发布两个不同区块的欺诈者进行惩罚</p>
+</li>
+<li>
+<p>[共识] 重新抵押，在预定的时间间隔内更改与标记令牌相关的验证器PBC密钥</p>
+</li>
+<li>
+<p>[ValueShuffle] 激活ValueShuffle，从而推动epoch变化，微调Facilitator的代码</p>
+</li>
+<li>
+<p>[网络] 修改PBC秘钥：network，支持修改节点的pbc（验证节点）秘钥</p>
+</li>
+<li>
+<p>[网络] 检查过时连接，检查有些过时连接是否重新连接</p>
+</li>
+<li>
+<p>[测试] 压力测试：部署TxGenerator，对devnets的交易生成器进行部署支持</p>
+</li>
+<li>
+<p>[安全] 对于系列展示的秘密使用AONT（全部或者全无）方法，内存中秘密数据的附加安全性</p>
+</li>
+<li>
+<p>[安全] 对于所有秘密部署WAU（使用后擦除），内存中秘密数据的附加安全性</p>
+</li>
 </ul>
-
 <p>重大改进：</p>
-
 <p>TestNet-7和TestNet-6并不兼容，如果你想从之前的版本进行更新，请重新设置你本地的数据库。</p>
-
 <pre><code>rm -rf database/
-</code></pre>
-
-<p>请看<a href="https://github.com/stegos/stegos/wiki/project-plan#sprint15">项目计划</a>从而获得更多信息。</p>
-
+</code></pre><p>请看<a href="https://github.com/stegos/stegos/wiki/project-plan#sprint15">项目计划</a>从而获得更多信息。</p>
 <p>请加入我们的<a href="https://t.me/stegos4privacy">电报群</a>来获得测试代币，并且让我们知道你的想法。</p>
-
 <h3 id="测试网代码部署">测试网代码部署</h3>
-
 <p>Linux 64-bit:</p>
-
 <pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-linux-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>macOS 64-bit:</p>
-
+</code></pre><p>macOS 64-bit:</p>
 <pre><code>curl -L https://github.com/stegos/stegos/releases/download/v0.7/stegos-macos-x64 -o stegos
 chmod a+x stegos
 ./stegos
-</code></pre>
-
-<p>开始后，节点会打印出很多信息，其中包括部署节点的调试信息。请点击Enter键来获得 stegos&gt; 的prompt，点击help按键可以获得相关帮助。</p>
+</code></pre><p>开始后，节点会打印出很多信息，其中包括部署节点的调试信息。请点击Enter键来获得 stegos&gt; 的prompt，点击help按键可以获得相关帮助。</p>
 
 
         </div>
