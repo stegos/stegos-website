@@ -32,14 +32,30 @@ account#1> show status
 ...
 ```
 
-If your CLI seems to be stuck then kill the node you are running and prepare a config file with the following 2 lines:
+Prepare a config file, e.g. `stegos.toml` and make sure it looks like this:
 
 ```
+[general]
+chain = "mainnet"
+
 [network]
-readiness_threshold=0
+readiness_threshold = 0
+endpoint = "0.0.0.0:10055"
+advertised_endpoint = "9.9.9.9:10055"
+
 ```
 
-It doesn’t matter where the file is or what it’s named but I will assume it’s `stages.toml`. Once the file is ready, start the node using `stegosd -n mainnet -c stegos.toml` and you should be up and running!
+Be sure to replace `9.9.9.9` above with the public IP address of your node! If your node doesn't have a public IP address then the following is sufficient:
+
+```
+[general]
+chain = "mainnet"
+
+[network]
+readiness_threshold = 0
+```
+
+It doesn’t matter where the config file is or what it’s named but I will assume it’s `stegos.toml`. Once the file is ready, start the node using `stegosd -c stegos.toml` and you should be up and running!
 
 Last but not least, you should see a number of nodes connected to yours. Check for this by typing `show replication` in the CLI. The output should look something like this:
 
