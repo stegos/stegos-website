@@ -227,10 +227,22 @@ account#1&gt; show status
   last_mblock_timestamp: &quot;2020-08-05T08:26:13.201143000Z&quot;
   local_timestamp: &quot;2020-08-10T11:41:03.661871000Z&quot;
 ...
-</code></pre><p>If your CLI seems to be stuck then kill the node you are running and prepare a config file with the following 2 lines:</p>
-<pre><code>[network]
-readiness_threshold=0
-</code></pre><p>It doesn’t matter where the file is or what it’s named but I will assume it’s <code>stages.toml</code>. Once the file is ready, start the node using <code>stegosd -n mainnet -c stegos.toml</code> and you should be up and running!</p>
+</code></pre><p>Prepare a config file, e.g. <code>stegos.toml</code> and make sure it looks like this:</p>
+<pre><code>[general]
+chain = &quot;mainnet&quot;
+
+[network]
+readiness_threshold = 0
+endpoint = &quot;0.0.0.0:10055&quot;
+advertised_endpoint = &quot;9.9.9.9:10055&quot;
+
+</code></pre><p>Be sure to replace <code>9.9.9.9</code> above with the public IP address of your node! If your node doesn&rsquo;t have a public IP address then the following is sufficient:</p>
+<pre><code>[general]
+chain = &quot;mainnet&quot;
+
+[network]
+readiness_threshold = 0
+</code></pre><p>It doesn’t matter where the config file is or what it’s named but I will assume it’s <code>stegos.toml</code>. Once the file is ready, start the node using <code>stegosd -c stegos.toml</code> and you should be up and running!</p>
 <p>Last but not least, you should see a number of nodes connected to yours. Check for this by typing <code>show replication</code> in the CLI. The output should look something like this:</p>
 <pre><code>account#1&gt; show replication
 ---
